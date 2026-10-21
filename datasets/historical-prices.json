@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T08:55:26.117Z",
+  "updatedAt": "2026-10-21T09:00:59.082Z",
   "description": "免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。",
   "records": [
     {
@@ -2615,6 +2615,35 @@
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
+      "id": "228c551ca9a5a077e7920275",
+      "productKey": "jd-100017863868-4ac9c21343",
+      "name": "三星（SAMSUNG）1TB SSD固态硬盘",
+      "reportedSpecification": "SATA3.0接口 870 EVO（MZ-77E1T0B）",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100017863868",
+      "merchantUrl": "https://item.jd.com/100017863868.html",
+      "publicationDate": "2021-01-20",
+      "publishedAt": "2021-01-20T15:03:01+08:00",
+      "observedAt": "2026-10-21T09:00:37.152Z",
+      "price": 949,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/531/148.htm",
+      "sourceTitle": "三星 870 EVO SSD上架京东：1TB 949 元，30% 性能提升",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东三星（SAMSUNG）1TB SSD固态硬盘 SATA3.0接口 870 EVO（MZ-77E1T0B）949元直达链接",
+      "rawPrice": "949元",
+      "conditions": "SATA3.0接口 870 EVO（MZ-77E1T0B）",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "29708ab7fae8350d7397a9c3b602910ee36fdc16b8805bd1d4636a65cb17831c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
       "id": "258f13cfe8cd016a467fd0a5",
       "productKey": "jd-100017905288-4ac9c21343",
       "name": "京东京造 1TB SSD 3系列（JZ-SSD1T-3）",
@@ -2670,6 +2699,122 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "419a0025a9782885dbb62410f9a9d1b3a633322ea7916b13008d1359e6993df4",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "1624f35af91e61243a2221e6",
+      "productKey": "jd-100017892182-cfb52297b2",
+      "name": "七彩虹iGame GeForce RTX 3060 Advanced OC 12G",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017892182",
+      "merchantUrl": "https://item.jd.com/100017892182.html",
+      "publicationDate": "2021-02-25",
+      "publishedAt": "2021-02-25T21:05:34+08:00",
+      "observedAt": "2026-10-21T09:00:47.159Z",
+      "price": 3699,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/536/840.htm",
+      "sourceTitle": "七彩虹 RTX 3060 Advanced OC 上架：三风扇散热，3699 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹iGame GeForce RTX 3060 Advanced OC 12G 3699元直达链接",
+      "rawPrice": "3699元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "af48bd0c20cb0f33aec475355568a22bdf27f12715ab2a346de9a7fc1cddd69b",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "34eb459d62ecafe2d45698fa",
+      "productKey": "jd-100009021265-dd17eb3d17",
+      "name": "技嘉魔鹰 GeForce RTX 3060 GAMING OC",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100009021265",
+      "merchantUrl": "https://item.jd.com/100009021265.html",
+      "publicationDate": "2021-02-25",
+      "publishedAt": "2021-02-25T21:04:02+08:00",
+      "observedAt": "2026-10-21T09:00:48.188Z",
+      "price": 3799,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/536/839.htm",
+      "sourceTitle": "技嘉魔鹰 RTX 3060 上架：售价 3799 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东技嘉魔鹰 GeForce RTX 3060 GAMING OC3799元直达链接",
+      "rawPrice": "3799元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "65bba4c8887728d27292bcf94316616cd30835762ebf04e690dfc291694909b1",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "640c91ba09712edad6229f7d",
+      "productKey": "jd-100018555028-cfb52297b2",
+      "name": "微星（MSI）万图师 GeForce RTX 3060",
+      "reportedSpecification": "VENTUS 2X 12G 双风扇 电竞游戏设计专业电脑显卡",
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100018555028",
+      "merchantUrl": "https://item.jd.com/100018555028.html",
+      "publicationDate": "2021-02-25",
+      "publishedAt": "2021-02-25T17:49:33+08:00",
+      "observedAt": "2026-10-21T09:00:48.151Z",
+      "price": 2499,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/536/799.htm",
+      "sourceTitle": "英伟达 RTX 3060 显卡上架京东： 2499 元起，今晚 9 点开抢",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东微星（MSI）万图师 GeForce RTX 3060 VENTUS 2X 12G 双风扇 电竞游戏设计专业电脑显卡2499元直达链接",
+      "rawPrice": "2499元",
+      "conditions": "VENTUS 2X 12G 双风扇 电竞游戏设计专业电脑显卡",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "4a32bb7900079df7ea8932c41eea942a15a71bd3ddb8bd1ca6b9658dee7a412a",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "14ca2326d77923b9d7ecbd85",
+      "productKey": "jd-100010329267-e28486f1ce",
+      "name": "影驰 RTX 3090 HOF Extreme 限量版",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100010329267",
+      "merchantUrl": "https://item.jd.com/100010329267.html",
+      "publicationDate": "2021-02-27",
+      "publishedAt": "2021-02-27T19:13:11+08:00",
+      "observedAt": "2026-10-21T09:00:50.650Z",
+      "price": 20999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/537/194.htm",
+      "sourceTitle": "影驰 RTX 3090 HOF 开启预约：12 层白色 PCB 超高规格，20999 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东影驰 RTX 3090 HOF Extreme 限量版20999元直达链接",
+      "rawPrice": "20999元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "74752c020def0f1d2c2231be69d26306b6821ab59660c65d9f1b45bbd60e810f",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
@@ -8267,6 +8412,35 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "64d5252bec5ff1835f2546379e6324ef9a638ddf962eb720f6b8924263cc00bc",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "4321e1d3f063a70f9624b24e",
+      "productKey": "article-b5df072458ba-0",
+      "name": "Sandisk 闪迪精灵 500GB 移动硬盘",
+      "reportedSpecification": null,
+      "category": "storage",
+      "platform": "京东",
+      "sku": null,
+      "merchantUrl": "https://u.jd.com/5DGmzXw",
+      "publicationDate": "2026-10-20",
+      "publishedAt": "2026-10-20T11:18:54+08:00",
+      "observedAt": "2026-10-21T09:00:30.158Z",
+      "price": 499,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/015/214.htm",
+      "sourceTitle": "闪迪 ELE SE 移动固态硬盘 500GB 版本开售：读取速度最高 600MB/s，499 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东 Sandisk 闪迪精灵 500GB 移动硬盘 499 元直达链接",
+      "rawPrice": "499 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "17a1713724f3edf136f96bdb1fdf3b15d070333e5567c170fa25741d685a054a",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     }
   ],
@@ -14192,16 +14366,354 @@
       "recordCount": 0,
       "date": "2023-12-28",
       "sha256": "2e241025c501aa518595589ce3b8b2232423788f0e9b6afabca44b4c503adbf6"
+    },
+    "https://www.ithome.com/1/015/214.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2026-10-20",
+      "sha256": "17a1713724f3edf136f96bdb1fdf3b15d070333e5567c170fa25741d685a054a"
+    },
+    "https://www.ithome.com/0/529/500.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-11",
+      "sha256": "0fe8caf58ef84608ff1b60c4569fb8b9fda485cdc83e0067b52c4b2be8144db5"
+    },
+    "https://www.ithome.com/0/529/376.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-11",
+      "sha256": "d04b30fff9b95b931d51598188211328c08e9019a2da94fd8b8dd19a22bdd793"
+    },
+    "https://www.ithome.com/0/529/822.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-13",
+      "sha256": "51706dd0084cb952e2cc17543ccd31a2d94bb88ceebe3d84e5aff9e2b7e8d8f0"
+    },
+    "https://www.ithome.com/0/529/816.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-13",
+      "sha256": "9c0822209843cbd22a108c2a491af70b4e8bd8d5773e95522436b75674f029e6"
+    },
+    "https://www.ithome.com/0/529/812.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-13",
+      "sha256": "8ad6d1d452f4179b455c0cc7ff1d8fb4a053db7ffdfb3abfb961b773b4d258b9"
+    },
+    "https://www.ithome.com/0/529/736.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/530/428.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-16",
+      "sha256": "f7777b7fbb793d5b796252382795b435a7459e5ddb8603dc001145b551869cd2"
+    },
+    "https://www.ithome.com/0/530/505.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-17",
+      "sha256": "68a1a07b37668a04127db7f6fea8c9cf4e23249b371c50e50ad842582f690f2c"
+    },
+    "https://www.ithome.com/0/529/890.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-13",
+      "sha256": "808da13fe9e3543ea395ed46581d5ffb9e26e75680e5fd173832d32c5f6bc843"
+    },
+    "https://www.ithome.com/0/530/922.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-19",
+      "sha256": "c761ec19012fbf88d429fc73b569246541d6884981fea075e9fa46fdc525f41e"
+    },
+    "https://www.ithome.com/0/530/788.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/531/175.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-20",
+      "sha256": "15139fda8215e54a45b7e3b2ff0ed63aab0475dcf8bfd18cb81b55938d5b2d69"
+    },
+    "https://www.ithome.com/0/531/148.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-01-20",
+      "sha256": "29708ab7fae8350d7397a9c3b602910ee36fdc16b8805bd1d4636a65cb17831c"
+    },
+    "https://www.ithome.com/0/531/505.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-22",
+      "sha256": "951346d5f24f1714606fd120733714b8f31bfd0d7af21bf71de195ea6bfa5d3b"
+    },
+    "https://www.ithome.com/0/531/724.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-23",
+      "sha256": "0196c98fc3c17905af24bb16e8f5c182af06658a658a6aeff654af2e491bd563"
+    },
+    "https://www.ithome.com/0/530/995.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-19",
+      "sha256": "757a552d401f4d61a137cf7436bb104d1f9592468c40d94b095f5e62aa0625a5"
+    },
+    "https://www.ithome.com/0/531/845.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-24",
+      "sha256": "89a69090f96e0ce1872051d8a901a003952ec27a969e4ae5dcde51c226ee77a6"
+    },
+    "https://www.ithome.com/0/532/052.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-25",
+      "sha256": "bec46eb5eed7c6f0a10e90cf12ebe7a125f14790885f6053ce7bc774969e25f0"
+    },
+    "https://www.ithome.com/0/532/298.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-26",
+      "sha256": "b53d70b9fd5553cdc1164009df5bd5660f89b36624ea746e0201441a107faced"
+    },
+    "https://www.ithome.com/0/532/297.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-26",
+      "sha256": "efb41d94a34999aee4df3b1d6257b587c4cece6e372c27d4b3edfe3a32ffe2ca"
+    },
+    "https://www.ithome.com/0/532/218.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-26",
+      "sha256": "f6dd173203955dd6c3b537d3e1817a64c16b449d11260f100c564f30a7d39537"
+    },
+    "https://www.ithome.com/0/532/299.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-26",
+      "sha256": "5517e70863b70b843b0601aecfb0442ce17883ab3b28560dc8ef7932e0ebbe0f"
+    },
+    "https://www.ithome.com/0/532/829.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-29",
+      "sha256": "9800674fc60bfc163bc4040a3476d03c3916435f3b6958799385cd80d4ce18f2"
+    },
+    "https://www.ithome.com/0/532/212.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-01-26",
+      "sha256": "304e4c375408934c2336a4d73fdbe90b71e14d4568faab3b32b58dc44e43d926"
+    },
+    "https://www.ithome.com/0/533/885.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-04",
+      "sha256": "5ea98e66631cb31d6690fb4cb14949269d4704c166936d7be049cb2d82ce392e"
+    },
+    "https://www.ithome.com/0/534/879.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-10",
+      "sha256": "6d4eb3c7458402729d0e8010c9318da9e1faa285a50dd3b7da29eac76a569495"
+    },
+    "https://www.ithome.com/0/533/569.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-02",
+      "sha256": "70b5c7e7a541a53cc2e868d71c358e2e1301bbaed8eef7ff65aa45873cf884fd"
+    },
+    "https://www.ithome.com/0/535/214.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-13",
+      "sha256": "b46486fb06e79272de3640c17d77e7f98e465e6523e15a5c5abbea6611a100a3"
+    },
+    "https://www.ithome.com/0/535/003.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-11",
+      "sha256": "d98e5af2f964979f8559df24246b5eaa3cb217ab0962afb96db440a2ce63ea51"
+    },
+    "https://www.ithome.com/0/535/740.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-19",
+      "sha256": "43df3027732b9b314fde5571a0eb61ac82ca41e08b68350016a5e746cb72e46e"
+    },
+    "https://www.ithome.com/0/535/926.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-20",
+      "sha256": "0998f94ba3adeb9105ddacd24036e46e5e08d9c35a45f9f6005b79abb298e5f5"
+    },
+    "https://www.ithome.com/0/536/182.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-22",
+      "sha256": "0786c44d5edc7d201f738816a88a0e458fa8f6e53a722d8ecf52bb0185812872"
+    },
+    "https://www.ithome.com/0/536/604.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-24",
+      "sha256": "4354572b337ad774a8a17026bd46b33391e7ba3648cfece7f883e7ebe07325a1"
+    },
+    "https://www.ithome.com/0/536/840.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-02-25",
+      "sha256": "af48bd0c20cb0f33aec475355568a22bdf27f12715ab2a346de9a7fc1cddd69b"
+    },
+    "https://www.ithome.com/0/536/799.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-02-25",
+      "sha256": "4a32bb7900079df7ea8932c41eea942a15a71bd3ddb8bd1ca6b9658dee7a412a"
+    },
+    "https://www.ithome.com/0/536/839.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-02-25",
+      "sha256": "65bba4c8887728d27292bcf94316616cd30835762ebf04e690dfc291694909b1"
+    },
+    "https://www.ithome.com/0/536/703.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-25",
+      "sha256": "98e317fa20164ff0c80bea9817791b4fa0bb3c6eb7d17984fbb2fb50c8e1774f"
+    },
+    "https://www.ithome.com/0/536/744.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-25",
+      "sha256": "4e29dd85866c71f8b16da0cd99310a7a4d2d355789e6ff99e6477c1206d82dbe"
+    },
+    "https://www.ithome.com/0/537/073.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-26",
+      "sha256": "b2ec712a116ea1539acf8d719a69af4fe4b4f844815a4882e40c0e1ff33a84b6"
+    },
+    "https://www.ithome.com/0/537/194.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-02-27",
+      "sha256": "74752c020def0f1d2c2231be69d26306b6821ab59660c65d9f1b45bbd60e810f"
+    },
+    "https://www.ithome.com/0/537/192.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-27",
+      "sha256": "78790f4981faf69c34a10be0e27ef8f5c83232719bb65f315a0a3c6b82b95d09"
+    },
+    "https://www.ithome.com/0/536/976.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-02-26",
+      "sha256": "80d1103cc1a6ba2fecbc13e216230673ad6b8791f893497d5d0090d24b2badc2"
+    },
+    "https://www.ithome.com/0/537/906.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-03",
+      "sha256": "5b603425e8423f107a3af954b1623cf68296b3936ec78d78ca4ca1edfe9eb37c"
+    },
+    "https://www.ithome.com/0/537/987.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-03",
+      "sha256": "c950eb7cdfc719cda3d72c60bd5b9a07a3ebe3e3dc84d7621d08034c49ac0fe7"
+    },
+    "https://www.ithome.com/0/538/095.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-04",
+      "sha256": "bc5432d8c1b340ae85e3b2498aaa80785562a193e1dbf0b8d6754d7f061fd09c"
+    },
+    "https://www.ithome.com/0/538/213.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-04",
+      "sha256": "e50334e6198fd66a35c4618f20cf74f3a5a66d0ae9f6325fa708245f80a942ed"
+    },
+    "https://www.ithome.com/0/538/333.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-05",
+      "sha256": "daafa9c777af732b6d36af32112662967ca4038b93ac2bb4c4805e71f5af212f"
+    },
+    "https://www.ithome.com/0/538/495.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-06",
+      "sha256": "2be086bdc291f5381e8389ac192527217d1aa84f314974d89b4f41622f41bda7"
+    },
+    "https://www.ithome.com/0/539/078.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-09",
+      "sha256": "8474a5157555a436d307230b95e133e981c32baab17359e3b59331b0d5865623"
+    },
+    "https://www.ithome.com/0/538/088.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-04",
+      "sha256": "9895994ecc00f35314852ee076962c33cd2226d9217579cf6e78cf5573fea4ad"
+    },
+    "https://www.ithome.com/0/539/056.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-09",
+      "sha256": "48d4364c8ddc76ca2ad4a3587648a73900410204d6492043498f5c736b8d7b60"
+    },
+    "https://www.ithome.com/0/539/230.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-10",
+      "sha256": "a5ddd74de08c22fae3336e2d345c51ed078db309f6431ce4d3ebed2e3068a4d3"
+    },
+    "https://www.ithome.com/0/539/068.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-09",
+      "sha256": "1810263f7996b76d4db3bf8d851ab8579fc160358ab8a22e6f5041029416fe59"
+    },
+    "https://www.ithome.com/0/539/140.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-10",
+      "sha256": "50ff45710005b63e480f3957b9c52c9af65fff2793b673e7cac3afe29ae43eb0"
+    },
+    "https://www.ithome.com/0/539/521.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-11",
+      "sha256": "54dd93d90aabbc2364f606ade25ef6871cba1563143f24ec9b465e29061bcb9c"
+    },
+    "https://www.ithome.com/0/538/989.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-03-09",
+      "sha256": "35afa035adbbc4bdc267a81154a668a9bfa02883f04032bcbacf26216bc67298"
     }
   },
   "discovery": {
-    "scannedDays": 790,
+    "scannedDays": 848,
     "firstScannedDate": "2020-01-01",
     "lastScannedDate": "2026-10-21",
-    "candidates": 1349,
-    "checkedArticles": 1029,
-    "scannedThisRun": 0,
-    "checkedThisRun": 825,
+    "candidates": 1426,
+    "checkedArticles": 1086,
+    "scannedThisRun": 60,
+    "checkedThisRun": 57,
     "throttled": false
   }
 }
