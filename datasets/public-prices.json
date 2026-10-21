@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T07:46:35.842Z",
+  "updatedAt": "2026-10-21T08:03:10.731Z",
   "requestedHistoryStart": "2020-01-01",
   "description": "公开页面报价观察档案。采集日期不是价格生效日期；参考价、转引报价均未确认为当前可购买价或成交价。无记录的日期不填补。",
   "products": [
@@ -5532,7 +5532,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1399 ¥999 ¥1009",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2130893.shtml",
         "sha256": "23ff3f41993efee0c2f3c3cf40c0cd72c522f98da0d1a7b52fb26c6673c0c306",
@@ -5582,7 +5582,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1599 ¥1049 ¥1169",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2130894.shtml",
         "sha256": "48b151852663b3d00954a7009d734f329fa5fc3e8739a520c537b656a7cb6269",
@@ -5632,7 +5632,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1299 ¥1299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2141237.shtml",
         "sha256": "faf579d650e092264be1b0e0dc5fc4b3a1539ab0ff275061e18bb51b72230eb3",
@@ -5723,7 +5723,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥899",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154856",
@@ -5759,7 +5762,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥845",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154857",
@@ -5795,7 +5801,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥845",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154858",
@@ -5831,7 +5840,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1294 ¥1170",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154859",
@@ -5867,7 +5879,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1294 ¥2204",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154860",
@@ -5903,7 +5918,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥449",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154861",
@@ -5939,7 +5957,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥431",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154862",
@@ -5975,7 +5996,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3379",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154863",
@@ -6011,7 +6035,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3379",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154864",
@@ -6047,7 +6074,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154865",
@@ -6083,7 +6113,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154866",
@@ -6119,7 +6152,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154867",
@@ -6155,7 +6191,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154868",
@@ -6191,7 +6230,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥909",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154869",
@@ -6227,7 +6269,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥909",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154870",
@@ -6263,7 +6308,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1749",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154871",
@@ -6299,7 +6347,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1749",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154872",
@@ -6335,7 +6386,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154873",
@@ -6371,7 +6425,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154874",
@@ -6407,7 +6464,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥455 ¥619",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2154875",
@@ -6443,7 +6503,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥455",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2158673",
@@ -6488,7 +6551,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥3699 ¥3599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2158673.shtml",
         "sha256": "f3471dd797f6d654d2296aa519f1294af96a07047ddcc6c1827d220103411362",
@@ -6742,7 +6805,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1699 ¥898",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2161714.shtml",
         "sha256": "50a39952c9f5d7a04c1be1eb4494585be2dab89c57d218adec987d4e6f0eb938",
@@ -6792,7 +6855,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1699 ¥1519",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2162061.shtml",
         "sha256": "29cddac17f8971a132edbccd461e5b0db4a7e3255d2d287f94d3a4974e97ebcd",
@@ -6842,7 +6905,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥2499 ¥2088",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2162063.shtml",
         "sha256": "e574982c290346607f26f0868517a6a9195a1a2d33af6338d5edf0909f730787",
@@ -6892,7 +6955,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1199 ¥1278",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2162065.shtml",
         "sha256": "44e7f920c7b15bcad30cdea1afa4da2d68814981bec6028909fac0459a843872",
@@ -7767,7 +7830,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥999 ¥1199",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164662",
@@ -7803,7 +7869,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1369 ¥1649",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164663",
@@ -7839,7 +7908,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2699 ¥3349",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164664",
@@ -7875,7 +7947,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1399 ¥1679",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164665",
@@ -7911,7 +7986,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2899 ¥3449",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164667",
@@ -7947,7 +8025,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1799 ¥1899",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164668",
@@ -7983,7 +8064,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥4599 ¥5249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164754",
@@ -8019,7 +8103,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164755",
@@ -8055,7 +8142,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164756",
@@ -8091,7 +8181,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164757",
@@ -8127,7 +8220,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164758",
@@ -8163,7 +8259,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164762",
@@ -8199,7 +8298,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2820 ¥3625",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164763",
@@ -8235,7 +8337,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥8040 ¥8060",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164764",
@@ -8271,7 +8376,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1765 ¥2745",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164765",
@@ -8307,7 +8415,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1280 ¥1775",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164766",
@@ -8343,7 +8454,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2164767",
@@ -8379,7 +8493,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2165291",
@@ -11082,7 +11199,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥6999 ¥6699 ¥6899",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2167284.shtml",
         "sha256": "b0935f4d3f46a6c1233d62ef8b2a9beb5787f65510569518df0b27aa642cd0e2",
@@ -11440,7 +11557,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥7499 ¥1.1万",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170264",
@@ -11493,7 +11613,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170724",
@@ -11529,7 +11652,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170725",
@@ -11565,7 +11691,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1199 ¥1599",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170726",
@@ -11601,7 +11730,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥1479 ¥1509",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170727",
@@ -11637,7 +11769,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥2898 ¥3019",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170728",
@@ -11673,7 +11808,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥699 ¥3979",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170729",
@@ -11709,7 +11847,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3289",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2170730",
@@ -11745,7 +11886,10 @@
         "url": "https://detail.zol.com.cn/memory/2.html",
         "rawResponseRetained": false,
         "note": "首批采集日志与产品 ID 对应的列表入口；未补写缺失的原始响应摘要。"
-      }
+      },
+      "gpuClass": null,
+      "quoteEvidence": "参考价：￥3389",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
     },
     {
       "id": "zol-2171386",
@@ -11774,7 +11918,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥259 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171386.shtml",
         "sha256": "35681940fcd23e0ee56cab836597a286ee613e8f24cd5c4f7a12da60d6afa86e",
@@ -11808,7 +11952,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥479 ¥669",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171387.shtml",
         "sha256": "4852b917d737bb71231c4a05bf6c0a84c114e0632bc85ca36cb914a93d0e2932",
@@ -11842,7 +11986,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥279 ¥349",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171388.shtml",
         "sha256": "841db83c9fa90161e16933a4e269a044c41f865d5944abd0a5d2da1efada28a4",
@@ -11876,7 +12020,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥519 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171389.shtml",
         "sha256": "35eb680b6042ab09e8ee00d11b0a4441350728bf63ab863054028eb429c99ce1",
@@ -11910,7 +12054,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥249 ¥329",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171390.shtml",
         "sha256": "f5efc63b97395fe6582a6d15c2de84d5b2bedb64a45cce6724cb6516b37aa79c",
@@ -11944,7 +12088,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥459 ¥629",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171391.shtml",
         "sha256": "99afcbf67e6696a8ba9251dddda42de22f8c364e69c56bbcb09a526d8c73cec5",
@@ -11978,7 +12122,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171392.shtml",
         "sha256": "019a45fb7795e37ec235b53ddc9e0f3b6602fb5e3f989ea039817b6e4b24f500",
@@ -12012,7 +12156,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥489 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171393.shtml",
         "sha256": "9f2b133b5d1d5965ecf7d7380ba0208a94613d46ea35088dde517bde059c81fc",
@@ -12046,7 +12190,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥259 ¥439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171394.shtml",
         "sha256": "7020eaf37f5f6847c238b3a3d3dd7471b9b4b66f5b1588f8ea5169b480f0a2e5",
@@ -12080,7 +12224,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥469 ¥675",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171395.shtml",
         "sha256": "a817b94ffce9aa97594a7076a707586090c6d4b37131bd8c3afd752d67b3b41a",
@@ -12114,7 +12258,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171396.shtml",
         "sha256": "daa0590f2fa91f84148ccdd558b2047c94d6046999e26965bbbf57fdaa651171",
@@ -12148,7 +12292,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥279",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171402.shtml",
         "sha256": "e4e941c2764cad9f086d4a3ac1267de947935354506fed9e020b4888e371167f",
@@ -12182,7 +12326,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥499 ¥689",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171403.shtml",
         "sha256": "69a905a0672adfc5c7fe867140a3bbc147dddbabcac9f0419cfa279a0d84b6cb",
@@ -12216,7 +12360,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥989 ¥1359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171404.shtml",
         "sha256": "8505020900241fc64eb2faf2d54c23ee82d186b089cefc680f8e729369cb2a49",
@@ -12250,7 +12394,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥569",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171405.shtml",
         "sha256": "2997ceff10a09d0189671e2a0cff5a47a5ce2f86de0b5ebb66b3b437599937bd",
@@ -12284,7 +12428,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171406.shtml",
         "sha256": "11912bb3afe88f329d3607ffd17e415dfc8a6b4abebefc602ccc2202e8a3b275",
@@ -12318,7 +12462,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥479 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171407.shtml",
         "sha256": "5ec2c93f0d1f80337bd1f444a163909eb7b91898e51fcaf37a266375daf94f81",
@@ -12352,7 +12496,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171408.shtml",
         "sha256": "a5ed3465feb9cff9f3ac8436670bc191cea11fa897201322138296429b4d5aa8",
@@ -12369,7 +12513,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥549 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationError": "The operation was aborted due to timeout"
     },
     {
@@ -12399,7 +12543,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥249 ¥359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171410.shtml",
         "sha256": "bf5d1d3e016f4aca56d1dbfde35a1cc4c92831602dc07e5cd452ffb404280051",
@@ -12433,7 +12577,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥449 ¥665",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171411.shtml",
         "sha256": "68889b753a32935b6406bb762ff85e7d7492050796d1ec56500695aef1ed8eed",
@@ -12467,7 +12611,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥889 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171412.shtml",
         "sha256": "5d53ce11ea2e87dd6ad476d60aae9a0b38529e73294fb66d22c8bbf15a07b3ba",
@@ -12501,7 +12645,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥489 ¥719",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2171413.shtml",
         "sha256": "669e210d03e3dfcc83b54b20c4b8532a10fc1b177071946804b6ab238302b534",
@@ -12535,7 +12679,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1699 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173512.shtml",
         "sha256": "57cc3f38bda1e627da4f374a1f45f89734b2b66d9dededb6a573824f459366a4",
@@ -12569,7 +12713,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173513.shtml",
         "sha256": "f4ea9a7da25636c711ab93478eb8f0ad16cfe5d541040db8d27a566492c26cd4",
@@ -12603,7 +12747,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1799 ¥2899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173521.shtml",
         "sha256": "2d43a0d66f8f5636da8a1dbff280ed601bf9c7b0f80996965556961723cf05da",
@@ -12637,7 +12781,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173522.shtml",
         "sha256": "eff76dee3776a00fd71a733bcd64bf91b3cf3c5f555b35c94e66b43dbe93b006",
@@ -12671,7 +12815,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173523.shtml",
         "sha256": "94507478d5e252482a2586961e4fe3c721ac2e9f7a8c11dcc91ac65e62b7f1b9",
@@ -12705,7 +12849,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥6549 ¥7299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173524.shtml",
         "sha256": "414002fbdc8fbb20ccb555dc2d3c3b905982f8fed4c55141d2a8a772b5b3ab0a",
@@ -12739,7 +12883,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥2499 ¥2799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173604.shtml",
         "sha256": "dc5015f226d4ba5bac987b6d6d8af097355ae38e42924a29a8e03bc964dd697c",
@@ -12773,7 +12917,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥4999 ¥5299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2173605.shtml",
         "sha256": "2b40468898f4628d89a94f907dd58eeff4c7300367946906a6f5e36de9209f4c",
@@ -12807,7 +12951,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1639 ¥1739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2175988.shtml",
         "sha256": "8428a305b0552b7a672209a42965423244721564ed67bfaa881bb2309b897a9e",
@@ -12841,7 +12985,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥4299 ¥4239",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176030.shtml",
         "sha256": "bc300c873438ec97255819647fde90c0d59aac022507010ed371ff7c64cee8ab",
@@ -12875,7 +13019,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥4499 ¥4439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176031.shtml",
         "sha256": "0ba16fc78ffd6503b0330248182d0a349d5075169be0c7e170c9094f3910d4bf",
@@ -12909,7 +13053,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥4899 ¥5269",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176032.shtml",
         "sha256": "b7bfe75017aaf186630ba00e5de0a84c3c449b91af19f8e26e7b188110a564af",
@@ -12926,7 +13070,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1399 ¥1399",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationError": "The operation was aborted due to timeout"
     },
     {
@@ -12956,7 +13100,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1448 ¥1509",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176164.shtml",
         "sha256": "41c5ade2fd45a4e649199e38c346104b4795698d63563c6c5af18367a162d062",
@@ -12990,7 +13134,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥2898 ¥3019",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176165.shtml",
         "sha256": "dc3712252aa8c085d8a4674d2aa31609c77a4a838a2500c12b973d09d4d831d2",
@@ -13024,7 +13168,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥2599 ¥2959",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176190.shtml",
         "sha256": "e3ae9fa856f089a5980f9443b23843281372e1cc3792daad128f19d82d4a7fb0",
@@ -13058,7 +13202,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥5198 ¥5918",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176191.shtml",
         "sha256": "8c4ea7bca251de2fbe622f21a7fce3928109a8ddb11988691cde306a9dc1ee82",
@@ -13092,7 +13236,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1649 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176192.shtml",
         "sha256": "932b84769515ed147b470ff79f515622b0b961540bce921d4817453109757612",
@@ -13126,7 +13270,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥3298 ¥3599",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176193.shtml",
         "sha256": "5e9750a6194a6154e99aacabaf06b8740408761bee61051e3a9734de4a7f7818",
@@ -13160,7 +13304,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1799 ¥1859",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176194.shtml",
         "sha256": "5e68a5474b21aece943d84f52cf3e0a6efd41caff63a2d6fd7763cbe8e1ff953",
@@ -13194,7 +13338,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥3598 ¥3718",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176195.shtml",
         "sha256": "3a62f3acbf7eaaae9d319680d96bf16fba9ad43986ff8e821fcce7a086100f18",
@@ -13228,7 +13372,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥369 ¥449",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176228.shtml",
         "sha256": "c05b408d60729b765504b37022edbfeddb5d4f92144ee5d28e5d2f7d5c2dbd7f",
@@ -13262,7 +13406,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥739 ¥899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176229.shtml",
         "sha256": "428d8c47d0b994c56861fe2ee809420c461b05a371f4c27c981a35ad542de909",
@@ -13296,7 +13440,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥659 ¥779",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176230.shtml",
         "sha256": "3b2883c0d9bcd984c802daddef0d3e2ef231f4e08c45a4c1aa93066504b65527",
@@ -13330,7 +13474,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/memory/",
       "quoteEvidence": "参考价：￥1329 ¥1559",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/memory/index2176231.shtml",
         "sha256": "00512c7d464066b5d1ac54623cbd66a94195bd0c9462ca44d2c79e29dc6fa3c6",
@@ -13531,7 +13675,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥2599 ¥2599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179620.shtml",
         "sha256": "8f222cdc4a9260589a2494d8ce1f490bd5ce56e5d549b54545eac66e51bd1d0a",
@@ -13581,7 +13725,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1499 ¥1499",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179677.shtml",
         "sha256": "a5b99ab4196bfe94456b1a8d140d3ee13c2ebd27c4ac58a4ed733a7d609e8da0",
@@ -13631,7 +13775,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179820.shtml",
         "sha256": "db72450f4a4288b7d93cdf43f6db49b0f14e5883d165ea288e951c2d1566de61",
@@ -13681,7 +13825,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥2349 ¥2299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179823.shtml",
         "sha256": "36362964c5876b206f3a2ce3b38a1428ee7a20b50be4569e11b57201c017705c",
@@ -13731,7 +13875,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥2199 ¥2199",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179827.shtml",
         "sha256": "9446fc0dcf518749bdb7e0143f1766963509ebc92514b289a74872b1b54be9f7",
@@ -13781,7 +13925,7 @@
       "gpuClass": null,
       "listingUrl": "https://detail.zol.com.cn/cpu/",
       "quoteEvidence": "参考价：￥1349 ¥1349",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "specificationEvidence": {
         "url": "https://detail.zol.com.cn/cpu/index2179829.shtml",
         "sha256": "af8c363ab09eefa4e2930e5b79d0e7cfa05d814e4b80180a5f830684c7e48dbd",
@@ -16539,7 +16683,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1399 ¥999 ¥1009",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16558,7 +16702,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1399 ¥999 ¥1009",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16596,7 +16740,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1599 ¥1049 ¥1169",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16615,7 +16759,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1599 ¥1049 ¥1169",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16653,7 +16797,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1299 ¥1299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16672,7 +16816,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1299 ¥1299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -16709,12 +16853,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥899",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154856:2026-10-21:reference:reference",
@@ -16728,12 +16872,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥845",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154857:2026-10-21:reference:reference",
@@ -16747,12 +16891,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥845",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154858:2026-10-21:reference:reference",
@@ -16766,12 +16910,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1294 ¥1170",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154858:2026-10-21:retailer_relay:https://item.jd.com/100056119633.html",
@@ -16785,12 +16929,12 @@
       "merchantUrl": "https://item.jd.com/100056119633.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1294 ¥1170",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154859:2026-10-21:reference:reference",
@@ -16804,12 +16948,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1294 ¥2204",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154859:2026-10-21:retailer_relay:https://item.jd.com/100048455406.html",
@@ -16823,12 +16967,12 @@
       "merchantUrl": "https://item.jd.com/100048455406.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1294 ¥2204",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154860:2026-10-21:reference:reference",
@@ -16842,12 +16986,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥449",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154861:2026-10-21:reference:reference",
@@ -16861,12 +17005,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥431",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154862:2026-10-21:reference:reference",
@@ -16880,12 +17024,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3379",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154863:2026-10-21:reference:reference",
@@ -16899,12 +17043,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3379",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154864:2026-10-21:reference:reference",
@@ -16918,12 +17062,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154865:2026-10-21:reference:reference",
@@ -16937,12 +17081,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154866:2026-10-21:reference:reference",
@@ -16956,12 +17100,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154866:2026-10-21:retailer_relay:https://item.jd.com/100048455398.html",
@@ -16975,12 +17119,12 @@
       "merchantUrl": "https://item.jd.com/100048455398.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154867:2026-10-21:reference:reference",
@@ -16994,12 +17138,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154867:2026-10-21:retailer_relay:https://item.jd.com/100048455376.html",
@@ -17013,12 +17157,12 @@
       "merchantUrl": "https://item.jd.com/100048455376.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥2499",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154868:2026-10-21:reference:reference",
@@ -17032,12 +17176,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥909",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154869:2026-10-21:reference:reference",
@@ -17051,12 +17195,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥909",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154870:2026-10-21:reference:reference",
@@ -17070,12 +17214,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1749",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154871:2026-10-21:reference:reference",
@@ -17089,12 +17233,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1749",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154872:2026-10-21:reference:reference",
@@ -17108,12 +17252,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154872:2026-10-21:retailer_relay:https://item.jd.com/100048455408.html",
@@ -17127,12 +17271,12 @@
       "merchantUrl": "https://item.jd.com/100048455408.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154873:2026-10-21:reference:reference",
@@ -17146,12 +17290,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154873:2026-10-21:retailer_relay:https://item.jd.com/100056119597.html",
@@ -17165,12 +17309,12 @@
       "merchantUrl": "https://item.jd.com/100056119597.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥899 ¥1249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154874:2026-10-21:reference:reference",
@@ -17184,12 +17328,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥455 ¥619",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154874:2026-10-21:retailer_relay:https://item.jd.com/100048455396.html",
@@ -17203,12 +17347,12 @@
       "merchantUrl": "https://item.jd.com/100048455396.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥455 ¥619",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2154875:2026-10-21:reference:reference",
@@ -17222,12 +17366,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥455",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2158673:2026-10-21:reference:reference",
@@ -17242,7 +17386,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥3699 ¥3599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17261,7 +17405,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥3699 ¥3599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17660,7 +17804,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1699 ¥898",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17698,7 +17842,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1699 ¥1519",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17717,7 +17861,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1699 ¥1519",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17736,7 +17880,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2499 ¥2088",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17755,7 +17899,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2499 ¥2088",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17774,7 +17918,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1199 ¥1278",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -17793,7 +17937,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1199 ¥1278",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -19369,12 +19513,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥999 ¥1199",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164661:2026-10-21:retailer_relay:https://item.jd.com/10215851693748.html",
@@ -19388,12 +19532,12 @@
       "merchantUrl": "https://item.jd.com/10215851693748.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥999 ¥1199",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164662:2026-10-21:reference:reference",
@@ -19407,12 +19551,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1369 ¥1649",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164662:2026-10-21:retailer_relay:https://item.jd.com/10215851693749.html",
@@ -19426,12 +19570,12 @@
       "merchantUrl": "https://item.jd.com/10215851693749.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1369 ¥1649",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164663:2026-10-21:reference:reference",
@@ -19445,12 +19589,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2699 ¥3349",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164663:2026-10-21:retailer_relay:https://item.jd.com/10215851693750.html",
@@ -19464,12 +19608,12 @@
       "merchantUrl": "https://item.jd.com/10215851693750.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2699 ¥3349",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164664:2026-10-21:reference:reference",
@@ -19483,12 +19627,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1399 ¥1679",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164664:2026-10-21:retailer_relay:https://item.jd.com/10215851693751.html",
@@ -19502,12 +19646,12 @@
       "merchantUrl": "https://item.jd.com/10215851693751.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1399 ¥1679",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164665:2026-10-21:reference:reference",
@@ -19521,12 +19665,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2899 ¥3449",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164665:2026-10-21:retailer_relay:https://item.jd.com/10215851693752.html",
@@ -19540,12 +19684,12 @@
       "merchantUrl": "https://item.jd.com/10215851693752.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2899 ¥3449",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164667:2026-10-21:reference:reference",
@@ -19559,12 +19703,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥1899",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164667:2026-10-21:retailer_relay:https://item.jd.com/10215851693753.html",
@@ -19578,12 +19722,12 @@
       "merchantUrl": "https://item.jd.com/10215851693753.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1799 ¥1899",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164668:2026-10-21:reference:reference",
@@ -19597,12 +19741,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥4599 ¥5249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164668:2026-10-21:retailer_relay:https://item.jd.com/10215851693754.html",
@@ -19616,12 +19760,12 @@
       "merchantUrl": "https://item.jd.com/10215851693754.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥4599 ¥5249",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164754:2026-10-21:reference:reference",
@@ -19635,12 +19779,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164754:2026-10-21:retailer_relay:https://item.jd.com/10025846278250.html",
@@ -19654,12 +19798,12 @@
       "merchantUrl": "https://item.jd.com/10025846278250.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164755:2026-10-21:reference:reference",
@@ -19673,12 +19817,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164755:2026-10-21:retailer_relay:https://item.jd.com/10025846278251.html",
@@ -19692,12 +19836,12 @@
       "merchantUrl": "https://item.jd.com/10025846278251.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164756:2026-10-21:reference:reference",
@@ -19711,12 +19855,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164756:2026-10-21:retailer_relay:https://item.jd.com/10059179167372.html",
@@ -19730,12 +19874,12 @@
       "merchantUrl": "https://item.jd.com/10059179167372.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164757:2026-10-21:reference:reference",
@@ -19749,12 +19893,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164757:2026-10-21:retailer_relay:https://item.jd.com/10067442209552.html",
@@ -19768,12 +19912,12 @@
       "merchantUrl": "https://item.jd.com/10067442209552.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164758:2026-10-21:reference:reference",
@@ -19787,12 +19931,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164758:2026-10-21:retailer_relay:https://item.jd.com/10059179167371.html",
@@ -19806,12 +19950,12 @@
       "merchantUrl": "https://item.jd.com/10059179167371.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2740 ¥2740",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164762:2026-10-21:reference:reference",
@@ -19825,12 +19969,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2820 ¥3625",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164762:2026-10-21:retailer_relay:https://item.jd.com/10155053995407.html",
@@ -19844,12 +19988,12 @@
       "merchantUrl": "https://item.jd.com/10155053995407.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2820 ¥3625",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164763:2026-10-21:reference:reference",
@@ -19863,12 +20007,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8060",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164763:2026-10-21:retailer_relay:https://item.jd.com/10155053995408.html",
@@ -19882,12 +20026,12 @@
       "merchantUrl": "https://item.jd.com/10155053995408.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8060",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164764:2026-10-21:reference:reference",
@@ -19901,12 +20045,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥2745",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164764:2026-10-21:retailer_relay:https://item.jd.com/10155053995406.html",
@@ -19920,12 +20064,12 @@
       "merchantUrl": "https://item.jd.com/10155053995406.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥2745",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164765:2026-10-21:reference:reference",
@@ -19939,12 +20083,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1280 ¥1775",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164765:2026-10-21:retailer_relay:https://item.jd.com/10159830864900.html",
@@ -19958,12 +20102,12 @@
       "merchantUrl": "https://item.jd.com/10159830864900.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1280 ¥1775",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164766:2026-10-21:reference:reference",
@@ -19977,12 +20121,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164766:2026-10-21:retailer_relay:https://item.jd.com/10025846278249.html",
@@ -19996,12 +20140,12 @@
       "merchantUrl": "https://item.jd.com/10025846278249.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1765 ¥1765",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164767:2026-10-21:reference:reference",
@@ -20015,12 +20159,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2164767:2026-10-21:retailer_relay:https://item.jd.com/10025846278252.html",
@@ -20034,12 +20178,12 @@
       "merchantUrl": "https://item.jd.com/10025846278252.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥8040 ¥8040",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2165291:2026-10-21:reference:reference",
@@ -22239,7 +22383,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥6999 ¥6699 ¥6899",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22258,7 +22402,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥6999 ¥6699 ¥6899",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22504,12 +22648,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥7499 ¥1.1万",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170264:2026-10-21:reference:reference",
@@ -22542,12 +22686,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170723:2026-10-21:retailer_relay:https://item.jd.com/10224799290502.html",
@@ -22561,12 +22705,12 @@
       "merchantUrl": "https://item.jd.com/10224799290502.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170724:2026-10-21:reference:reference",
@@ -22580,12 +22724,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170724:2026-10-21:retailer_relay:https://item.jd.com/10224799290501.html",
@@ -22599,12 +22743,12 @@
       "merchantUrl": "https://item.jd.com/10224799290501.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1999 ¥1999",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170725:2026-10-21:reference:reference",
@@ -22618,12 +22762,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1199 ¥1599",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170725:2026-10-21:retailer_relay:https://item.jd.com/10224799290499.html",
@@ -22637,12 +22781,12 @@
       "merchantUrl": "https://item.jd.com/10224799290499.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1199 ¥1599",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170726:2026-10-21:reference:reference",
@@ -22656,12 +22800,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1479 ¥1509",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170726:2026-10-21:retailer_relay:https://item.jd.com/10227173018678.html",
@@ -22675,12 +22819,12 @@
       "merchantUrl": "https://item.jd.com/10227173018678.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥1479 ¥1509",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170727:2026-10-21:reference:reference",
@@ -22694,12 +22838,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2898 ¥3019",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170727:2026-10-21:retailer_relay:https://item.jd.com/10227173018679.html",
@@ -22713,12 +22857,12 @@
       "merchantUrl": "https://item.jd.com/10227173018679.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥2898 ¥3019",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170728:2026-10-21:reference:reference",
@@ -22732,12 +22876,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥699 ¥3979",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170728:2026-10-21:retailer_relay:https://item.jd.com/100182671329.html",
@@ -22751,12 +22895,12 @@
       "merchantUrl": "https://item.jd.com/100182671329.html",
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥699 ¥3979",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170729:2026-10-21:reference:reference",
@@ -22770,12 +22914,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3289",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2170730:2026-10-21:reference:reference",
@@ -22789,12 +22933,12 @@
       "merchantUrl": null,
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/2.html",
+      "evidence": "参考价：￥3389",
+      "listingSha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
-      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。",
-      "listingSha256": null,
-      "evidenceStatus": "original_response_not_retained"
+      "conditions": "来源页展示的报价；未核实商家结算价、库存、会员、优惠券、补贴、税费及运费；不是成交记录。"
     },
     {
       "id": "zol-2171386:2026-10-21:reference:reference",
@@ -22809,7 +22953,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥259 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22828,7 +22972,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥259 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22847,7 +22991,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥479 ¥669",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22866,7 +23010,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥479 ¥669",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22885,7 +23029,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥279 ¥349",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22904,7 +23048,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥279 ¥349",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22923,7 +23067,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥519 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22942,7 +23086,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥519 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22961,7 +23105,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥249 ¥329",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22980,7 +23124,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥249 ¥329",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -22999,7 +23143,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥459 ¥629",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23018,7 +23162,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥459 ¥629",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23037,7 +23181,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23056,7 +23200,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23075,7 +23219,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥489 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23094,7 +23238,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥489 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23113,7 +23257,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥259 ¥439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23132,7 +23276,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥259 ¥439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23151,7 +23295,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥469 ¥675",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23170,7 +23314,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥469 ¥675",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23189,7 +23333,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23208,7 +23352,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23227,7 +23371,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥279",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23246,7 +23390,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥499 ¥689",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23265,7 +23409,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥499 ¥689",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23284,7 +23428,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥989 ¥1359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23303,7 +23447,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥989 ¥1359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23322,7 +23466,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥569",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23341,7 +23485,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23360,7 +23504,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥269 ¥369",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23379,7 +23523,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥479 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23398,7 +23542,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥479 ¥679",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23417,7 +23561,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23436,7 +23580,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥949 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23455,7 +23599,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥549 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23474,7 +23618,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥549 ¥739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23493,7 +23637,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥249 ¥359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23512,7 +23656,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥249 ¥359",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23531,7 +23675,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥449 ¥665",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23550,7 +23694,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥449 ¥665",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23569,7 +23713,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥889 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23588,7 +23732,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥889 ¥1339",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23607,7 +23751,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥489 ¥719",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23626,7 +23770,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥489 ¥719",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23645,7 +23789,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1699 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23664,7 +23808,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1699 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23683,7 +23827,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23702,7 +23846,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23721,7 +23865,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1799 ¥2899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23740,7 +23884,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1799 ¥2899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23759,7 +23903,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23778,7 +23922,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23797,7 +23941,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23816,7 +23960,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3299 ¥3699",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23835,7 +23979,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥6549 ¥7299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23854,7 +23998,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥6549 ¥7299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23873,7 +24017,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2499 ¥2799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23892,7 +24036,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2499 ¥2799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23911,7 +24055,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4999 ¥5299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23930,7 +24074,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4999 ¥5299",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23949,7 +24093,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1639 ¥1739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23968,7 +24112,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1639 ¥1739",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -23987,7 +24131,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4299 ¥4239",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24006,7 +24150,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4299 ¥4239",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24025,7 +24169,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4499 ¥4439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24044,7 +24188,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4499 ¥4439",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24063,7 +24207,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4899 ¥5269",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24082,7 +24226,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥4899 ¥5269",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24101,7 +24245,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1399 ¥1399",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24120,7 +24264,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1399 ¥1399",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24139,7 +24283,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1448 ¥1509",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24158,7 +24302,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1448 ¥1509",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24177,7 +24321,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2898 ¥3019",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24196,7 +24340,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2898 ¥3019",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24215,7 +24359,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2599 ¥2959",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24234,7 +24378,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥2599 ¥2959",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24253,7 +24397,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥5198 ¥5918",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24272,7 +24416,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥5198 ¥5918",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24291,7 +24435,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1649 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24310,7 +24454,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1649 ¥1799",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24329,7 +24473,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3298 ¥3599",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24348,7 +24492,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3298 ¥3599",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24367,7 +24511,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1799 ¥1859",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24386,7 +24530,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1799 ¥1859",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24405,7 +24549,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3598 ¥3718",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24424,7 +24568,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥3598 ¥3718",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24443,7 +24587,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥369 ¥449",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24462,7 +24606,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥369 ¥449",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24481,7 +24625,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥739 ¥899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24500,7 +24644,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥739 ¥899",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24519,7 +24663,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥659 ¥779",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24538,7 +24682,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥659 ¥779",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24557,7 +24701,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1329 ¥1559",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24576,7 +24720,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/memory/",
       "evidence": "参考价：￥1329 ¥1559",
-      "listingSha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
+      "listingSha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24766,7 +24910,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2599 ¥2599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24785,7 +24929,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2599 ¥2599",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24804,7 +24948,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1499 ¥1499",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24823,7 +24967,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1499 ¥1499",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24842,7 +24986,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24861,7 +25005,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1699 ¥1699",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24880,7 +25024,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2349 ¥2299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24899,7 +25043,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2349 ¥2299",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24918,7 +25062,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2199 ¥2199",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24937,7 +25081,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥2199 ¥2199",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24956,7 +25100,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1349 ¥1349",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24975,7 +25119,7 @@
       "source": "中关村在线",
       "sourceUrl": "https://detail.zol.com.cn/cpu/",
       "evidence": "参考价：￥1349 ¥1349",
-      "listingSha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e",
+      "listingSha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1",
       "effectiveDate": null,
       "availability": "unknown",
       "verification": "source_page_only",
@@ -24983,12 +25127,19 @@
     }
   ],
   "lastCollection": {
-    "observedAt": "2026-10-21T07:46:35.842Z",
+    "observedAt": "2026-10-21T08:03:10.731Z",
     "attempts": [
       {
+        "url": "https://detail.zol.com.cn/memory/",
+        "status": "ok",
+        "productCount": 48,
+        "sha256": "74d912713f564e5b1081858be69a80ecdd3598ea00cfe7b77b51bae32637b0a0"
+      },
+      {
         "url": "https://detail.zol.com.cn/memory/2.html",
-        "status": "failed",
-        "error": "HTTP 503"
+        "status": "ok",
+        "productCount": 48,
+        "sha256": "b7f9c120c8d310667aafa0f61f985b7ee7f54853a90d2648bf3db10d3efa66a1"
       },
       {
         "url": "https://detail.zol.com.cn/vga/",
@@ -25006,7 +25157,7 @@
         "url": "https://detail.zol.com.cn/cpu/",
         "status": "ok",
         "productCount": 15,
-        "sha256": "4edb143c79b60868f5f5fdcc96afde4f5643c24d8e08c4962ced482f3688a81e"
+        "sha256": "905b4c07f33aa4807757e41b6ff97733fe30dfae6a4ed717ba735af51120dad1"
       },
       {
         "url": "https://detail.zol.com.cn/cpu/2.html",
@@ -25023,7 +25174,7 @@
       {
         "url": "https://detail.zol.com.cn/hard_drives/2.html",
         "status": "ok",
-        "productCount": 43,
+        "productCount": 41,
         "sha256": "2cb696ccb1510ad6826001a99ec6893549f8c6e2521322cc3141bb41de581cab"
       },
       {
@@ -25050,21 +25201,13 @@
         "sha256": "a3f4d3c71d74e53d6734013983c8dde2c70f0dda0d5e9e3efe9f5e03aaf96f3d"
       },
       {
-        "url": "https://detail.zol.com.cn/memory/",
-        "status": "ok",
-        "productCount": 48,
-        "sha256": "f229b94d64c49567e19ed05cf7e7ab45e13a5fa113d7bd630874b5b5e83232fd",
-        "fromRetainedResponse": true
-      },
-      {
         "url": "https://product.pconline.com.cn/pro_vga/",
         "status": "ok",
         "productCount": 21,
-        "sha256": "b9fafccb49cf824a9a18f23a41c34488900aa6dcd0bc0c9113369f74c4adb6e9",
-        "fromRetainedResponse": true
+        "sha256": "b9fafccb49cf824a9a18f23a41c34488900aa6dcd0bc0c9113369f74c4adb6e9"
       }
     ],
-    "productsRead": 21,
-    "successfulPages": 11
+    "productsRead": 376,
+    "successfulPages": 12
   }
 }
