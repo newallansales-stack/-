@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       refresh_prices:
-        description: '重新采集公开页面报价（不核实成交，不填补历史）'
+        description: '采集公开报价并继续查找历史文章（不核实成交，不填造缺失日期）'
         type: boolean
         default: false
   schedule:
@@ -30,6 +30,7 @@ jobs:
       pages: read
     outputs:
       archive_updated_at: ${{ steps.archive_metadata.outputs.updated_at }}
+      history_updated_at: ${{ steps.archive_metadata.outputs.history_updated_at }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -48,6 +49,11 @@ jobs:
         timeout-minutes: 10
         run: npm run collect:public
 
+      - name: Discover and collect historical article quotations
+        if: github.event_name == 'schedule' || inputs.refresh_prices
+        timeout-minutes: 10
+        run: npm run collect:history
+
       - name: Run tests
         run: npm test
 
@@ -56,7 +62,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add datasets/public-prices.json
+          git add datasets/public-prices.json datasets/historical-prices.json datasets/history-index.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record public hardware quote observations'
             git push origin HEAD:main
@@ -73,6 +79,9 @@ jobs:
           const archive=JSON.parse(readFileSync('datasets/public-prices.json','utf8'));
           if (!/^\d{4}-\d{2}-\d{2}T[\d:.]+Z$/.test(archive.updatedAt)) throw new Error('Invalid archive timestamp');
           appendFileSync(process.env.GITHUB_OUTPUT, `updated_at=${archive.updatedAt}\n`);
+          const history=JSON.parse(readFileSync('datasets/historical-prices.json','utf8'));
+          if (!/^\d{4}-\d{2}-\d{2}T[\d:.]+Z$/.test(history.updatedAt)) throw new Error('Invalid historical archive timestamp');
+          appendFileSync(process.env.GITHUB_OUTPUT, `history_updated_at=${history.updatedAt}\n`);
           JS
 
       - name: Configure GitHub Pages
@@ -99,18 +108,21 @@ jobs:
         env:
           DASHBOARD_URL: ${{ steps.deployment.outputs.page_url }}
           ARCHIVE_UPDATED_AT: ${{ needs.build.outputs.archive_updated_at }}
+          HISTORY_UPDATED_AT: ${{ needs.build.outputs.history_updated_at }}
         run: |
           node --input-type=module <<'JS'
           const url = process.env.DASHBOARD_URL;
           if (!url?.startsWith('https://')) throw new Error('Missing HTTPS deployment URL');
           const expected=process.env.ARCHIVE_UPDATED_AT;
           if(!expected) throw new Error('Missing expected archive timestamp');
+          const historyExpected=process.env.HISTORY_UPDATED_AT;
+          if(!historyExpected) throw new Error('Missing expected history timestamp');
           let failure;
           for (let attempt = 0; attempt < 12; attempt++) {
             try {
               const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
               const html = await response.text();
-              if (!response.ok || !html.includes(expected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
+              if (!response.ok || !html.includes(expected) || !html.includes(historyExpected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('历史文章报价') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
                 throw new Error(`Dashboard not ready (HTTP ${response.status})`);
               }
               console.log(`Public dashboard verified: HTTP ${response.status} ${url}`);
