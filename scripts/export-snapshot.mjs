@@ -4,6 +4,43 @@ import { fileURLToPath } from 'node:url';
 import { openDatabase, seedDemo } from '../server/database.mjs';
 import { chinaToday, HISTORY_START } from '../server/dates.mjs';
 import { getDashboard, getHistory, getOffers } from '../server/prices.mjs';
+import { DEMO_PRODUCTS } from '../server/catalog.mjs';
+
+/** Public builds contain specification metadata only: no generated or private prices. */
+export function createCatalogSnapshot({ now = new Date() } = {}) {
+  const date = chinaToday(now);
+  const emptySummary = {
+    productCount: 0, observationCount: 0, recordedDays: 0,
+    earliestDate: null, latestDate: null, sourceCount: 0,
+  };
+  const products = DEMO_PRODUCTS.filter(product => product.releaseDate <= date).map(product => ({
+    id: product.id, category: product.category, brand: product.brand,
+    name: product.name, spec: product.spec, releaseDate: product.releaseDate,
+    profile: product.profile,
+    currentPrice: null, previousPrice: null, changePercent: null,
+    lowPrice: null, lowDate: null, source: null, updatedAt: null,
+    observationCount: 0,
+  }));
+  return {
+    version: 1, generatedAt: now.toISOString(), date, mode: 'catalog',
+    description: '公开规格目录：所有价格均待核验，未发布任何模拟价格或未经核验的历史报价。',
+    dashboard: {
+      mode: 'catalog', products, sources: [],
+      summary: { ...emptySummary, productCount: products.length },
+    },
+    sourceNames: [], histories: {}, offers: {},
+    status: {
+      standalone: true, generatedAt: now.toISOString(), today: date,
+      collector: {
+        configured: false, running: false, schedule: '公开目录不运行采集服务',
+        lastRunAt: null, lastStatus: null, lastError: null,
+        lastSuccessAt: null, nextRunAt: null,
+      },
+      real: { ...emptySummary }, demo: { ...emptySummary },
+      historyStart: HISTORY_START, timezone: 'Asia/Shanghai',
+    },
+  };
+}
 
 /**
  * Build a public, read-only DEMONSTRATION snapshot. This function deliberately
@@ -70,7 +107,7 @@ export function createSnapshot({ db: suppliedDb, dbPath, now = new Date() } = {}
 }
 
 export function writeSnapshot(output = 'src/standalone/snapshot.json', options = {}) {
-  const snapshot = createSnapshot(options);
+  const snapshot = createCatalogSnapshot(options);
   const path = resolve(output);
   mkdirSync(dirname(path), { recursive: true });
   const temporaryPath = `${path}.tmp-${process.pid}`;
@@ -87,6 +124,6 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1
     process.exitCode = 1;
   } else {
     try { console.log(`[snapshot] ${JSON.stringify(writeSnapshot(args[1]))}`); }
-    catch (error) { console.error(`[snapshot] 导出演示快照失败：${error.message}`); process.exitCode = 1; }
+    catch (error) { console.error(`[snapshot] 导出规格目录失败：${error.message}`); process.exitCode = 1; }
   }
 }

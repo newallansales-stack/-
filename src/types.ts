@@ -1,12 +1,27 @@
-export type Mode = 'demo' | 'real';
+export type Mode = 'catalog' | 'demo' | 'real';
 export type Category = 'all' | 'memory' | 'gpu' | 'cpu' | 'storage';
 export type Interval = 'day' | 'week' | 'month';
+export type ProductProfile = {
+  kind: string;
+  tierRank: number;
+  series: string;
+  fields: {key: string; label: string; value: string}[];
+  facets: {capacityGb?: number; rateMt?: number; sticks?: number; gpuClass?: 'consumer' | 'professional'; vramGb?: number};
+  analysis: {
+    summary: string;
+    idealFor: string[];
+    tradeoffs: string[];
+    comparisons: {productId: string; note: string}[];
+    references: {label: string; url: string}[];
+  };
+};
 export type Product = {
   id: string; category: Exclude<Category, 'all'>; brand: string;
   name: string; spec: string; releaseDate: string;
   currentPrice: number | null; previousPrice: number | null;
   changePercent: number | null; lowPrice: number | null; lowDate: string | null;
   source: string | null; updatedAt: string | null; observationCount: number;
+  profile?: ProductProfile;
 };
 export type Summary = {
   productCount: number; observationCount: number; recordedDays: number;

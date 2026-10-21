@@ -1,7 +1,7 @@
 import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
-import { DEMO_PRODUCTS, DEMO_SOURCES } from './catalog.mjs';
+import { DEMO_CATALOG_VERSION, DEMO_PRODUCTS, DEMO_SOURCES } from './catalog.mjs';
 import { HISTORY_START, addDays, chinaToday, daysBetween } from './dates.mjs';
 
 export const DEFAULT_DB_PATH = resolve(process.env.PRICE_DB_PATH || 'data/prices.sqlite');
@@ -63,9 +63,16 @@ export function demoPrice(product, date, sourceIndex) {
 /** Idempotently extends only the demo mode through the specified current day. */
 export function seedDemo(db, today = chinaToday()) {
   const previous = db.prepare("SELECT value FROM metadata WHERE key = 'demo_seeded_through'").get()?.value;
-  if (previous && previous >= today) return 0;
-  const insertProduct = db.prepare(`INSERT OR IGNORE INTO products
-    (id, mode, category, brand, name, spec, release_date) VALUES (?, 'demo', ?, ?, ?, ?, ?)`);
+  // Inspect each product even when this DB was already seeded through today:
+  // a newer catalogue may introduce models that the global date marker cannot detect.
+  const insertProduct = db.prepare(`INSERT INTO products
+    (id, mode, category, brand, name, spec, release_date) VALUES (?, 'demo', ?, ?, ?, ?, ?)
+    ON CONFLICT(id,mode) DO UPDATE SET category=excluded.category,brand=excluded.brand,
+      name=excluded.name,spec=excluded.spec,release_date=excluded.release_date
+    WHERE products.category!=excluded.category OR products.brand!=excluded.brand OR
+      products.name!=excluded.name OR products.spec!=excluded.spec OR products.release_date!=excluded.release_date`);
+  const latest = db.prepare("SELECT MAX(date) date FROM observations WHERE product_id=? AND mode='demo'");
+  const trimBeforeRelease = db.prepare("DELETE FROM observations WHERE product_id=? AND mode='demo' AND date<?");
   const insert = db.prepare(`INSERT OR IGNORE INTO observations
     (product_id, mode, date, price_cents, source, url) VALUES (?, 'demo', ?, ?, ?, '')`);
   let count = 0;
@@ -73,14 +80,19 @@ export function seedDemo(db, today = chinaToday()) {
   try {
     for (const product of DEMO_PRODUCTS) {
       insertProduct.run(product.id, product.category, product.brand, product.name, product.spec, product.releaseDate);
-      const from = [HISTORY_START, product.releaseDate, previous ? addDays(previous, 1) : HISTORY_START].sort().at(-1);
+      // A refined fixture launch date must not leave synthetic quotes before launch.
+      // Only the demo namespace is affected; imported records are never touched.
+      trimBeforeRelease.run(product.id, product.releaseDate);
+      const lastProductDate = latest.get(product.id)?.date;
+      const from = [HISTORY_START, product.releaseDate, lastProductDate ? addDays(lastProductDate, 1) : HISTORY_START].sort().at(-1);
       for (let date = from; date <= today; date = addDays(date, 1)) {
         DEMO_SOURCES.forEach((source, index) => {
           count += Number(insert.run(product.id, date, demoPrice(product, date, index), source).changes);
         });
       }
     }
-    db.prepare("INSERT INTO metadata (key,value) VALUES ('demo_seeded_through',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").run(today);
+    db.prepare("INSERT INTO metadata (key,value) VALUES ('demo_seeded_through',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").run(previous && previous > today ? previous : today);
+    db.prepare("INSERT INTO metadata (key,value) VALUES ('demo_catalog_version',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").run(DEMO_CATALOG_VERSION);
     db.exec('COMMIT');
     return count;
   } catch (error) { db.exec('ROLLBACK'); throw error; }

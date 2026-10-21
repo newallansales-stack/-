@@ -1,5 +1,6 @@
 import { parse } from 'csv-parse/sync';
 import { addDays, chinaToday, daysBetween, HISTORY_START, periodStart, validDate } from './dates.mjs';
+import { DEMO_PROFILES_BY_ID } from './catalog.mjs';
 
 export class InputError extends Error {
   constructor(message, status = 400) { super(message); this.status = status; }
@@ -45,6 +46,7 @@ export function getDashboard(db, mode) {
       changePercent: row.previous_price ? Math.round((row.current_price - row.previous_price) / row.previous_price * 10000) / 100 : null,
       lowPrice: row.low_price / 100, lowDate: row.low_date, source: row.source,
       updatedAt: row.updated_at, observationCount: row.observation_count,
+      ...(mode === 'demo' && DEMO_PROFILES_BY_ID.has(row.id) ? {profile: DEMO_PROFILES_BY_ID.get(row.id)} : {}),
     })),
     summary: getSummary(db, mode),
     sources: db.prepare(`SELECT source name, COUNT(*) observationCount, MAX(date) latestDate

@@ -48,18 +48,19 @@ function parseUrl(url: string) {
   return new URL(url, 'https://standalone.invalid');
 }
 function parseMode(url: URL): Mode {
-  const mode = url.searchParams.get('mode') ?? 'demo';
-  if (mode !== 'demo' && mode !== 'real') throw new Error('mode 必须为 demo 或 real');
+  const mode = url.searchParams.get('mode') ?? snapshot.dashboard.mode;
+  if (mode !== 'demo' && mode !== 'real' && mode !== 'catalog') throw new Error('mode 必须为 catalog、demo 或 real');
+  if (mode === 'demo' && snapshot.dashboard.mode === 'catalog') throw new Error('公开版已撤下模拟价格，请查看待核验的规格目录。');
   return mode;
 }
 function requireProduct(id: string, mode: Mode) {
-  const product = mode === 'demo' ? snapshot.dashboard.products.find(item => item.id === id) : undefined;
-  if (!product) throw new Error('独立预览中没有该型号的数据，请选择演示区已有型号。');
+  const product = mode !== 'real' ? snapshot.dashboard.products.find(item => item.id === id) : undefined;
+  if (!product) throw new Error('公开目录中没有该型号的数据，请选择已有型号。');
   return product;
 }
 function historyFor(id: string, mode: Mode, url: URL): History {
-  requireProduct(id, mode);
-  const record = snapshot.histories[id];
+  const product = requireProduct(id, mode);
+  const record = mode === 'catalog' ? { releaseDate: product.releaseDate, lowPrice: null, lowDate: null, daily: [] as DailyTuple[] } : snapshot.histories[id];
   const interval = url.searchParams.get('interval') ?? 'week';
   if (!['day', 'week', 'month'].includes(interval)) throw new Error('interval 必须为 day、week 或 month');
   const from = url.searchParams.get('from') ?? HISTORY_START;
@@ -107,15 +108,22 @@ function exportCsv(url: URL) {
   const mode = parseMode(url);
   const productId = url.searchParams.get('productId');
   if (productId) requireProduct(productId, mode);
-  const header = 'product_id,category,brand,name,spec,release_date,date,price,source,url,data_mode,observation_count,price_basis\r\n';
+  const header = 'product_id,category,brand,name,spec,release_date,date,price,source,url,data_mode,observation_count,price_basis,verification_status\r\n';
   if (mode === 'real') return '\uFEFF' + header;
   const lines: string[] = [];
   for (const product of snapshot.dashboard.products) {
     if (productId && product.id !== productId) continue;
+    if (mode === 'catalog') {
+      lines.push([
+        product.id, product.category, product.brand, product.name, product.spec, product.releaseDate,
+        '', '', '', '', 'catalog', 0, '', 'unverified',
+      ].map(csvCell).join(','));
+      continue;
+    }
     for (const [date, price, count, source] of snapshot.histories[product.id].daily) {
       lines.push([
         product.id, product.category, product.brand, product.name, product.spec, product.releaseDate,
-        date, price.toFixed(2), snapshot.sourceNames[source], '', 'demo', count, 'daily_minimum',
+        date, price.toFixed(2), snapshot.sourceNames[source], '', 'demo', count, 'daily_minimum', 'synthetic',
       ].map(csvCell).join(','));
     }
   }
@@ -132,7 +140,17 @@ export async function standaloneApi<T>(url: string, options: RequestInit = {}): 
   if (parsed.pathname === '/api/health') payload = {ok: true, standalone: true, today: chinaToday(), snapshotDate: snapshot.date, timezone: 'Asia/Shanghai'};
   else if (parsed.pathname === '/api/dashboard') {
     const mode = parseMode(parsed);
-    payload = mode === 'demo' ? snapshot.dashboard : {mode: 'real', products: [], sources: [], summary: emptySummary};
+    if (mode === 'catalog') payload = {
+      mode: 'catalog', sources: [],
+      products: snapshot.dashboard.products.map(product => ({
+        id: product.id, category: product.category, brand: product.brand,
+        name: product.name, spec: product.spec, releaseDate: product.releaseDate, profile: product.profile,
+        currentPrice: null, previousPrice: null, changePercent: null, lowPrice: null,
+        lowDate: null, source: null, updatedAt: null, observationCount: 0,
+      })),
+      summary: { ...emptySummary, productCount: snapshot.dashboard.products.length },
+    };
+    else payload = mode === 'demo' ? snapshot.dashboard : {mode: 'real', products: [], sources: [], summary: emptySummary};
   } else if (parsed.pathname === '/api/status') payload = snapshot.status;
   else {
     const productPath = /^\/api\/products\/([^/]+)\/(history|offers)$/.exec(parsed.pathname);
@@ -140,7 +158,7 @@ export async function standaloneApi<T>(url: string, options: RequestInit = {}): 
     const id = decodeURIComponent(productPath[1]);
     const mode = parseMode(parsed);
     requireProduct(id, mode);
-    payload = productPath[2] === 'history' ? historyFor(id, mode, parsed) : snapshot.offers[id];
+    payload = productPath[2] === 'history' ? historyFor(id, mode, parsed) : mode === 'catalog' ? { offers: [] } : snapshot.offers[id];
   }
   return structuredClone(payload) as T;
 }

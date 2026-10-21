@@ -1,0 +1,25 @@
+.product-comparison { margin: 0 0 24px; overflow: hidden; scroll-margin-top: 20px; }
+.comparison-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 22px 24px 10px; }
+.comparison-heading > div { display: flex; gap: 10px; align-items: center; color: #ae9cfa; }
+.comparison-heading h2 { font-size: 17px; color: #e1e8f4; }
+.comparison-caption { padding: 0 24px 20px; color: #8c9cb3; font-size: 12px; line-height: 1.9; }
+.comparison-scroll { overflow-x: auto; }
+.comparison-scroll table { width: 100%; min-width: 670px; table-layout: fixed; border-collapse: collapse; }
+.comparison-scroll th, .comparison-scroll td { border-top: 1px solid #293245; border-right: 1px solid #252e3e; padding: 15px 19px; text-align: left; vertical-align: top; line-height: 1.9; color: #c3cedf; font-size: 13px; word-break: break-word; }
+.comparison-scroll th:last-child, .comparison-scroll td:last-child { border-right: 0; }
+.comparison-scroll th { font-weight: 500; }
+.comparison-scroll thead { background: #181d2c; }
+.comparison-scroll thead th:first-child, .comparison-scroll tbody th { width: 160px; color: #8999b1; }
+.comparison-scroll thead th > span { display: block; color: #8795ad; margin-top: 6px; font-size: 12px; }
+.comparison-product { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+.comparison-product strong { color: #e1e7f2; font-size: 15px; }
+.comparison-product button { flex-shrink: 0; }
+.comparison-difference { background: #aa94ff08; }
+.comparison-difference td { color: #d8ccff; }
+.difference-tag { display: block; font-size: 10px; color: #b5a2f1; margin-top: 3px; }
+.comparison-scroll th small { display: block; color: #8e789b; font-size: 11px; }
+.comparison-scroll td.comparison-price { color: #c8b6ff; font-size: 18px; font-variant-numeric: tabular-nums; }
+.comparison-scroll td.comparison-summary { color: #9daec5; font-size: 12px; }
+.comparison-select { border: 0; background: none; font-size: 12px; padding: 0; }
+.comparison-footnote { color: #8493aa; font-size: 12px; line-height: 1.9; border-top: 1px solid #293245; padding: 15px 24px; }
+@media (max-width: 640px) { .comparison-heading { padding: 18px 16px 8px; } .comparison-heading h2 { font-size: 16px; } .comparison-caption { padding: 0 16px 17px; } .comparison-scroll th, .comparison-scroll td { padding: 12px 14px; font-size: 12px; } .comparison-footnote { padding: 13px 16px; } }

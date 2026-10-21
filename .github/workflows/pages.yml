@@ -34,7 +34,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build public demo snapshot
+      - name: Build unverified specifications catalog
         run: npm run build:pages
 
       - name: Configure GitHub Pages
@@ -69,7 +69,7 @@ jobs:
             try {
               const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
               const html = await response.text();
-              if (!response.ok || !html.includes('芯价') || !html.includes('免费在线展示版') || html.includes('src="/src/main.tsx"')) {
+              if (!response.ok || !html.includes('芯价') || !html.includes('content="unverified-catalog"') || !html.includes('报价全部待核验') || html.includes('src="/src/main.tsx"')) {
                 throw new Error(`Dashboard not ready (HTTP ${response.status})`);
               }
               console.log(`Public dashboard verified: HTTP ${response.status} ${url}`);
