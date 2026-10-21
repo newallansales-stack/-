@@ -102,7 +102,7 @@ export function parseHistoricalArticle(html,{url,indexDate,observedAt=new Date()
   const sourceTitle=clean($('h1').first().text()||$('title').text().replace(/\s*-\s*IT之家$/,''));
   const publishedAt=`${publicationDate}T${match[4]}+08:00`;
   const context=paragraph.find('p').toArray().filter(el=>!$(el).hasClass('ad-tips')).map(el=>clean($(el).text()))
-    .filter(text=>/优惠券|补贴|会员|PLUS|京喜|预售|满减|下单|到手价|限时|领取/.test(text)&&!/^京东 11\.11|^淘宝 11\.11/.test(text)).slice(0,4).join(' ').slice(0,500);
+    .filter(text=>/优惠券|补贴|会员|PLUS|京喜|预售|满减|下单|到手价|限时|领取/.test(text)&&!/^京东 11\.11|^淘宝 11\.11/.test(text)).slice(0,4).join(' ').slice(0,140);
   const records=new Map();
   paragraph.find('.card').each((cardIndex,el)=>{
     const card=$(el),platform=clean(card.find('.mall-data').text());
@@ -160,7 +160,7 @@ export async function collectHistory({indexPath=INDEX,output=OUTPUT,maxDays=60,m
     }
     save(indexPath,state);
   }
-  const records=new Map(previous.records.filter(q=>identifyPart(q.name)===q.category).map(q=>[q.id,{...q,productKey:q.sku?historicalProductKey(q):q.productKey}])),articles={...previous.articles};
+  const records=new Map(previous.records.filter(q=>identifyPart(q.name)===q.category).map(q=>[q.id,{...q,articleContext:q.articleContext?.slice(0,140)||null,productKey:q.sku?historicalProductKey(q):q.productKey}])),articles={...previous.articles};
   const successful=Object.entries(state.pages).filter(([,p])=>p.status==='ok').map(([d])=>d).sort();
   function snapshot(){return {version:1,updatedAt:new Date().toISOString(),description:'免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。',
     records:[...records.values()].sort((a,b)=>a.publicationDate.localeCompare(b.publicationDate)||a.id.localeCompare(b.id)),articles,
