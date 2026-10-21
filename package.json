@@ -1,0 +1,37 @@
+{
+  "name": "hardware-price-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "vite --host 0.0.0.0",
+    "dev:server": "node --watch server/index.mjs",
+    "prebuild": "node scripts/export-snapshot.mjs",
+    "build": "tsc --noEmit && vite build",
+    "build:pages": "node scripts/export-snapshot.mjs && tsc --noEmit && vite build --mode pages",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "collect": "node --use-env-proxy --use-system-ca scripts/collect.mjs --once",
+    "collect:watch": "node --use-env-proxy --use-system-ca scripts/collect.mjs --watch"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.0",
+    "vite": "^6.4.0",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}

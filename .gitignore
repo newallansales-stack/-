@@ -1,0 +1,11 @@
+node_modules/
+dist/
+pages/
+src/standalone/snapshot.json
+data/
+.env
+.env.*
+!.env.example
+*.log
+playwright-report/
+test-results/
