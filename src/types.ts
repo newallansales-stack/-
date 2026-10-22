@@ -1,4 +1,4 @@
-export type Mode = 'catalog' | 'demo' | 'real' | 'historical';
+export type Mode = 'market' | 'public' | 'local' | 'catalog' | 'demo' | 'real' | 'historical';
 export type Category = 'all' | 'memory' | 'gpu' | 'cpu' | 'storage';
 export type Interval = 'day' | 'week' | 'month';
 export type ProductProfile = {
@@ -24,6 +24,9 @@ export type Product = {
   profile?: ProductProfile;
   dataMode?: Mode;
   historical?: {quoteType: 'promotion' | 'reported_listing'; platform: string; sku: string | null; sourceUrl: string; conditions: string};
+  quoteBasis?: string;
+  evidenceUrl?: string;
+  specificationConflict?: boolean;
 };
 export type Summary = {
   productCount: number; observationCount: number; recordedDays: number;

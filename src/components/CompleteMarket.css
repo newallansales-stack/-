@@ -1,0 +1,21 @@
+.complete-category-count { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-top: 16px; text-align: left; }
+.complete-category-count strong { color: #e2d6fa; font-size: 28px; }
+.complete-category-count span { color: #96a5bc; font-size: 12px; line-height: 1.8; }
+.complete-market .market-table-panel { margin-bottom: 24px; }
+.complete-market-table th { white-space: nowrap; }
+.complete-market .table-product { max-width: 310px; }
+.complete-market .table-product > span { min-width: 0; }
+.complete-market .table-product strong { white-space: normal; }
+.complete-chart-panel { margin-bottom: 24px; scroll-margin-top: 20px; }
+.complete-chart-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.complete-periods { display: flex; flex-wrap: wrap; gap: 6px; }
+.complete-periods button { border: 0; border-radius: 4px; padding: 7px 10px; color: #b7a7d4; background: #1c2130; font-size: 12px; }
+.complete-coverage { display: flex; flex-wrap: wrap; gap: 8px 18px; padding: 15px 21px; border-top: 1px solid #293448; color: #9facbf; font-size: 12px; line-height: 1.9; }
+.complete-offers { border-top: 1px solid #293448; padding: 18px 21px; }
+.complete-offers h3 { color: #c2d0e4; font-size: 14px; margin-bottom: 12px; }
+.complete-offers > a { display: flex; align-items: center; flex-wrap: wrap; gap: 9px 18px; color: #9fb1cc; font-size: 12px; line-height: 1.8; margin-top: 9px; }
+.complete-offers strong { color: #cdb6fa; margin-left: auto; }
+.complete-empty { padding: 35px 20px; color: #9fadc5; text-align: center; }
+.complete-empty h3 { font-size: 17px; margin-bottom: 14px; }
+.complete-empty p { font-size: 13px; line-height: 1.9; }
+@media(max-width:559px){.complete-market .product-title { flex-wrap: wrap; }.complete-market .product-title h2 { white-space: normal; }.complete-market .chart-heading { align-items: flex-start; gap: 7px; }.complete-chart-actions { flex-direction: column; gap: 7px; }.complete-category-count strong { font-size: 24px; }.complete-category-count span { font-size: 11px; }.complete-coverage,.complete-offers { padding: 15px 14px; }.complete-market .main-quote { font-size: 29px; }.complete-market .product-workspace-nav { align-items: stretch; }.complete-market .product-workspace-nav .text-link { padding: 8px; }}

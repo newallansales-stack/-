@@ -1,0 +1,17 @@
+import {CalendarDays,CheckCircle2,ExternalLink,Info,RefreshCw} from 'lucide-react';
+import {publicArchive} from '../public-prices';
+import {historicalArchive} from '../historical-prices';
+import {chinaToday} from '../quote-book';
+import collectionStatus from '../../datasets/collection-status.json';
+import './DataCenter.css';
+const dateTime=(value:string)=>new Date(value).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false});
+export default function DataHealth({detailed=false}:{detailed?:boolean}){
+  const publicDates=[...new Set(publicArchive.observations.map(q=>q.date))].sort();
+  const historicDates=new Set(historicalArchive.records.map(q=>q.publicationDate));
+  const latest=publicDates.at(-1),fresh=latest===chinaToday();
+  const failed=publicArchive.lastCollection.attempts.filter(a=>a.status!=='ok');
+  return <section className="panel data-health" aria-label="实际数据覆盖与更新状态"><div className="data-health-heading"><h2><CalendarDays size={19}/>数据覆盖与每日更新</h2><span className={`tag ${fresh?'green':''}`}>{fresh?'今日有采集记录':`最近观察 ${latest||'暂无'}`}</span></div><div className="data-health-stats"><div><strong>{publicArchive.products.length}</strong><span>公开来源型号</span></div><div><strong>{publicArchive.observations.length.toLocaleString('zh-CN')}</strong><span>公开报价观察 · {publicDates.length} 个日期</span></div><div><strong>{historicalArchive.records.length}</strong><span>历史文章报价 · {historicDates.size} 个日期</span></div><div><strong>0</strong><span>独立核验的成交凭据</span></div></div><details className="data-health-details" open={detailed}><summary>最近读取 {dateTime(publicArchive.updatedAt)} · {publicArchive.lastCollection.successfulPages} 成功 / {failed.length} 失败 · 查看数据范围</summary><p><CheckCircle2 size={15}/>公开页面最近成功读取：{dateTime(publicArchive.updatedAt)}（北京时间）。{publicArchive.lastCollection.successfulPages} 个列表页成功，{failed.length} 个失败。每日北京时间 09:15 计划更新，可能延迟；来源失败保留旧值和原日期。</p><p><Info size={15}/>数据来自有限的公开来源；2020 年起完整逐日历史尚未取得。参考价、转引报价、历史文章和本机导入均独立标注，不能据此声称全网实时最低或当前可购买。</p><div className="data-actions"><button className="text-link" onClick={()=>window.location.reload()}><RefreshCw size={14}/>重新载入已发布数据</button><a className="text-link" href="https://github.com/newallansales-stack/-/actions/workflows/pages.yml" target="_blank" rel="noreferrer">查看采集和发布记录<ExternalLink size={13}/></a></div>
+    <p>最近一次采集结果：{collectionStatus.overall==='success'?'流程完成':collectionStatus.overall==='partial'?'部分来源失败，旧数据保留':'本轮失败，旧数据保留'} · 状态记录于 {dateTime(collectionStatus.recordedAt)}。{collectionStatus.runUrl&&<a className="text-link" href={collectionStatus.runUrl} target="_blank" rel="noreferrer">查看本轮执行记录</a>}</p>
+    {detailed&&<><h3>逐年历史资料覆盖</h3><div className="coverage-year-scroll"><table className="coverage-year-table"><thead><tr><th>年份</th><th>内存条记录</th><th>显卡记录</th><th>CPU 记录</th><th>存储记录</th><th>有文章报价的日期</th></tr></thead><tbody>{Array.from({length:Number(chinaToday().slice(0,4))-2019},(_,i)=>String(i+2020)).map(year=>{const rows=historicalArchive.records.filter(r=>r.publicationDate.startsWith(year));return <tr key={year}><td>{year}</td>{['memory','gpu','cpu','storage'].map(category=><td key={category}>{rows.filter(r=>r.category===category).length}</td>)}<td>{new Set(rows.map(r=>r.publicationDate)).size}</td></tr>;})}</tbody></table></div><p>这里统计实际找到的文章报价，不等于所有型号每天都有价格。已检查 {historicalArchive.discovery.scannedDays} 个新闻日历、{historicalArchive.discovery.checkedArticles} 篇候选文章；检查网页数量不计作价格覆盖天数。</p>{failed.length>0&&<details><summary>查看来源失败记录</summary>{failed.map(a=><p key={a.url}>{a.url} · {a.error||'读取失败'}</p>)}</details>}</>}
+  </details></section>;
+}

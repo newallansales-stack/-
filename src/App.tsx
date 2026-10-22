@@ -7,6 +7,9 @@ import PublicPriceArchive from './components/PublicPriceArchive';
 import HistoricalPrices from './components/HistoricalPrices';
 import HistoricalMarketEvidence from './components/HistoricalMarketEvidence';
 import Watchlist from './components/Watchlist';
+import CompleteMarket from './components/CompleteMarket';
+import DataCenter from './components/DataCenter';
+import DataHealth from './components/DataHealth';
 import {historicalMarket} from './historical-market';
 import { historicalArchive } from './historical-prices';
 import { publicArchive } from './public-prices';
@@ -14,7 +17,8 @@ import { api, downloadHref, IS_STANDALONE } from './api';
 import './product-browser.css';
 import type { Category, CollectorStatus, Dashboard, History, Interval, Mode, Offer, Product } from './types';
 
-type Page = 'market' | 'watchlist' | 'sources' | 'archive' | 'history';
+type Page = 'market' | 'watchlist' | 'sources' | 'archive' | 'history' | 'data';
+function initialPage():Page {const value=window.location.hash.slice(2).split('?')[0];return ['market','watchlist','sources','archive','history','data'].includes(value)?value as Page:'market';}
 type SortKey = 'tier' | 'name' | 'currentPrice' | 'changePercent' | 'lowPrice';
 const PAGE_SIZE = 12;
 const categoryOrder = ['memory', 'gpu', 'cpu', 'storage'];
@@ -47,10 +51,11 @@ function Trend({value, arrow = true}: {value: number | null | undefined; arrow?:
 }
 
 export default function App() {
-  const [page, setPage] = useState<Page>('market');
+  const [page, setPage] = useState<Page>(initialPage);
+  const [requestedMarketId,setRequestedMarketId]=useState(()=>new URLSearchParams(window.location.hash.split('?')[1]||'').get('product')||'');
   const [mode, setMode] = useState<Mode>(() => {
     const previous = saved<Mode>('chip-price-market-mode-v2', IS_STANDALONE ? 'historical' : 'real');
-    return IS_STANDALONE ? ['historical','catalog','real'].includes(previous) ? previous : 'historical' : ['historical','demo','real'].includes(previous) ? previous : 'real';
+    return IS_STANDALONE ? 'market' : ['market','historical','demo','real'].includes(previous) ? previous : 'real';
   });
   const [category, setCategory] = useState<Category>('all');
   const [brand, setBrand] = useState('all');
@@ -83,10 +88,10 @@ export default function App() {
   const [sort, setSort] = useState<{key: SortKey; direction: number}>({key: 'tier', direction: 1});
   const [tablePage, setTablePage] = useState(0);
   const [importOpen, setImportOpen] = useState(false);
-  const [staticInfoOpen, setStaticInfoOpen] = useState(false);
   const [notice, setNotice] = useState('');
   const [status, setStatus] = useState<CollectorStatus | null>(null);
   const [statusError, setStatusError] = useState('');
+  const [publishedUpdate,setPublishedUpdate]=useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
   const chartRef = useRef<HTMLElement>(null);
   const compareRef = useRef<HTMLDivElement>(null);
@@ -95,9 +100,19 @@ export default function App() {
   const pendingProductRef = useRef('');
 
   useEffect(() => { try { localStorage.setItem('chip-price-market-mode-v2', JSON.stringify(mode)); } catch {} }, [mode]);
+  useEffect(()=>{if(page!=='market')window.history.replaceState(null,'',`#/${page}`);},[page]);
+  useEffect(()=>{const listener=()=>{setPage(initialPage());setRequestedMarketId(new URLSearchParams(window.location.hash.split('?')[1]||'').get('product')||'');};window.addEventListener('hashchange',listener);return()=>window.removeEventListener('hashchange',listener);},[]);
   useEffect(() => { try { localStorage.setItem('chip-price-favorites', JSON.stringify(favorites)); } catch {} }, [favorites]);
   useEffect(() => {setCompareIds([]);setBrand('all');setSpec('all');setCapacity('all');setRate('all');setSticks('all');setVram('all');setGpuClass('all');setQuery('');}, [mode]);
   useEffect(() => { const id = window.setInterval(() => setRefresh(v => v + 1), 300000); return () => window.clearInterval(id); }, []);
+  useEffect(()=>{
+    if(!IS_STANDALONE||!/^https?:$/.test(window.location.protocol))return;
+    const controller=new AbortController();
+    const check=async()=>{try{const response=await fetch(new URL('data-version.json',window.location.href),{cache:'no-store',signal:controller.signal});if(!response.ok)return;const version=await response.json();if(version.publicUpdatedAt>publicArchive.updatedAt||version.historyUpdatedAt>historicalArchive.updatedAt)setPublishedUpdate(true);}catch{}};
+    void check();const timer=window.setInterval(()=>void check(),300000);
+    const focus=()=>{if(document.visibilityState==='visible')void check();};document.addEventListener('visibilitychange',focus);
+    return()=>{controller.abort();window.clearInterval(timer);document.removeEventListener('visibilitychange',focus);};
+  },[]);
   useEffect(() => { if (!notice) return; const id = window.setTimeout(() => setNotice(''), 5000); return () => window.clearTimeout(id); }, [notice]);
   useEffect(() => { const listener = (e: KeyboardEvent) => { if ((e.metaKey || e.ctrlKey) && e.key === 'k') {e.preventDefault(); searchRef.current?.focus();} }; window.addEventListener('keydown', listener); return () => window.removeEventListener('keydown', listener); }, []);
   useEffect(() => {
@@ -143,15 +158,17 @@ export default function App() {
   useEffect(() => setTablePage(0), [category, brand, spec, query, page, mode, sort, gpuClass, capacity, rate, sticks, vram]);
   useEffect(() => setTablePage(value => Math.min(value,Math.max(0,Math.ceil(filtered.length/PAGE_SIZE)-1))), [filtered.length]);
   useEffect(() => {
+    if(mode==='market')return;
     if (pendingProductRef.current) {
       if (filtered.some(p=>p.id===pendingProductRef.current)) {setSelectedId(pendingProductRef.current);pendingProductRef.current='';}
       return;
     }
     if (!filtered.some(p => p.id === selectedId)) setSelectedId(filtered[0]?.id || '');
-  }, [filtered, selectedId]);
+  }, [filtered, selectedId,mode]);
   const selected = dashboard.products.find(p => p.id === selectedId);
   useEffect(() => {
     setHistory(null); setOffers([]); setHistoryError('');
+    if(mode==='market')return;
     if (!selectedId) return;
     if (!from || !to || from > to || from < '2020-01-01' || to > today()) {setHistoryError('请选择 2020-01-01 至今天之间的有效日期区间。');return;}
     const controller = new AbortController();
@@ -179,7 +196,7 @@ export default function App() {
     if (compareIds.length >= 3) {setNotice('最多同时对比 3 款型号，请先移除一款。');return;}
     setCompareIds(ids => [...ids,id]);
   }
-  function openImport() { if (IS_STANDALONE) setStaticInfoOpen(true); else setImportOpen(true); }
+  function openImport() { if (IS_STANDALONE) setPage('data'); else setImportOpen(true); }
   function pickPeriod(value: string) {setPeriod(value);setTo(today());setFrom(value === 'all' ? '2020-01-01' : beforeMonths(Number(value.replace('m',''))));}
   function toggleFavorite(id: string) {
     const product = watchlistProducts.find(p=>p.id===id);
@@ -187,6 +204,9 @@ export default function App() {
     setFavorites(value => value.includes(id) ? value.filter(i => i !== id) : [...value, id]);
   }
   function openFavoriteProduct(product: Product) {
+    if(IS_STANDALONE||['catalog','historical','public','local'].includes(product.dataMode||'')){
+      setRequestedMarketId(product.id);setMode('market');setPage('market');setQuery('');return;
+    }
     pendingProductRef.current=product.id;
     setMode(product.dataMode || mode);setPage('market');setQuery('');pickCategory('all');
     setSelectedId(product.id);pickPeriod('all');
@@ -195,7 +215,7 @@ export default function App() {
   const watchlistProducts = useMemo(()=>[...new Map([
     ...historicalMarket.dashboard.products,
     ...(catalogData?.products||[]).map(p=>({...p,dataMode:catalogData!.mode})),
-    ...dashboard.products.map(p=>({...p,dataMode:mode})),
+    ...dashboard.products.map(p=>({...p,dataMode:p.dataMode||mode})),
   ].map(p=>[p.id,p])).values()],[catalogData,dashboard.products,mode]);
   useEffect(()=>{
     if (!IS_STANDALONE && dashboardData.mode === 'real') setCatalogData(dashboardData);
@@ -211,7 +231,7 @@ export default function App() {
     <a className="skip-link" href="#main-content">跳转到主内容</a>
     <aside className="sidebar">
       <a className="brand" href="#" onClick={e => {e.preventDefault();setPage('market');pickCategory('all');}} aria-label="芯价首页"><span className="brand-symbol"><Cpu size={24}/></span><span>芯价<span className="brand-en">CHIPPRICE</span></span></a>
-      <div className="workspace-label">个人工作台 <span>免费版</span></div>
+      <div className="workspace-label">个人工作台 <span>在线版</span></div>
       <nav aria-label="主导航">
         <span className="nav-label">工作空间</span>
         <button className={`nav-item ${page === 'archive' ? 'active' : ''}`} onClick={() => setPage('archive')}><Database size={18}/>已收录报价<span className="nav-count">{publicArchive.observations.length}</span></button>
@@ -220,25 +240,26 @@ export default function App() {
         <button className={`nav-item ${page === 'watchlist' ? 'active' : ''}`} onClick={() => {setPage('watchlist');setQuery('');}}><Star size={18}/>我的自选 <span className="nav-count">{favorites.length}</span></button>
         <button className={`nav-item ${page === 'sources' ? 'active' : ''}`} onClick={() => setPage('sources')}><Database size={18}/>数据来源</button>
         <span className="nav-label second">数据管理</span>
-        <button className="nav-item" onClick={openImport}><Upload size={18}/>导入历史记录</button>
+        <button className="nav-item" onClick={openImport}><Upload size={18}/>导入 / 备份</button>
         <a className={`nav-item ${!dashboard.products.length ? 'disabled' : ''}`} href={downloadHref(`/api/export?mode=${mode}`)} download={IS_STANDALONE ? `chipprice-${mode === 'catalog' ? 'catalog' : mode === 'historical' ? 'historical-article-quotes' : `${mode}-daily-minima`}.csv` : undefined} onClick={e => {if (!dashboard.products.length) e.preventDefault();}} aria-disabled={!dashboard.products.length}><Download size={18}/>{mode === 'catalog' ? '导出规格目录' : '导出价格数据'}</a>
       </nav>
       <div className="sidebar-bottom">
         <div className="sidebar-note"><Layers3 size={22}/><strong>让价格有迹可循</strong><p>追踪每一次波动，<br/>发现更合适的入手时机。</p><button onClick={() => setPage('sources')}>了解数据口径 <ArrowRight size={14}/></button></div>
-        <div className="sidebar-user"><span className="avatar">观</span><span>硬件观察者<small>{IS_STANDALONE ? "在线展示版" : "本地价格数据库"}</small></span><ShieldCheck size={17}/></div>
+        <div className="sidebar-user"><span className="avatar">观</span><span>硬件观察者<small>{IS_STANDALONE ? "免费在线工作台" : "本地价格数据库"}</small></span><ShieldCheck size={17}/></div>
       </div>
     </aside>
 
     <div className="main-shell">
-      <header className="topbar"><div className="breadcrumb"><span>工作台</span><ChevronRight size={14}/><strong>{page === 'history' ? '历史文章报价' : page === 'archive' ? '已收录报价' : page === 'market' ? '市场总览' : page === 'watchlist' ? '我的自选' : '数据来源'}</strong></div><div className="topbar-actions"><label className="global-search"><Search size={16}/><input ref={searchRef} placeholder="搜索型号、品牌或规格…" aria-label="搜索型号、品牌或规格" value={query} onChange={e => {setQuery(e.target.value);if (page === 'sources') setPage('market');}}/><kbd>⌘ K</kbd></label><button className="icon-button" title="查看数据更新状态" aria-label="查看数据更新状态" onClick={() => setPage('sources')}><Bell size={18}/><span className={`notification-dot ${status?.collector.configured ? 'connected' : ''}`}/></button><span className="avatar small">观</span></div></header>
+      <header className="topbar"><div className="breadcrumb"><span>工作台</span><ChevronRight size={14}/><strong>{page === 'data' ? '导入 / 备份' : page === 'history' ? '历史文章报价' : page === 'archive' ? '已收录报价' : page === 'market' ? '市场总览' : page === 'watchlist' ? '我的自选' : '数据来源'}</strong></div><div className="topbar-actions"><label className="global-search"><Search size={16}/><input ref={searchRef} placeholder="搜索型号、品牌或规格…" aria-label="搜索型号、品牌或规格" value={query} onChange={e => {setQuery(e.target.value);if (page === 'sources') setPage('market');}}/><kbd>⌘ K</kbd></label><button className="icon-button" title="查看数据更新状态" aria-label="查看数据更新状态" onClick={() => setPage('sources')}><Bell size={18}/><span className={`notification-dot ${status?.collector.configured ? 'connected' : ''}`}/></button><span className="avatar small">观</span></div></header>
       <main id="main-content" className="main-content">
-        <div className="page-heading"><div><div className="eyebrow"><span className="live-dot"/> HARDWARE MARKET OBSERVATORY</div><h1>{page === 'history' ? '旧价格，从原文找回来' : page === 'archive' ? '价格记录，逐条有出处' : page === 'market' ? '硬件行情，一目了然' : page === 'watchlist' ? '关注你的下一次升级' : '每一个价格，都有出处'}<span className="heading-dot">.</span></h1><p>{page === 'history' ? '免费公开资料中的旧报价，保留文章日期、原始链接与促销条件。' : page === 'archive' ? '查看实际读取的公开报价、精确型号、采集日期与原始来源。' : page === 'sources' ? '了解数据覆盖范围、采集状态与历史价格的计算方式。' : '内存、显卡、处理器与存储，持续记录价格的每一次变化。'}</p></div><div className="heading-actions"><span className="today"><CalendarDays size={15}/>{dateLabel}</span><button className="button secondary" onClick={openImport}><Plus size={16}/>导入数据</button></div></div>
+        {publishedUpdate&&<div className="published-update" role="status"><RefreshCw size={17}/><span>新的采集数据已发布。重新载入可查看，本机保存的价格和自选会保留。</span><button className="button primary" onClick={()=>window.location.reload()}>载入最新数据</button></div>}
+        <div className="page-heading"><div><div className="eyebrow"><span className="live-dot"/> HARDWARE MARKET OBSERVATORY</div><h1>{page === 'data' ? '你的价格资料，完整保存' : page === 'history' ? '旧价格，从原文找回来' : page === 'archive' ? '价格记录，逐条有出处' : page === 'market' ? '硬件行情，一目了然' : page === 'watchlist' ? '关注你的下一次升级' : '每一个价格，都有出处'}<span className="heading-dot">.</span></h1><p>{page === 'data' ? '直接导入、预览、保存和备份，把有来源的价格带进图表与自选。' : page === 'history' ? '免费公开资料中的旧报价，保留文章日期、原始链接与促销条件。' : page === 'archive' ? '查看实际读取的公开报价、精确型号、采集日期与原始来源。' : page === 'sources' ? '了解数据覆盖范围、采集状态与历史价格的计算方式。' : '内存、显卡、处理器与存储，持续记录价格的每一次变化。'}</p></div><div className="heading-actions"><span className="today"><CalendarDays size={15}/>{dateLabel}</span><button className="button secondary" onClick={openImport}><Plus size={16}/>导入数据</button></div></div>
 
-        {page !== 'archive' && page !== 'history' && page !== 'watchlist' && <><div className={`data-banner ${mode}`}><div><span className="banner-icon">{mode === 'demo' ? <Info size={17}/> : <ShieldCheck size={17}/>}</span><span><strong>{mode === 'historical' ? '已找到的历史报价已接入市场总览' : mode === 'catalog' ? '报价全部待核验' : mode === 'demo' ? '模拟数据 · 不是在售或成交价' : '真实记录工作区'}</strong><span className="banner-detail">{mode === 'historical' ? `${historicalMarket.dashboard.summary.productCount} 组型号与报价类型、${historicalArchive.records.length} 条报价。日期为文章发表日期，不能作为今天的在售价或成交价；缺失日期保持空白。` : mode === 'catalog' ? '此前的模拟现价、历史低价与涨跌已撤下。当前只展示参考规格；没有可追溯证据的价格不填数值。' : mode === 'demo' ? '仅供开发测试，不代表现在能买到的价格，也不是实际成交记录。' : '仅展示有来源的已收录记录；挂牌价、优惠价与成交价须区分口径。'}</span></span></div><div className="mode-switch" aria-label="数据工作区"><button className={mode === 'historical' ? 'active' : ''} aria-pressed={mode === 'historical'} onClick={() => setMode('historical')}>已找到的历史报价</button>{IS_STANDALONE ? <button className={mode === 'catalog' ? 'active' : ''} aria-pressed={mode === 'catalog'} onClick={() => setMode('catalog')}>规格目录 · 待核验</button> : <button className={mode === 'demo' ? 'active' : ''} aria-pressed={mode === 'demo'} onClick={() => setMode('demo')}>模拟测试数据</button>}<button className={mode === 'real' ? 'active' : ''} aria-pressed={mode === 'real'} onClick={() => setMode('real')}>真实记录</button></div></div>
+        {page !== 'archive' && page !== 'history' && page !== 'watchlist' && page !== 'data' && mode !== 'market' && <><div className={`data-banner ${mode}`}><div><span className="banner-icon">{mode === 'demo' ? <Info size={17}/> : <ShieldCheck size={17}/>}</span><span><strong>{mode === 'historical' ? '已找到的历史报价已接入市场总览' : mode === 'catalog' ? '报价全部待核验' : mode === 'demo' ? '模拟数据 · 不是在售或成交价' : '真实记录工作区'}</strong><span className="banner-detail">{mode === 'historical' ? `${historicalMarket.dashboard.summary.productCount} 组型号与报价类型、${historicalArchive.records.length} 条报价。日期为文章发表日期，不能作为今天的在售价或成交价；缺失日期保持空白。` : mode === 'catalog' ? '此前的模拟现价、历史低价与涨跌已撤下。当前只展示参考规格；没有可追溯证据的价格不填数值。' : mode === 'demo' ? '仅供开发测试，不代表现在能买到的价格，也不是实际成交记录。' : '仅展示有来源的已收录记录；挂牌价、优惠价与成交价须区分口径。'}</span></span></div><div className="mode-switch" aria-label="数据工作区"><button className={mode === 'historical' ? 'active' : ''} aria-pressed={mode === 'historical'} onClick={() => setMode('historical')}>已找到的历史报价</button>{IS_STANDALONE ? <button className={mode === 'catalog' ? 'active' : ''} aria-pressed={mode === 'catalog'} onClick={() => setMode('catalog')}>规格目录 · 待核验</button> : <button className={mode === 'demo' ? 'active' : ''} aria-pressed={mode === 'demo'} onClick={() => setMode('demo')}>模拟测试数据</button>}<button className={mode === 'real' ? 'active' : ''} aria-pressed={mode === 'real'} onClick={() => setMode('real')}>真实记录</button></div></div>
         {IS_STANDALONE && <div className="hosted-notice"><span><ShieldCheck size={15}/> 免费在线展示版 · {mode === 'catalog' ? '报价核验中' : mode === 'historical' ? `最新文章 ${dashboard.summary.latestDate || '—'}` : dashboard.summary.latestDate || '暂无已核验日期'} · {mode === 'historical' ? '原文可追溯 · 优惠条件逐条保留' : mode === 'catalog' ? '仅提供规格目录，不含未经核实的价格' : '导出内容为已收录最低价'}</span><a href="./index.html" download="芯价看板.html"><Download size={14}/>保存离线看板</a></div>}
         {error && <div className="error-banner" role="alert">{error}<button onClick={() => setRefresh(v => v + 1)}>重新加载</button></div>}</>}
 
-        {page === 'history' ? <HistoricalPrices query={query} onQueryChange={setQuery}/> : page === 'archive' ? <PublicPriceArchive query={query} onQueryChange={setQuery} onOpenHistory={()=>{setPage('history');setQuery('');}}/> : page === 'watchlist' ? <Watchlist products={watchlistProducts} favorites={favorites} onToggle={toggleFavorite} onOpen={openFavoriteProduct} loading={catalogLoading || loading} query={query} onQueryChange={setQuery}/> : page !== 'sources' ? <>
+        {page === 'data' ? <DataCenter favorites={favorites} onChanged={(message,next)=>{if(next)setFavorites(next);setRefresh(n=>n+1);setNotice(message);}} onOpenMarket={()=>{setMode('market');setPage('market');setQuery('');}}/> : page === 'market' && mode === 'market' ? <CompleteMarket dashboard={dashboard} loading={loading} error={error} query={query} onQueryChange={setQuery} favorites={favorites} onToggle={toggleFavorite} requestedId={requestedMarketId} onNotice={setNotice} onImport={()=>setPage('data')}/> : page === 'history' ? <HistoricalPrices query={query} onQueryChange={setQuery}/> : page === 'archive' ? <PublicPriceArchive query={query} onQueryChange={setQuery} onOpenHistory={()=>{setPage('history');setQuery('');}}/> : page === 'watchlist' ? <Watchlist products={watchlistProducts} favorites={favorites} onToggle={toggleFavorite} onOpen={openFavoriteProduct} loading={catalogLoading || loading} query={query} onQueryChange={setQuery}/> : page !== 'sources' ? <>
           <section className="category-grid" aria-label="按硬件品类筛选">{categories.map(c => {
             const products = dashboard.products.filter(p => p.category === c.id);
             const prices = products.filter(p => p.changePercent != null);
@@ -299,24 +320,23 @@ export default function App() {
             <div className="table-bottom"><span>共 {filtered.length} 个型号{filtered.length ? `，显示 ${tablePage * PAGE_SIZE + 1}–${Math.min((tablePage + 1) * PAGE_SIZE, filtered.length)}` : ''}<span className="table-bottom-tip">同型号的不同规格独立记录</span></span><div className="pagination"><button className="icon-button" aria-label="上一页" disabled={tablePage === 0} onClick={() => setTablePage(value => Math.max(0,value-1))}><ChevronLeft size={16}/></button><span>{tablePage + 1} / {Math.max(1,Math.ceil(filtered.length / PAGE_SIZE))}</span><button className="icon-button" aria-label="下一页" disabled={(tablePage+1)*PAGE_SIZE >= filtered.length} onClick={() => setTablePage(value => value+1)}><ChevronRight size={16}/></button></div></div>
           </section>
         </> : <SourcesPage dashboard={dashboard} mode={mode} status={status} error={statusError} onImport={openImport} onRefresh={() => setRefresh(v => v + 1)}/>}
-        <footer className="page-footer"><span><span className="footer-mark"><Cpu size={13}/></span> 芯价 · 为每一次理性升级</span><span>价格单位 CNY <span className="footer-divider">/</span> 北京时间 UTC+8 <span className="footer-divider">/</span> {page === 'history' || mode === 'historical' && page === 'market' ? '文章日期 · 非成交或持续在售价' : page === 'archive' ? '公开报价观察 · 尚未直核成交' : mode === 'catalog' ? '未经核验，不显示数值' : mode === 'demo' ? '模拟测试，不是交易价格' : '价格以可追溯来源为准'}</span></footer>
+        <footer className="page-footer"><span><span className="footer-mark"><Cpu size={13}/></span> 芯价 · 为每一次理性升级</span><span>价格单位 CNY <span className="footer-divider">/</span> 北京时间 UTC+8 <span className="footer-divider">/</span> {mode === 'market' ? '各来源口径独立标注 · 未独立核验成交' : page === 'history' || mode === 'historical' && page === 'market' ? '文章日期 · 非成交或持续在售价' : page === 'archive' ? '公开报价观察 · 尚未直核成交' : mode === 'catalog' ? '未经核验，不显示数值' : mode === 'demo' ? '模拟测试，不是交易价格' : '价格以可追溯来源为准'}</span></footer>
       </main>
     </div>
     {importOpen && <ImportDialog onClose={() => setImportOpen(false)} onImported={message => {setMode('real');setRefresh(v => v + 1);setNotice(message);setImportOpen(false);setQuery('');pickCategory('all');setPage('market');}}/>}
-    {staticInfoOpen && <StandaloneInfoDialog onClose={() => setStaticInfoOpen(false)}/>}
-    {page !== 'sources' && page !== 'archive' && page !== 'history' && comparedProducts.length > 0 && <aside className="comparison-tray" aria-label="待对比型号"><div><ArrowLeftRight size={19}/><strong>规格对比</strong><span>{comparedProducts.length} / 3</span></div><div className="comparison-tray-models">{comparedProducts.map(p => <span key={p.id} title={p.spec}>{p.name}<button aria-label={`移除对比 ${p.name} ${p.spec}`} onClick={() => setCompareIds(ids => ids.filter(id => id !== p.id))}><X size={12}/></button></span>)}</div><button className="button primary" onClick={() => compareRef.current?.scrollIntoView({behavior:'smooth',block:'start'})}>查看对比 <ArrowRight size={15}/></button><button className="icon-button" aria-label="清空对比选择" onClick={() => setCompareIds([])}><X size={17}/></button></aside>}
+    {page !== 'sources' && page !== 'archive' && page !== 'history' && page !== 'data' && mode !== 'market' && comparedProducts.length > 0 && <aside className="comparison-tray" aria-label="待对比型号"><div><ArrowLeftRight size={19}/><strong>规格对比</strong><span>{comparedProducts.length} / 3</span></div><div className="comparison-tray-models">{comparedProducts.map(p => <span key={p.id} title={p.spec}>{p.name}<button aria-label={`移除对比 ${p.name} ${p.spec}`} onClick={() => setCompareIds(ids => ids.filter(id => id !== p.id))}><X size={12}/></button></span>)}</div><button className="button primary" onClick={() => compareRef.current?.scrollIntoView({behavior:'smooth',block:'start'})}>查看对比 <ArrowRight size={15}/></button><button className="icon-button" aria-label="清空对比选择" onClick={() => setCompareIds([])}><X size={17}/></button></aside>}
     {notice && <div className="toast" role="status"><Check size={18}/>{notice}<button aria-label="关闭提示" onClick={() => setNotice('')}><X size={14}/></button></div>}
   </div>;
 }
 
 function SourcesPage({dashboard, mode, status, error, onImport, onRefresh}: {dashboard: Dashboard; mode: Mode; status: CollectorStatus | null; error: string; onImport: () => void; onRefresh: () => void}) {
   const summary = dashboard.summary;
-  return <div className="sources-page">
+  return <div className="sources-page"><DataHealth detailed/>
     <section className="panel price-audit-summary"><h2><Database size={21}/>公开报价档案已接入</h2><p>已收录 {publicArchive.products.length} 个来源型号、{publicArchive.observations.length} 条公开报价观察。中关村在线与太平洋电脑网的参考价、转引电商报价独立展示；请从左侧“已收录报价”进入并下载全部记录。下方统计对应当前选择的数据工作区；历史文章报价不计为成交记录，公开报价档案另行统计。</p><p>公开页面采集计划：每天北京时间 09:15，来源失败时保留旧数据与原日期；不代表当前可购或成交核验。</p></section>
     <section className="panel price-audit-summary" aria-label="价格重新核验结果"><h2><ShieldCheck size={21}/>价格重新核验结果</h2><p>已另行收录公开网站报价（最新采集时间见“已收录报价”页），转引报价与参考价独立展示，均未确认为成交价。此前页面的 ¥721 等价格来自模拟公式，没有可购买链接或成交凭据，相关现价、历史低价、涨跌与推算周线均已从公开版移除。</p><div className="price-audit-counters"><div><strong>66</strong><span>型号 / 参考配置待核验</span></div><div><strong>0</strong><span>核验通过的人民币在售报价</span></div><div><strong>0</strong><span>有成交凭据的价格记录</span></div></div><ul><li>已检查现有价格的来源，确认原公开快照全部为模拟数据，不能用作在售或成交证据。</li><li>此前访问受网络限制；本次重试后已能读取中关村在线、太平洋电脑网等公开报价页，京东仍返回验证页面，什么值得买搜索未返回有效商品内容。已收录的来源报价不代表商家实时可购买价。</li><li>新报价必须匹配精确料号、容量、频率、条数和卖家，并保存链接、核查时间、优惠条件与运费；成交价还须有订单或成交依据。</li><li>未获取证据的价格保持“待核验”，不使用估价、旧报价或模拟数字替代。</li></ul><a className="text-link" href="https://github.com/newallansales-stack/-/blob/main/docs/price-audit.md" target="_blank" rel="noreferrer">查看全部 66 项核验清单与访问证据 <ExternalLink size={14}/></a></section>
     <section className="source-stats">{[{label:'在库型号', value:integer(summary.productCount), icon:Cpu}, {label:'价格观测记录',value:integer(summary.observationCount),icon:Database}, {label:'有记录的日期',value:integer(summary.recordedDays),icon:CalendarDays}, {label:'报价来源',value:integer(summary.sourceCount),icon:Layers3}].map(s => <div className="panel source-stat" key={s.label}><s.icon size={20}/><span>{s.label}</span><strong>{s.value}</strong></div>)}</section>
     <div className="sources-grid"><section className="panel source-list"><div className="small-panel-heading"><h2>已接入的记录来源</h2><span className={`tag ${mode === 'demo' ? '' : 'green'}`}>{mode === 'historical' ? '历史文章报价' : mode === 'demo' ? '演示数据' : '真实记录'}</span></div><p className="muted">{summary.earliestDate ? `${summary.earliestDate} 至 ${summary.latestDate}` : '尚未导入真实价格数据'} · 仅统计实际有记录的日期</p>{dashboard.sources.length ? <div className="source-rows">{dashboard.sources.map((s,i) => <div className="source-row" key={s.name}><span className={`source-logo logo-${i % 4}`}>{s.name.slice(0,1)}</span><div><strong>{s.name}</strong><p>{integer(s.observationCount)} 条记录</p></div><span className="source-row-date">最新 {s.latestDate}</span><span className="tag">{mode === 'demo' ? '模拟' : '已入库'}</span></div>)}</div> : <div className="empty-source"><FileSpreadsheet size={35}/><h3>等待第一份真实数据</h3><p>导入你有权使用的价格记录，保留日期和来源。</p><button className="button primary" onClick={onImport}><Upload size={16}/>导入 CSV</button></div>}</section>
-    <section className="panel collector-panel"><div className="small-panel-heading"><h2>{IS_STANDALONE ? '数据更新方式' : '每日采集'}</h2><button className="icon-button" onClick={onRefresh} aria-label="刷新采集状态"><RefreshCw size={16}/></button></div>{error ? <p className="error-text" role="alert">{error}</p> : <><span className={`collector-badge ${status?.collector.configured ? 'configured' : ''}`}><span className="live-dot"/>{IS_STANDALONE ? '发布时的价格快照' : status?.collector.configured ? '已配置数据源' : '尚未配置数据源'}</span><p>{IS_STANDALONE ? '当前为独立展示版，图表不依赖临时服务器；更新随网站重新发布，不在浏览器中采集价格。' : '配置获授权的 HTTPS 价格接口后，可每日自动同步到真实记录工作区。'}</p><dl className="collector-details"><div><dt>时区</dt><dd>Asia/Shanghai</dd></div><div><dt>计划</dt><dd>{status?.collector.schedule || '每日 09:00'}</dd></div><div><dt>上次执行</dt><dd>{status?.collector.lastRunAt ? new Date(status.collector.lastRunAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}) : '尚未执行'}</dd></div><div><dt>执行结果</dt><dd>{status?.collector.lastStatus || '等待数据源'}</dd></div></dl>{status?.collector.lastError && <p className="error-text">{status.collector.lastError}</p>}<div className="inline-info"><Info size={16}/><span>{IS_STANDALONE ? '公开报价由 GitHub Actions 每日北京时间 09:15 计划采集并发布，可能因平台调度或来源失败而延后；浏览器不执行采集。在线导入仍需完整版。' : '配置接口与运行采集服务的步骤见项目 README。配置状态不代表进程正在运行。'}</span></div></>}</section></div>
+    <section className="panel collector-panel"><div className="small-panel-heading"><h2>{IS_STANDALONE ? '数据更新方式' : '每日采集'}</h2><button className="icon-button" onClick={onRefresh} aria-label="刷新采集状态"><RefreshCw size={16}/></button></div>{error ? <p className="error-text" role="alert">{error}</p> : <><span className={`collector-badge ${status?.collector.configured ? 'configured' : ''}`}><span className="live-dot"/>{IS_STANDALONE ? '发布时的价格快照' : status?.collector.configured ? '已配置数据源' : '尚未配置数据源'}</span><p>{IS_STANDALONE ? '公开采集在 GitHub Actions 运行，页面读取已发布快照；私有导入在本机保存，可备份恢复。' : '配置获授权的 HTTPS 价格接口后，可每日自动同步到真实记录工作区。'}</p><dl className="collector-details"><div><dt>时区</dt><dd>Asia/Shanghai</dd></div><div><dt>计划</dt><dd>{status?.collector.schedule || '每日 09:00'}</dd></div><div><dt>上次执行</dt><dd>{status?.collector.lastRunAt ? new Date(status.collector.lastRunAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}) : '尚未执行'}</dd></div><div><dt>执行结果</dt><dd>{status?.collector.lastStatus || '等待数据源'}</dd></div></dl>{status?.collector.lastError && <p className="error-text">{status.collector.lastError}</p>}<div className="inline-info"><Info size={16}/><span>{IS_STANDALONE ? '公开报价由 GitHub Actions 每日北京时间 09:15 计划采集并发布，可能因平台调度或来源失败而延后；浏览器不执行采集。导入私有价格可在“导入 / 备份”中直接使用，本机保存不跨设备同步。' : '配置接口与运行采集服务的步骤见项目 README。配置状态不代表进程正在运行。'}</span></div></>}</section></div>
     <section className="panel methodology"><div className="small-panel-heading"><h2>我们如何计算价格</h2><span className="tag">透明数据口径</span></div><div className="method-grid"><div><span className="method-number">01</span><h3>同规格，才可比较</h3><p>每个型号独立记录品牌、容量、频率、接口等规格。同一天多个来源的报价取最低值；优惠券、二手成色等差异应在型号或来源中明确区分。</p></div><div><span className="method-number">02</span><h3>一周，一根 K 线</h3><p>每周一开始：首个有记录日为开盘价，末日为收盘价；最高、最低取当周每日最低报价。下方柱形表示报价记录数量，不是成交量。</p></div><div><span className="method-number">03</span><h3>记录缺口，如实保留</h3><p>支持 2020 年起的历史记录，上市之前不计入覆盖率。缺失日期不会填成零或推算；“历史最低”仅指已收录记录的最低价。</p></div></div></section>
     <section className="panel public-sources"><div className="small-panel-heading"><h2>公开数据源调查</h2><span className="tag">已核查 · 2026-10-20</span></div><div className="inline-info"><Info size={17}/><span>已读取候选项目的数据文件、接口实现及许可证。目前未找到可验证的、2020 年起完整逐日中国全网价格；以下来源的覆盖范围各不相同。</span></div><div className="research-cards">{[
       {name:'PC Part Dataset', url:'https://github.com/docyx/pc-part-dataset', tag:'MIT · 可下载', detail:'28,063 条 CPU / 内存 / 显卡 / 存储产品记录。2025-07-23 美元快照，可参考型号规格，不能作为人民币每日历史价。', kind:'green'},
@@ -325,12 +345,6 @@ function SourcesPage({dashboard, mode, status, error, onImport, onRefresh}: {das
       {name:'中国电商价格接口', url:'https://union.jd.com/openplatform', tag:'待验证授权', detail:'京东联盟与淘宝联盟主要提供当前商品报价，不能据此承诺逐日回溯。本次重试中京东仍返回验证页面，尚未取得可确认的结算价；公开报价档案另行保存了中关村在线与太平洋电脑网的来源页观察。', kind:''},
     ].map(s => <a className="research-card" href={s.url} key={s.name} target="_blank" rel="noreferrer"><div><strong>{s.name}</strong><ExternalLink size={14}/></div><span className={`tag ${s.kind}`}>{s.tag}</span><p>{s.detail}</p></a>)}</div><p className="muted">更完整的来源、固定提交与核查证据见项目 docs/research.md。模拟报价未导入真实记录。</p></section>
   </div>;
-}
-
-function StandaloneInfoDialog({onClose}: {onClose: () => void}) {
-  const ref = useRef<HTMLDialogElement>(null);
-  useEffect(() => {const dialog = ref.current;dialog?.showModal();return () => dialog?.close();}, []);
-  return <dialog ref={ref} className="import-dialog standalone-dialog" aria-labelledby="standalone-title" onCancel={onClose} onClick={e => {if (e.target === e.currentTarget) onClose();}}><div className="modal-header"><span className="modal-icon"><Database size={23}/></span><button className="icon-button" onClick={onClose} aria-label="关闭展示版说明"><X size={20}/></button></div><h2 id="standalone-title">当前为免费在线展示版</h2><p className="modal-description">查看图表、筛选型号和管理自选都可以直接使用。公开报价已由 GitHub Actions 计划采集；在线导入与共享数据库需要另行运行完整版。</p><div className="inline-info"><Info size={17}/><span>公开版提供来源报价档案与规格目录，原有模拟价格已经移除。公开报价不等于已核实的当前售价；导入私有记录需运行完整版。</span></div><div className="modal-footer"><a className="button secondary" href="https://github.com/newallansales-stack/-#readme" target="_blank" rel="noreferrer"><ExternalLink size={15}/>查看完整版说明</a><button className="button primary" onClick={onClose}>继续查看行情</button></div></dialog>;
 }
 
 function ImportDialog({onClose, onImported}: {onClose: () => void; onImported: (message: string) => void}) {

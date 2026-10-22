@@ -145,7 +145,7 @@ const save=(path,value)=>{mkdirSync(dirname(resolve(path)),{recursive:true});wri
 export async function collectHistory({indexPath=INDEX,output=OUTPUT,maxDays=60,maxArticles=100,scan=true}={}) {
   const state=existsSync(indexPath)?JSON.parse(readFileSync(indexPath,'utf8')):{pages:{},candidates:{}};
   const previous=existsSync(output)?JSON.parse(readFileSync(output,'utf8')):{records:[],articles:{}};
-  let throttled=false,scanned=0,read=0;
+  let throttled=false,scanned=0,read=0,failedRequests=0,successfulRequests=0;
   if(scan){
     const days=[];for(let d=new Date('2020-01-01T00:00:00Z');d.toISOString().slice(0,10)<=today();d.setUTCDate(d.getUTCDate()+1))days.push(d.toISOString().slice(0,10));
     const missing=[...new Set([...days.slice(-2).reverse(),...days.filter(day=>state.pages[day]?.status!=='ok')])].slice(0,maxDays);
@@ -153,8 +153,8 @@ export async function collectHistory({indexPath=INDEX,output=OUTPUT,maxDays=60,m
     // oldest uninspected days. Existing article observations keep their dates.
     for(const date of missing){
       const url=`https://www.ithome.com/list/${date}.html`;
-      try{const {html,sha256}=await readPage(url);const parsed=parseNewsIndex(html,{url,date});state.pages[date]={status:'ok',articles:parsed.articles,sha256};for(const c of parsed.candidates)state.candidates[c.url]=c;}
-      catch(e){state.pages[date]={status:'failed',error:e.message};if(e.message==='RATE_LIMIT'){throttled=true;break;}}
+      try{const {html,sha256}=await readPage(url);const parsed=parseNewsIndex(html,{url,date});state.pages[date]={status:'ok',articles:parsed.articles,sha256};for(const c of parsed.candidates)state.candidates[c.url]=c;successfulRequests++;}
+      catch(e){failedRequests++;state.pages[date]={status:'failed',error:e.message};if(e.message==='RATE_LIMIT'){throttled=true;break;}}
       scanned++;if(scanned%20===0)console.log(`[history] scanned ${scanned} calendar days`);
       await new Promise(r=>setTimeout(r,300));
     }
@@ -164,7 +164,7 @@ export async function collectHistory({indexPath=INDEX,output=OUTPUT,maxDays=60,m
   const successful=Object.entries(state.pages).filter(([,p])=>p.status==='ok').map(([d])=>d).sort();
   function snapshot(){return {version:1,updatedAt:new Date().toISOString(),description:'免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。',
     records:[...records.values()].sort((a,b)=>a.publicationDate.localeCompare(b.publicationDate)||a.id.localeCompare(b.id)),articles,
-    discovery:{scannedDays:successful.length,firstScannedDate:successful[0]??null,lastScannedDate:successful.at(-1)??null,candidates:Object.keys(state.candidates).length,checkedArticles:Object.keys(articles).length,scannedThisRun:scanned,checkedThisRun:read,throttled}};}
+    discovery:{scannedDays:successful.length,firstScannedDate:successful[0]??null,lastScannedDate:successful.at(-1)??null,candidates:Object.keys(state.candidates).length,checkedArticles:Object.keys(articles).length,scannedThisRun:scanned,checkedThisRun:read,failedRequestsThisRun:failedRequests,successfulRequestsThisRun:successfulRequests,throttled}};}
   const buckets=new Map();
   for(const c of Object.values(state.candidates).filter(c=>!articles[c.url]&&!wholeSystem.test(c.title))){
     const year=c.publishedDate.slice(0,4);if(!buckets.has(year))buckets.set(year,[]);buckets.get(year).push(c);
@@ -186,7 +186,8 @@ export async function collectHistory({indexPath=INDEX,output=OUTPUT,maxDays=60,m
         const parsed=parseHistoricalArticle(response.html,{url:candidate.url,indexDate:candidate.publishedDate,...response});
         for(const q of parsed.records)if(!records.has(q.id))records.set(q.id,q);
         articles[candidate.url]={status:'ok',recordCount:parsed.records.length,date:parsed.publicationDate,sha256:response.sha256};
-      }catch(e){articles[candidate.url]={status:'failed',error:e.message};if(e.message==='RATE_LIMIT')throttled=true;}
+        successfulRequests++;
+      }catch(e){failedRequests++;articles[candidate.url]={status:'failed',error:e.message};if(e.message==='RATE_LIMIT')throttled=true;}
       read++;if(read%20===0){save(output,snapshot());console.log(`[history] checked ${read} articles / ${records.size} historical quotes`);}
     }
   }

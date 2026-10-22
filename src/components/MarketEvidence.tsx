@@ -1,0 +1,11 @@
+import {ExternalLink,Info} from 'lucide-react';
+import {publicMarket} from '../public-market';
+import {createLocalMarket} from '../local-data';
+import type {Product} from '../types';
+export default function MarketEvidence({product}:{product:Product}){
+  const publicRows=product.dataMode==='public'?publicMarket.recordsFor(product.id):[];
+  const localRows=product.dataMode==='local'?createLocalMarket().recordsFor(product.id):[];
+  const rows=publicRows.map(r=>({id:r.id,date:r.date,price:r.price,source:r.source,url:r.sourceUrl,conditions:r.conditions,merchantUrl:r.merchantUrl})).concat(localRows.map(r=>({id:r.key,date:r.date,price:r.price,source:r.source,url:r.url,conditions:r.conditions,merchantUrl:null})));
+  const peers=publicRows.length?publicMarket.dashboard.products.filter(p=>p.category===product.category&&p.id!==product.id&&p.brand===product.brand&&p.quoteBasis===product.quoteBasis&&p.profile?.facets.capacityGb===product.profile?.facets.capacityGb).slice(0,3):[];
+  return <section className="panel historical-market-evidence" aria-label="型号报价证据与分析"><h2>型号报价证据与分析</h2><p>{product.profile?.analysis.summary} 目前 {rows.length} 条记录、{new Set(rows.map(r=>r.date)).size} 个报价日期。{rows.length<2?'记录不足，不能据此判断价格趋势。':'最低价仅在同一来源型号和同一报价口径内计算。'} {product.dataMode==='public'?'来源观察日期不代表商家报价生效日，转引 SKU 与来源型号的对应关系仍须到商家核对。':'价格由用户提供，未对来源、成交或优惠条件进行独立核验。'}</p>{product.specificationConflict&&<div className="import-error"><Info size={16}/>来源标题与参数存在冲突，未据此合并类似型号。请先核对原始页面。</div>}<dl className="spec-chips">{product.profile?.fields.map(f=><div key={f.key}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>{peers.length>0&&<p>同品牌、同容量且同口径的来源资料包括：{peers.map(p=>p.name).join('；')}。不能仅凭容量或售价认定性能相同；可以通过“对比”查看参数差异。</p>}{[...rows].reverse().slice(0,30).map(r=><article key={r.id}><div><strong>¥{r.price.toLocaleString('zh-CN')}</strong><span>{product.dataMode==='public'?'观察日期':'用户记录日期'} {r.date}</span><span>{r.source}</span></div><p>报价条件：{r.conditions||'未提供，须核对原始证据'}</p><a href={r.url} target="_blank" rel="noreferrer">打开报价证据<ExternalLink size={13}/></a>{r.merchantUrl&&<a href={r.merchantUrl} target="_blank" rel="noreferrer" className="merchant-check-link">到商家核对具体 SKU<ExternalLink size={13}/></a>}</article>)}{rows.length>30&&<p>显示最近 30 条证据；当前型号 CSV 包含全部记录。</p>}</section>;
+}

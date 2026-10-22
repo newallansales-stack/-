@@ -45,14 +45,25 @@ jobs:
         run: npm ci
 
       - name: Collect public source observations
+        id: public_collection
+        continue-on-error: true
         if: github.event_name == 'schedule' || inputs.refresh_prices
         timeout-minutes: 10
         run: npm run collect:public
 
       - name: Discover and collect historical article quotations
+        id: history_collection
+        continue-on-error: true
         if: github.event_name == 'schedule' || inputs.refresh_prices
         timeout-minutes: 10
         run: npm run collect:history
+
+      - name: Record collection outcome without changing old price dates
+        if: always() && (github.event_name == 'schedule' || inputs.refresh_prices)
+        env:
+          PUBLIC_COLLECTION_OUTCOME: ${{ steps.public_collection.outcome }}
+          HISTORY_COLLECTION_OUTCOME: ${{ steps.history_collection.outcome }}
+        run: node scripts/record-collection-status.mjs
 
       - name: Run tests
         run: npm test
@@ -62,7 +73,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add datasets/public-prices.json datasets/historical-prices.json datasets/history-index.json
+          git add datasets/public-prices.json datasets/historical-prices.json datasets/history-index.json datasets/collection-status.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record public hardware quote observations'
             git push origin HEAD:main
@@ -122,7 +133,12 @@ jobs:
             try {
               const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
               const html = await response.text();
-              if (!response.ok || !html.includes(expected) || !html.includes(historyExpected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('历史文章报价') || !html.includes('最近历史报价') || !html.includes('搜索我的自选') || !html.includes('搜索并添加自选') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
+              const versionResponse = await fetch(new URL('data-version.json', url), { signal: AbortSignal.timeout(15000) });
+              const version = await versionResponse.json();
+              if (!versionResponse.ok || version.publicUpdatedAt !== expected || version.historyUpdatedAt !== historyExpected || !/^[a-f0-9]{64}$/.test(version.htmlSha256)) throw new Error('Published data version is stale');
+              const {createHash} = await import('node:crypto');
+              if (createHash('sha256').update(html).digest('hex') !== version.htmlSha256) throw new Error('HTML and data version do not match');
+              if (!response.ok || !html.includes(expected) || !html.includes(historyExpected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('历史文章报价') || !html.includes('最近历史报价') || !html.includes('搜索我的自选') || !html.includes('搜索并添加自选') || !html.includes('搜索全部市场型号') || !html.includes('网页直接导入历史价格') || !html.includes('备份价格与自选') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
                 throw new Error(`Dashboard not ready (HTTP ${response.status})`);
               }
               console.log(`Public dashboard verified: HTTP ${response.status} ${url}`);

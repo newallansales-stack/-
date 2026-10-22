@@ -1,9 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync}from'node:fs';
+import {readFileSync,mkdtempSync,mkdirSync,writeFileSync,rmSync}from'node:fs';
+import {tmpdir}from'node:os';
+import {join}from'node:path';
+import {spawnSync}from'node:child_process';
+import {fileURLToPath}from'node:url';
 import ts from 'typescript';
 import {parse}from'csv-parse/sync';
-import {identifyPart,parseHistoricalPrice,parseNewsIndex,parseHistoricalArticle,historicalProductKey}from'../scripts/collect-history.mjs';
+import {identifyPart,parseHistoricalPrice,parseNewsIndex,parseHistoricalArticle,historicalProductKey,collectHistory}from'../scripts/collect-history.mjs';
 
 const url='https://www.ithome.com/0/123/456.htm';
 const observedAt='2026-10-21T08:00:00Z';
@@ -83,4 +87,24 @@ test('published historical records have traceable article evidence and cannot be
     assert.equal(r.effectiveDate,null);assert.equal(r.dateBasis,'article_publication');assert.equal(r.verification,'published_article_only');assert.equal(r.availability,'historical_unknown');
     assert.equal(r.publicationDate,r.publishedAt.slice(0,10));assert(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(r.observedAt))>=r.publicationDate);
   }
+});
+
+test('failed historical fetches retain old price dates and are reported as failure even when archive writing completes',async()=>{
+  const dir=mkdtempSync(join(tmpdir(),'chipprice-history-failure-')),indexPath=join(dir,'index.json'),output=join(dir,'archive.json');
+  const previous=parseHistoricalArticle(fixture(),{url,indexDate:'2020-01-09',observedAt}).records[0];
+  writeFileSync(indexPath,JSON.stringify({pages:{},candidates:{[url]:{url,publishedDate:'2020-01-09',title:'FIXTURE DDR4 299元'}}}));
+  writeFileSync(output,JSON.stringify({records:[previous],articles:{}}));
+  const oldFetch=globalThis.fetch;globalThis.fetch=async()=>new Response('Unavailable',{status:503});
+  try{
+    const archive=await collectHistory({indexPath,output,maxDays:0,maxArticles:1,scan:false});
+    assert.equal(archive.records.length,1);assert.equal(archive.records[0].publicationDate,previous.publicationDate);assert.equal(archive.records[0].price,previous.price);
+    assert.equal(archive.discovery.failedRequestsThisRun,1);assert.equal(archive.discovery.successfulRequestsThisRun,0);
+    mkdirSync(join(dir,'datasets'));
+    writeFileSync(join(dir,'datasets/historical-prices.json'),JSON.stringify(archive));
+    writeFileSync(join(dir,'datasets/public-prices.json'),JSON.stringify({updatedAt:observedAt,lastCollection:{successfulPages:0,attempts:[]}}));
+    const result=spawnSync(process.execPath,[fileURLToPath(new URL('../scripts/record-collection-status.mjs',import.meta.url))],{cwd:dir,env:{PUBLIC_COLLECTION_OUTCOME:'failure',HISTORY_COLLECTION_OUTCOME:'success'},encoding:'utf8'});
+    assert.equal(result.status,0,result.stderr);
+    const status=JSON.parse(readFileSync(join(dir,'datasets/collection-status.json'),'utf8'));
+    assert.equal(status.overall,'failed');assert.equal(status.history.outcome,'failure');assert.equal(status.history.failedRequestsThisRun,1);
+  }finally{globalThis.fetch=oldFetch;rmSync(dir,{recursive:true,force:true});}
 });
