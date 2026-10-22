@@ -122,7 +122,7 @@ jobs:
             try {
               const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
               const html = await response.text();
-              if (!response.ok || !html.includes(expected) || !html.includes(historyExpected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('历史文章报价') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
+              if (!response.ok || !html.includes(expected) || !html.includes(historyExpected) || !html.includes('芯价') || !html.includes('content="source-observations"') || !html.includes('已收录的公开报价') || !html.includes('历史文章报价') || !html.includes('最近历史报价') || !html.includes('搜索我的自选') || !html.includes('搜索并添加自选') || !html.includes('source_page_only') || html.includes('src="/src/main.tsx"')) {
                 throw new Error(`Dashboard not ready (HTTP ${response.status})`);
               }
               console.log(`Public dashboard verified: HTTP ${response.status} ${url}`);

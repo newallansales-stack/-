@@ -69,7 +69,8 @@ function historyFor(id: string, mode: Mode, url: URL): History {
   if (from < HISTORY_START) throw new Error('开始日期不可早于 2020-01-01');
   if (to > chinaToday()) throw new Error('结束日期不可晚于北京时间今天');
   if (from > to) throw new Error('开始日期不可晚于结束日期');
-  const effectiveFrom = from > record.releaseDate ? from : record.releaseDate;
+  const releaseDate = record.releaseDate ?? HISTORY_START;
+  const effectiveFrom = from > releaseDate ? from : releaseDate;
   const daily = record.daily.filter(([date]) => date >= effectiveFrom && date <= to).map(([date, price, count, source]) => ({
     date, price, count, source: snapshot.sourceNames[source],
   }));

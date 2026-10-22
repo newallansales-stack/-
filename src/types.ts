@@ -1,4 +1,4 @@
-export type Mode = 'catalog' | 'demo' | 'real';
+export type Mode = 'catalog' | 'demo' | 'real' | 'historical';
 export type Category = 'all' | 'memory' | 'gpu' | 'cpu' | 'storage';
 export type Interval = 'day' | 'week' | 'month';
 export type ProductProfile = {
@@ -17,11 +17,13 @@ export type ProductProfile = {
 };
 export type Product = {
   id: string; category: Exclude<Category, 'all'>; brand: string;
-  name: string; spec: string; releaseDate: string;
+  name: string; spec: string; releaseDate: string | null;
   currentPrice: number | null; previousPrice: number | null;
   changePercent: number | null; lowPrice: number | null; lowDate: string | null;
   source: string | null; updatedAt: string | null; observationCount: number;
   profile?: ProductProfile;
+  dataMode?: Mode;
+  historical?: {quoteType: 'promotion' | 'reported_listing'; platform: string; sku: string | null; sourceUrl: string; conditions: string};
 };
 export type Summary = {
   productCount: number; observationCount: number; recordedDays: number;

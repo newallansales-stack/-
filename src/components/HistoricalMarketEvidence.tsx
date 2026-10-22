@@ -1,0 +1,7 @@
+import {ExternalLink} from 'lucide-react';
+import {historicalMarket, quoteTypeLabel} from '../historical-market';
+import type {Product} from '../types';
+export default function HistoricalMarketEvidence({product}:{product:Product}) {
+  const records = historicalMarket.recordsFor(product.id);
+  return <section className="panel historical-market-evidence" aria-label="历史型号报价分析"><h2>历史报价分析与原文</h2><p>此组有 {records.length} 条文章报价，涉及 {new Set(records.map(r=>r.publicationDate)).size} 个日期，{records[0].publicationDate} 至 {records.at(-1)!.publicationDate}。记录内最低 ¥{product.lowPrice?.toLocaleString('zh-CN')}（{product.lowDate}）。{records.length===1?'目前只有一条记录，无法判断价格趋势。':'周线只汇总实际找到的报价，空缺日期不补数。'} 上市日期未核实，不以首条报价日期代替。不同商品编号、已知规格和报价类型分别统计；优惠条件仍须逐条核对。</p><dl className="spec-chips">{product.profile?.fields.map(f=><div key={f.key}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>{[...records].reverse().map(r=><article key={r.id}><div><strong>¥{r.price.toLocaleString('zh-CN')}</strong><span>文章日期 {r.publicationDate}</span><span>{quoteTypeLabel(r.quoteType)} · {r.platform}</span></div><p>{r.name} · {r.reportedSpecification || '规格补充未注明'}</p><p>报价条件：{r.conditions || '原文卡片未注明，须核对全文'}</p><details><summary>展开原文报价摘录</summary><p>{r.priceEvidence}</p>{r.articleContext&&<p>{r.articleContext}</p>}</details><a href={r.sourceUrl} target="_blank" rel="noreferrer">查看 {r.source} 报价原文<ExternalLink size={13}/></a></article>)}</section>;
+}

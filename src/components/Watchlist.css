@@ -1,0 +1,66 @@
+.watchlist-toolbar { padding: 22px; display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 22px; }
+.watchlist-toolbar > div { flex: 1; min-width: 180px; }
+.watchlist-toolbar h2 { display: flex; align-items: center; gap: 9px; font-size: 19px; }
+.watchlist-toolbar h2 svg { color: #c4afff; }
+.watchlist-toolbar p { color: #98a8be; font-size: 13px; line-height: 1.9; margin-top: 12px; max-width: 850px; }
+.watchlist-toolbar .catalog-search { flex: 1 0 100%; margin: 0; }
+.watchlist-search-count { color: #9cacc1; font-size: 12px; line-height: 1.8; }
+.watchlist-cards { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.watchlist-card { padding: 22px; min-width: 0; }
+.watchlist-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.watchlist-remove { display: inline-flex; align-items: center; gap: 6px; padding: 8px; color: #c7b5f2; background: none; border: 0; font-size: 12px; }
+.watchlist-card h3 { margin: 15px 0 9px; font-size: 17px; line-height: 1.7; overflow-wrap: anywhere; }
+.watchlist-card > p { font-size: 12px; color: #9aaac0; line-height: 1.9; margin-bottom: 16px; overflow-wrap: anywhere; }
+.watchlist-quote { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; margin-top: 16px; }
+.watchlist-quote strong { color: #dfd2ff; font-size: 20px; }
+.watchlist-quote span { color: #a3b1c7; font-size: 12px; line-height: 1.8; }
+.watchlist-open { margin-top: 18px; width: 100%; }
+.watchlist-empty { padding: 45px 20px; display: flex; align-items: center; flex-direction: column; gap: 17px; text-align: center; }
+.watchlist-empty > svg { color: #bca0fc; }
+.watchlist-empty p { font-size: 13px; color: #9aaac0; line-height: 1.9; }
+.watchlist-unavailable { padding: 20px; margin-top: 22px; }
+.watchlist-unavailable h3 { font-size: 15px; }
+.watchlist-unavailable p { color: #97a6ba; font-size: 12px; line-height: 1.9; margin: 12px 0; }
+.watchlist-unavailable > div { display: flex; gap: 15px; justify-content: space-between; margin-top: 12px; align-items: center; }
+.watchlist-unavailable code { overflow-wrap: anywhere; min-width: 0; color: #b6a8d4; font-size: 12px; }
+.watchlist-unavailable button { color: #b9a1ee; background: none; border: 1px solid #39425a; padding: 8px 12px; border-radius: 5px; flex-shrink: 0; }
+.add-favorites-dialog { width: min(780px,calc(100vw - 24px)); }
+.add-favorites-dialog .modal-header { position: sticky; top: 0; background: #141b27; z-index: 1; }
+.add-favorites-dialog .catalog-search { margin-bottom: 16px; }
+.watchlist-picker-filter { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #a7b3c8; font-size: 12px; }
+.watchlist-picker-filter label { display: flex; align-items: center; gap: 10px; }
+.watchlist-picker-filter select { background: #0d1420; color: #d8dfed; border: 1px solid #3a465c; border-radius: 5px; padding: 9px; }
+.watchlist-picker-results article { display: flex; align-items: center; gap: 18px; padding: 21px 0; border-bottom: 1px solid #303a4e; }
+.watchlist-picker-results article > div { flex: 1; min-width: 0; }
+.watchlist-picker-results h3 { font-size: 14px; line-height: 1.8; margin: 8px 0; overflow-wrap: anywhere; }
+.watchlist-picker-results p { color: #98a8bf; font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
+.watchlist-picker-results .watchlist-quote { margin-top: 9px; }
+.watchlist-picker-results .watchlist-quote strong { font-size: 16px; }
+.watchlist-picker-results article > button { flex-shrink: 0; }
+.watchlist-picker-empty { color: #a3b0c7; text-align: center; padding: 30px 0; font-size: 13px; }
+.watchlist-more { width: 100%; margin-top: 18px; }
+.add-favorites-dialog .modal-footer { justify-content: space-between; position: sticky; bottom: 0; }
+.add-favorites-dialog .modal-footer > span { color: #a3b2c7; font-size: 12px; }
+.historical-market-evidence { padding: 24px; margin-bottom: 24px; }
+.historical-market-evidence h2 { font-size: 18px; }
+.historical-market-evidence > p { color: #a5b3c8; font-size: 13px; line-height: 1.9; margin: 15px 0; }
+.historical-market-evidence article { padding: 18px 0; border-top: 1px solid #303a4b; }
+.historical-market-evidence article > div { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 10px; }
+.historical-market-evidence article strong { color: #deceff; font-size: 18px; }
+.historical-market-evidence article span, .historical-market-evidence article p { color: #a1b0c6; font-size: 12px; line-height: 1.9; overflow-wrap: anywhere; }
+.historical-market-evidence article a { display: inline-flex; align-items: center; gap: 5px; color: #c4adf4; font-size: 13px; margin-top: 10px; }
+.historical-quote-date { color: #a8b4c9; font-size: 12px; line-height: 1.9; margin-top: 8px; }
+.star-button.with-label { width: auto; display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; font-size: 12px; white-space: nowrap; }
+.data-banner.historical { background: #a68bfa0d; border-color: #7965ae66; }
+.data-banner.historical .banner-icon { color: #bfadf4; }
+.market-table-panel .price-cell > small { display: block; color: #9caac0; font-size: 11px; margin-top: 8px; }
+@media(max-width:900px) { .watchlist-cards { grid-template-columns: minmax(0,1fr); } }
+@media(max-width:559px) {
+  .watchlist-toolbar, .watchlist-card, .historical-market-evidence { padding: 17px 14px; }
+  .watchlist-toolbar > .button { width: 100%; }
+  .watchlist-toolbar h2 { font-size: 17px; }
+  .watchlist-picker-filter { align-items: flex-start; flex-direction: column; }
+  .watchlist-picker-results article { align-items: stretch; flex-direction: column; gap: 12px; }
+  .add-favorites-dialog .modal-footer > span { font-size: 11px; }
+  .watchlist-quote { flex-direction: column; }
+}
