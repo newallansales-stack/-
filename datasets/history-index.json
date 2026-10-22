@@ -3159,7 +3159,7 @@
     "2026-10-21": {
       "status": "ok",
       "articles": 260,
-      "sha256": "87c92c8bb2acf8ffa8a1b6c21b1cb3af81ff47dfce54e6e634ab3a6ad01a0592"
+      "sha256": "3eed4a95a164edd190f9a704ffe8499b858d3b012bd35797a2f6bf0a8512e87c"
     },
     "2026-10-20": {
       "status": "ok",
@@ -3458,8 +3458,8 @@
     },
     "2026-10-22": {
       "status": "ok",
-      "articles": 66,
-      "sha256": "c9fb4b3f399213ac08587e704a0416748de3beb17fc21aa625883c13abb41933"
+      "articles": 106,
+      "sha256": "06bfd677571f6bdb6358acefd2ea39b8d0cd3eeb35e73791211055ed7ead2395"
     },
     "2021-03-14": {
       "status": "ok",
@@ -4035,6 +4035,296 @@
       "status": "ok",
       "articles": 171,
       "sha256": "581550a28194b75bed8b408aa7e7f08035e5fe747f4917e7e495e584ae156783"
+    },
+    "2021-08-05": {
+      "status": "ok",
+      "articles": 172,
+      "sha256": "c9c8e6f4e52bf729b90434ecfd805ebef0efb773c435973ad649fa4eca1e55d8"
+    },
+    "2021-08-06": {
+      "status": "ok",
+      "articles": 170,
+      "sha256": "2a212a5235a15d15638fb2f20045a9b7e13e1351c9410a848fdc94324c6e2bd6"
+    },
+    "2021-08-07": {
+      "status": "ok",
+      "articles": 103,
+      "sha256": "24229c4f6cbf9dedddba2893b3677ddde9fe3a9a61722ac31f3eb5f1abfc4670"
+    },
+    "2021-08-09": {
+      "status": "ok",
+      "articles": 170,
+      "sha256": "a6b0d4b74b6ddcf9de2d4256852bdeabfffd62997a053af6aab2915f79a48fd2"
+    },
+    "2021-08-10": {
+      "status": "ok",
+      "articles": 184,
+      "sha256": "1e6ac427eb905851a011d47c4238025c3b5b578e6340ab63c5c24a1d08f9fa0a"
+    },
+    "2021-08-11": {
+      "status": "ok",
+      "articles": 188,
+      "sha256": "2540f5cd40070e296ee3f8c0cba099813707b1361c6b7d3d74057caf09dc45c8"
+    },
+    "2021-08-12": {
+      "status": "ok",
+      "articles": 182,
+      "sha256": "354208419c0ef9ef776ab4516e18c6dd7d9c04a977452c045650b76fa60d2c73"
+    },
+    "2021-08-13": {
+      "status": "ok",
+      "articles": 163,
+      "sha256": "8d1d1f756ce9351f92165e6f758ba2bd4fb13c561332e5cf3f11bdbc035b4792"
+    },
+    "2021-08-14": {
+      "status": "ok",
+      "articles": 98,
+      "sha256": "b73ebf55416610efd4b8b4fe0e1b923af0baf9ef21646dfad4c89dc642d2361c"
+    },
+    "2021-08-16": {
+      "status": "ok",
+      "articles": 140,
+      "sha256": "799dab4edca22e36ed98d39602822903fdf7d4bacdfba73b8ffd8b5e3ca13829"
+    },
+    "2021-08-17": {
+      "status": "ok",
+      "articles": 170,
+      "sha256": "c27b7257fd921744536c155b43aadeb18da2104f51d210d436a31f1ffa3dcc9d"
+    },
+    "2021-08-19": {
+      "status": "ok",
+      "articles": 165,
+      "sha256": "d9fafee7c953e540dd477b706707199cac71e2a5a00624084bfcd3dcbd9f3210"
+    },
+    "2021-08-20": {
+      "status": "ok",
+      "articles": 159,
+      "sha256": "7cd11de2149d1c2282e5834aec59c01bcdb7a7adce28d80be85b622bf8bcb3f1"
+    },
+    "2021-08-22": {
+      "status": "ok",
+      "articles": 88,
+      "sha256": "d5ee07b116d363e26fbe3259d028c405eaa6c278e13d48c474f4ec3adc2ecaa8"
+    },
+    "2021-08-23": {
+      "status": "ok",
+      "articles": 155,
+      "sha256": "73f995345ac162ee780cc70f7545fe828106bc96bacad23a9645e62f8bccd734"
+    },
+    "2021-08-24": {
+      "status": "ok",
+      "articles": 172,
+      "sha256": "aab56d02c4b64126f3537fa5fd72e053d9650624605d7c67ad4c6e60fa6ea762"
+    },
+    "2021-08-25": {
+      "status": "ok",
+      "articles": 184,
+      "sha256": "270989c6032123de2d5f429e03c6c21df8fe4d5c73f19164cb5b0a3954f3e28d"
+    },
+    "2021-08-26": {
+      "status": "ok",
+      "articles": 168,
+      "sha256": "4941f6fabf2400e0567c8800b3aecf0ba1b5f03a3125c485b527028ea7cabcef"
+    },
+    "2021-08-27": {
+      "status": "ok",
+      "articles": 164,
+      "sha256": "8cbc5bc108e109e979623b0364fbe20c252e7017df2653e35da009216e17af87"
+    },
+    "2021-08-29": {
+      "status": "ok",
+      "articles": 84,
+      "sha256": "8d0d057b9b811d769e533dbd2da067f2b4d199ac5b24ce7bdab1c34130b4c0ef"
+    },
+    "2021-08-30": {
+      "status": "ok",
+      "articles": 136,
+      "sha256": "c5afc7bd71f83dff85c503ac325dda6e66a700ba6dbc3ac460351a5f67dc9474"
+    },
+    "2021-08-31": {
+      "status": "ok",
+      "articles": 126,
+      "sha256": "c26adaffac04218ec9fd722b6870828aeec95141a675b638f11bd751adec33b4"
+    },
+    "2021-09-02": {
+      "status": "ok",
+      "articles": 159,
+      "sha256": "ab44f19af634684fd99ee08af84f533cb9aac3313a52bcc932139dc6ab80d5c8"
+    },
+    "2021-09-03": {
+      "status": "ok",
+      "articles": 153,
+      "sha256": "3c2233fc01a20735b33f85a377bffdcbfdb32ab7f995a655a5474ff871518916"
+    },
+    "2021-09-04": {
+      "status": "ok",
+      "articles": 87,
+      "sha256": "9975d5e6fae8addf06439b93f19f5991e74cd6212d6f35a4398f23accbdbebd4"
+    },
+    "2021-09-05": {
+      "status": "ok",
+      "articles": 88,
+      "sha256": "9b7a7fc7dfb136a46ed36b564b97151a3597e6bfbdf25178ef31fd2570ce6e72"
+    },
+    "2021-09-06": {
+      "status": "ok",
+      "articles": 146,
+      "sha256": "8108461e97ecb1c5f857bbb95441a95176691d4b3d5157b72ed3343ec5450743"
+    },
+    "2021-09-07": {
+      "status": "ok",
+      "articles": 171,
+      "sha256": "98655de024af260f2e66e379294978e0f815debc43cb266e7901d3d728482b6a"
+    },
+    "2021-09-09": {
+      "status": "ok",
+      "articles": 150,
+      "sha256": "fa6667eeb543fff73daec7c9eb76ef3cce5a0c91e829f982173e0834352f94e9"
+    },
+    "2021-09-10": {
+      "status": "ok",
+      "articles": 163,
+      "sha256": "516aedf472c236c75e163f08567ef56906fa49673a61ea11de32bb08601a194a"
+    },
+    "2021-09-11": {
+      "status": "ok",
+      "articles": 96,
+      "sha256": "6b1e39747eaaaa2ad64f23289879db0a06b69ad8150ed6236d2d18dacf3dfe75"
+    },
+    "2021-09-12": {
+      "status": "ok",
+      "articles": 86,
+      "sha256": "ffe733a1cc03cf76a0b6c3fe4598eae866ffd2560e665fe0aa95063ba8ec0cc7"
+    },
+    "2021-09-13": {
+      "status": "ok",
+      "articles": 138,
+      "sha256": "16079f0c512c1708f0ee65ed2d4e3bfbbb569b8ec9407e40a8c779c45281d58c"
+    },
+    "2021-09-14": {
+      "status": "ok",
+      "articles": 178,
+      "sha256": "29d438b5dbb6bc6ad6ab71af498d2f13c10278a832f3ea9777785b1254cd9fe8"
+    },
+    "2021-09-16": {
+      "status": "ok",
+      "articles": 168,
+      "sha256": "8ae3e023b2e0c35077d7dc6690104e079a5a0d3d703f41294c2034aa96dcfaa0"
+    },
+    "2021-09-17": {
+      "status": "ok",
+      "articles": 141,
+      "sha256": "439bc6dfd0e43edb7b1cc6c6e8c1ad89b5053e3bb63939f8000b0e633cf819bb"
+    },
+    "2021-09-19": {
+      "status": "ok",
+      "articles": 81,
+      "sha256": "537d77a7b455c8b6d32215576c043b2eccd1c938186c5c8812ec8f9d73ec31b9"
+    },
+    "2021-09-20": {
+      "status": "ok",
+      "articles": 89,
+      "sha256": "dd34d1b2bc18b18a653bbd5a5bde058f50d2f1d5f0ec6fb80cbecc8d9d56a5cf"
+    },
+    "2021-09-22": {
+      "status": "ok",
+      "articles": 121,
+      "sha256": "e8e450d553874e78282c89602c32801d3cbed11156f7f51526dc29edf921cd37"
+    },
+    "2021-09-23": {
+      "status": "ok",
+      "articles": 160,
+      "sha256": "48cc7964c06787d02deb968c42dd5929442c5924faec4de38ae0f4768e74a234"
+    },
+    "2021-09-24": {
+      "status": "ok",
+      "articles": 156,
+      "sha256": "227a52c336020a2f903e53dd937e0407805df419836e7d911220c525136abc9d"
+    },
+    "2021-09-25": {
+      "status": "ok",
+      "articles": 82,
+      "sha256": "5f7e0c43a14675f7995ec2845d74c2c6c80cb53d863c53244d3db5ce5d64a2bd"
+    },
+    "2021-09-26": {
+      "status": "ok",
+      "articles": 118,
+      "sha256": "a2b156010d3123b922ffe730b7858dd29e11dffcebd0d93a33f3ca225c203526"
+    },
+    "2021-09-27": {
+      "status": "ok",
+      "articles": 108,
+      "sha256": "228903f81662d17b8463c38056d9fd79bf001ab3a8dea4180c4abdc2f6e8f300"
+    },
+    "2021-09-29": {
+      "status": "ok",
+      "articles": 136,
+      "sha256": "b9cf4e429d9b6699761d189f7af7264596f28cfc57dfa9c93c42272315d9f058"
+    },
+    "2021-09-30": {
+      "status": "ok",
+      "articles": 87,
+      "sha256": "7776a59752d08754674348d489bf4a49bc8aed56febffd30c0ff83e1540ae941"
+    },
+    "2021-10-02": {
+      "status": "ok",
+      "articles": 81,
+      "sha256": "4c58fdc58d2b21f07e78092a7937188837459653fb4b912673b8d927b9f2ecba"
+    },
+    "2021-10-03": {
+      "status": "ok",
+      "articles": 79,
+      "sha256": "348bd8447c62ec3c7b9ad7700c58fb4341e4fb9fdfa9ebc4d551ca6c6298ddc8"
+    },
+    "2021-10-04": {
+      "status": "ok",
+      "articles": 79,
+      "sha256": "3e79c94d70edadc63cb2ccc0d12eec48085a9a89266c58f0a32cd0f5d09a41ec"
+    },
+    "2021-10-05": {
+      "status": "ok",
+      "articles": 93,
+      "sha256": "4c8c0fd7983fae2b9868aef5e1ba4d51835b8baa239006c06a85fcee1c4bc240"
+    },
+    "2021-10-06": {
+      "status": "ok",
+      "articles": 98,
+      "sha256": "95bf302b94d3f24729e541ee1bed48bfc9b77ae81446f1fda67a60c7bc5ad681"
+    },
+    "2021-10-07": {
+      "status": "ok",
+      "articles": 95,
+      "sha256": "e8fef30511519ba6918e9edf285a178df595fdf22d3e64ceb56cfba1ed8525fe"
+    },
+    "2021-10-09": {
+      "status": "ok",
+      "articles": 106,
+      "sha256": "9192901e3c5ce90feac8f2b8fbb6323d6e9709c48674238ece2946d9f12493b5"
+    },
+    "2021-10-10": {
+      "status": "ok",
+      "articles": 90,
+      "sha256": "4c5f53148b4657b1ac5d4f5ab7b08e0ea5996a20f1ef3661b872ebe240bb3d38"
+    },
+    "2021-10-11": {
+      "status": "ok",
+      "articles": 127,
+      "sha256": "6c9f3ce8c530ca905cd0d34730d3aa7ff3e8811505476bec519f9b303ef24707"
+    },
+    "2021-10-12": {
+      "status": "ok",
+      "articles": 143,
+      "sha256": "d27a424c38f2528328d69830c8fc0ed502cd0bf285fcfa3747617feb8a0487b6"
+    },
+    "2021-10-13": {
+      "status": "ok",
+      "articles": 151,
+      "sha256": "a842938a7c2066850401e173b9fd2c2833485d20b43502f99ed897042d89aa6f"
+    },
+    "2021-10-14": {
+      "status": "ok",
+      "articles": 150,
+      "sha256": "0589873d3c1d192a6b8d614ae25d9eab6ddac1b7255dbb4fadc8cf382d83e581"
     }
   },
   "candidates": {
@@ -13397,6 +13687,300 @@
       "url": "https://www.ithome.com/0/567/174.htm",
       "publishedDate": "2021-08-04",
       "indexUrl": "https://www.ithome.com/list/2021-08-04.html"
+    },
+    "https://www.ithome.com/0/567/337.htm": {
+      "title": "首发 9999 元 / 2.5K 屏：华硕天选 2 游戏本 5900HX+RTX 3070 版今日开售",
+      "url": "https://www.ithome.com/0/567/337.htm",
+      "publishedDate": "2021-08-05",
+      "indexUrl": "https://www.ithome.com/list/2021-08-05.html"
+    },
+    "https://www.ithome.com/0/567/326.htm": {
+      "title": "雷神 911MR 游戏本发布：R7-5800H/RTX 3060，首发 6999 元",
+      "url": "https://www.ithome.com/0/567/326.htm",
+      "publishedDate": "2021-08-05",
+      "indexUrl": "https://www.ithome.com/list/2021-08-05.html"
+    },
+    "https://www.ithome.com/0/567/701.htm": {
+      "title": "七彩虹 iGame RTX 3060 Mini L 显卡售价公布：3799 元",
+      "url": "https://www.ithome.com/0/567/701.htm",
+      "publishedDate": "2021-08-06",
+      "indexUrl": "https://www.ithome.com/list/2021-08-06.html"
+    },
+    "https://www.ithome.com/0/568/225.htm": {
+      "title": "联想 YOGA 14s 2021 锐龙独显版明日开售：R7 5800HS+MX450，6499 元",
+      "url": "https://www.ithome.com/0/568/225.htm",
+      "publishedDate": "2021-08-09",
+      "indexUrl": "https://www.ithome.com/list/2021-08-09.html"
+    },
+    "https://www.ithome.com/0/568/159.htm": {
+      "title": "阿斯加特发布 AP 系列移动固态硬盘：512GB 到手价 359 元起",
+      "url": "https://www.ithome.com/0/568/159.htm",
+      "publishedDate": "2021-08-09",
+      "indexUrl": "https://www.ithome.com/list/2021-08-09.html"
+    },
+    "https://www.ithome.com/0/568/067.htm": {
+      "title": "6799 元，华硕天选 2 暑促：锐龙 7 5800H+RTX 3050Ti",
+      "url": "https://www.ithome.com/0/568/067.htm",
+      "publishedDate": "2021-08-09",
+      "indexUrl": "https://www.ithome.com/list/2021-08-09.html"
+    },
+    "https://www.ithome.com/0/568/344.htm": {
+      "title": "低至 139 元/TB：京东希捷移动硬盘大促开启",
+      "url": "https://www.ithome.com/0/568/344.htm",
+      "publishedDate": "2021-08-10",
+      "indexUrl": "https://www.ithome.com/list/2021-08-10.html"
+    },
+    "https://www.ithome.com/0/568/753.htm": {
+      "title": "5899 元，AMD Radeon PRO W6600 显卡上市：7nm 制程，支持 8K 显示",
+      "url": "https://www.ithome.com/0/568/753.htm",
+      "publishedDate": "2021-08-11",
+      "indexUrl": "https://www.ithome.com/list/2021-08-11.html"
+    },
+    "https://www.ithome.com/0/568/752.htm": {
+      "title": "AMD Radeon RX 6600 XT 显卡正式开售，国行 2999 元起",
+      "url": "https://www.ithome.com/0/568/752.htm",
+      "publishedDate": "2021-08-11",
+      "indexUrl": "https://www.ithome.com/list/2021-08-11.html"
+    },
+    "https://www.ithome.com/0/569/019.htm": {
+      "title": "11999 元起，联想拯救者 Y9000K 2021 游戏本开启预约：搭载 RTX 3060/3070/3080",
+      "url": "https://www.ithome.com/0/569/019.htm",
+      "publishedDate": "2021-08-13",
+      "indexUrl": "https://www.ithome.com/list/2021-08-13.html"
+    },
+    "https://www.ithome.com/0/569/847.htm": {
+      "title": "联想拯救者 Y9000K 2021 游戏本明日开售：搭载 RTX 3060/3070/3080，11999 元起",
+      "url": "https://www.ithome.com/0/569/847.htm",
+      "publishedDate": "2021-08-17",
+      "indexUrl": "https://www.ithome.com/list/2021-08-17.html"
+    },
+    "https://www.ithome.com/0/570/196.htm": {
+      "title": "攀升 818 促销开始：酷睿 i7+RTX 3060 整机价 7699 元，畅玩《永劫无间》",
+      "url": "https://www.ithome.com/0/570/196.htm",
+      "publishedDate": "2021-08-19",
+      "indexUrl": "https://www.ithome.com/list/2021-08-19.html"
+    },
+    "https://www.ithome.com/0/570/549.htm": {
+      "title": "小米笔记本 Pro 14 增强版上架：11 代酷睿 H35 + 雷电 4 接口，5299 元起",
+      "url": "https://www.ithome.com/0/570/549.htm",
+      "publishedDate": "2021-08-20",
+      "indexUrl": "https://www.ithome.com/list/2021-08-20.html"
+    },
+    "https://www.ithome.com/0/570/790.htm": {
+      "title": "3200MB/s：京东京造 512GB 固态硬盘 399 元 + 24 期免息",
+      "url": "https://www.ithome.com/0/570/790.htm",
+      "publishedDate": "2021-08-22",
+      "indexUrl": "https://www.ithome.com/list/2021-08-22.html"
+    },
+    "https://www.ithome.com/0/570/905.htm": {
+      "title": "联想小新 Air 14 Plus 2021 酷睿版完整配置公布，售价 5499 元",
+      "url": "https://www.ithome.com/0/570/905.htm",
+      "publishedDate": "2021-08-23",
+      "indexUrl": "https://www.ithome.com/list/2021-08-23.html"
+    },
+    "https://www.ithome.com/0/571/303.htm": {
+      "title": "RedmiBook Pro 14/15 增强版明日开售：搭载 11 代酷睿 H35，4699 元起",
+      "url": "https://www.ithome.com/0/571/303.htm",
+      "publishedDate": "2021-08-24",
+      "indexUrl": "https://www.ithome.com/list/2021-08-24.html"
+    },
+    "https://www.ithome.com/0/571/209.htm": {
+      "title": "小米笔记本 Pro 14/15 增强版明日开售：搭载 11 代酷睿 H35，5299 元起",
+      "url": "https://www.ithome.com/0/571/209.htm",
+      "publishedDate": "2021-08-24",
+      "indexUrl": "https://www.ithome.com/list/2021-08-24.html"
+    },
+    "https://www.ithome.com/0/571/103.htm": {
+      "title": "4299 元，realme Book 明日 0 点首销：11 代酷睿、2K 屏、轻薄金属机身",
+      "url": "https://www.ithome.com/0/571/103.htm",
+      "publishedDate": "2021-08-24",
+      "indexUrl": "https://www.ithome.com/list/2021-08-24.html"
+    },
+    "https://www.ithome.com/0/571/516.htm": {
+      "title": "微星强袭 GE76 新规格上市： 11 代 i9+RTX 3080，首发价 24999 元",
+      "url": "https://www.ithome.com/0/571/516.htm",
+      "publishedDate": "2021-08-25",
+      "indexUrl": "https://www.ithome.com/list/2021-08-25.html"
+    },
+    "https://www.ithome.com/0/572/298.htm": {
+      "title": "14999 元，微星创造者 Z16 设计本开启预售：RTX 3060 显卡，2K 120Hz 触控屏",
+      "url": "https://www.ithome.com/0/572/298.htm",
+      "publishedDate": "2021-08-30",
+      "indexUrl": "https://www.ithome.com/list/2021-08-30.html"
+    },
+    "https://www.ithome.com/0/573/096.htm": {
+      "title": "英特尔 12 代酷睿处理器欧洲零售价曝光：i7-12700K 约 3200 元",
+      "url": "https://www.ithome.com/0/573/096.htm",
+      "publishedDate": "2021-09-02",
+      "indexUrl": "https://www.ithome.com/list/2021-09-02.html"
+    },
+    "https://www.ithome.com/0/573/274.htm": {
+      "title": "机械革命 F6 上架：搭载英特尔 11 代酷睿处理器，首发价 4699 元",
+      "url": "https://www.ithome.com/0/573/274.htm",
+      "publishedDate": "2021-09-03",
+      "indexUrl": "https://www.ithome.com/list/2021-09-03.html"
+    },
+    "https://www.ithome.com/0/573/483.htm": {
+      "title": "2380 元，汉王 10.3 英寸电纸办公本 1001 发布：墨水屏专研 CPU ，搭载安卓 11，整页 PDF 阅读",
+      "url": "https://www.ithome.com/0/573/483.htm",
+      "publishedDate": "2021-09-04",
+      "indexUrl": "https://www.ithome.com/list/2021-09-04.html"
+    },
+    "https://www.ithome.com/0/573/446.htm": {
+      "title": "AMD RX 6600 非 XT 显卡上架电商，约合 3870 元",
+      "url": "https://www.ithome.com/0/573/446.htm",
+      "publishedDate": "2021-09-04",
+      "indexUrl": "https://www.ithome.com/list/2021-09-04.html"
+    },
+    "https://www.ithome.com/0/573/682.htm": {
+      "title": "583 元/月：AMD 锐龙 9 5900X CPU 处理器 3499 元大促",
+      "url": "https://www.ithome.com/0/573/682.htm",
+      "publishedDate": "2021-09-06",
+      "indexUrl": "https://www.ithome.com/list/2021-09-06.html"
+    },
+    "https://www.ithome.com/0/574/465.htm": {
+      "title": "阿斯加特发布女武神系列内存条：2×8GB 3200MHz 售价 599.9 元",
+      "url": "https://www.ithome.com/0/574/465.htm",
+      "publishedDate": "2021-09-09",
+      "indexUrl": "https://www.ithome.com/list/2021-09-09.html"
+    },
+    "https://www.ithome.com/0/574/916.htm": {
+      "title": "Tt 发布 Divider 200 系列机箱：支持显卡纵置/三面透明，749 元起",
+      "url": "https://www.ithome.com/0/574/916.htm",
+      "publishedDate": "2021-09-11",
+      "indexUrl": "https://www.ithome.com/list/2021-09-11.html"
+    },
+    "https://www.ithome.com/0/575/239.htm": {
+      "title": "9999 元起，华为 MateStation X 一体机正式发布：28.2 英寸 4K+ 原色・全面屏，搭载 AMD 锐龙 7 5800H 标压处理器",
+      "url": "https://www.ithome.com/0/575/239.htm",
+      "publishedDate": "2021-09-13",
+      "indexUrl": "https://www.ithome.com/list/2021-09-13.html"
+    },
+    "https://www.ithome.com/0/575/230.htm": {
+      "title": "4099 元起，华为推出 MateStation B520 商用台式机：最高 10 代英特尔酷睿 i7",
+      "url": "https://www.ithome.com/0/575/230.htm",
+      "publishedDate": "2021-09-13",
+      "indexUrl": "https://www.ithome.com/list/2021-09-13.html"
+    },
+    "https://www.ithome.com/0/575/053.htm": {
+      "title": "3899 元起，华为 MateStation S 台式主机上架：搭载锐龙 4000G APU，支持多屏协同",
+      "url": "https://www.ithome.com/0/575/053.htm",
+      "publishedDate": "2021-09-13",
+      "indexUrl": "https://www.ithome.com/list/2021-09-13.html"
+    },
+    "https://www.ithome.com/0/575/308.htm": {
+      "title": "8699 元！华硕天选 2 游戏本 5900HX+RTX 3060 开学季福利：晒单返百元 E 卡",
+      "url": "https://www.ithome.com/0/575/308.htm",
+      "publishedDate": "2021-09-14",
+      "indexUrl": "https://www.ithome.com/list/2021-09-14.html"
+    },
+    "https://www.ithome.com/0/575/996.htm": {
+      "title": "雷克沙推出 NM800 旗舰固态硬盘：最高 7400 MB/s，1TB 1499 元",
+      "url": "https://www.ithome.com/0/575/996.htm",
+      "publishedDate": "2021-09-16",
+      "indexUrl": "https://www.ithome.com/list/2021-09-16.html"
+    },
+    "https://www.ithome.com/0/576/162.htm": {
+      "title": "AMD RX 6900 XT 显卡促销，部分地区可获赠《孤岛惊魂 6》《生化危机：村庄》",
+      "url": "https://www.ithome.com/0/576/162.htm",
+      "publishedDate": "2021-09-17",
+      "indexUrl": "https://www.ithome.com/list/2021-09-17.html"
+    },
+    "https://www.ithome.com/0/576/913.htm": {
+      "title": "约 2581 元起，微软 Win11 平板电脑 Surface Go 3 正式发布：搭载 Intel 奔腾金 6500Y 或酷睿 i3-10100Y，比上一代快 60%",
+      "url": "https://www.ithome.com/0/576/913.htm",
+      "publishedDate": "2021-09-22",
+      "indexUrl": "https://www.ithome.com/list/2021-09-22.html"
+    },
+    "https://www.ithome.com/0/576/761.htm": {
+      "title": "5699 元起，Redmi G 2021 游戏本发布：16.1 英寸 144Hz 电竞屏，最高搭载 RTX 3060",
+      "url": "https://www.ithome.com/0/576/761.htm",
+      "publishedDate": "2021-09-22",
+      "indexUrl": "https://www.ithome.com/list/2021-09-22.html"
+    },
+    "https://www.ithome.com/0/576/747.htm": {
+      "title": "6999 元起，华硕灵耀 Pro 14/16 笔记本正式开售：OLED 屏 + RTX30 显卡",
+      "url": "https://www.ithome.com/0/576/747.htm",
+      "publishedDate": "2021-09-22",
+      "indexUrl": "https://www.ithome.com/list/2021-09-22.html"
+    },
+    "https://www.ithome.com/0/576/946.htm": {
+      "title": "5699 元起，Redmi G 2021 游戏本今日开售：AMD/英特尔双平台，最高搭载 RTX 3060",
+      "url": "https://www.ithome.com/0/576/946.htm",
+      "publishedDate": "2021-09-23",
+      "indexUrl": "https://www.ithome.com/list/2021-09-23.html"
+    },
+    "https://www.ithome.com/0/577/227.htm": {
+      "title": "联想小新 Air 14 Plus 2021 酷睿独显版 9 月 28 日开启预售，售价 5499 元",
+      "url": "https://www.ithome.com/0/577/227.htm",
+      "publishedDate": "2021-09-24",
+      "indexUrl": "https://www.ithome.com/list/2021-09-24.html"
+    },
+    "https://www.ithome.com/0/577/727.htm": {
+      "title": "4999~6999 元，荣耀 MagicBook 16 / Pro 2021 发布：标压 R7+RTX 3050，135W 快充",
+      "url": "https://www.ithome.com/0/577/727.htm",
+      "publishedDate": "2021-09-26",
+      "indexUrl": "https://www.ithome.com/list/2021-09-26.html"
+    },
+    "https://www.ithome.com/0/578/253.htm": {
+      "title": "荣耀 MagicBook 16 Pro 开启预售：搭载 GTX 1650 / RTX 3050 显卡，首发价 6199 元起",
+      "url": "https://www.ithome.com/0/578/253.htm",
+      "publishedDate": "2021-09-29",
+      "indexUrl": "https://www.ithome.com/list/2021-09-29.html"
+    },
+    "https://www.ithome.com/0/578/631.htm": {
+      "title": "金士顿 XS2000 移动固态硬盘发售：2000MB/s 速度，1TB 1269 元",
+      "url": "https://www.ithome.com/0/578/631.htm",
+      "publishedDate": "2021-09-30",
+      "indexUrl": "https://www.ithome.com/list/2021-09-30.html"
+    },
+    "https://www.ithome.com/0/578/463.htm": {
+      "title": "6199 元起，荣耀 MagicBook 16 Pro 今日 10 点开售：搭载 GTX 1650 / RTX 3050 显卡",
+      "url": "https://www.ithome.com/0/578/463.htm",
+      "publishedDate": "2021-09-30",
+      "indexUrl": "https://www.ithome.com/list/2021-09-30.html"
+    },
+    "https://www.ithome.com/0/579/166.htm": {
+      "title": "西部数据推出 SN570 NVMe SSD：速度 3500 MB/s，1TB 约 709 元",
+      "url": "https://www.ithome.com/0/579/166.htm",
+      "publishedDate": "2021-10-06",
+      "indexUrl": "https://www.ithome.com/list/2021-10-06.html"
+    },
+    "https://www.ithome.com/0/579/704.htm": {
+      "title": "希捷推出 Xbox 专用外置 SSD：1TB 约 1095 元，USB 3.2 Gen 1 接口",
+      "url": "https://www.ithome.com/0/579/704.htm",
+      "publishedDate": "2021-10-10",
+      "indexUrl": "https://www.ithome.com/list/2021-10-10.html"
+    },
+    "https://www.ithome.com/0/579/959.htm": {
+      "title": "金邦 DDR5 RGB 内存条开始出货：32GB 约 2200 元",
+      "url": "https://www.ithome.com/0/579/959.htm",
+      "publishedDate": "2021-10-12",
+      "indexUrl": "https://www.ithome.com/list/2021-10-12.html"
+    },
+    "https://www.ithome.com/0/580/370.htm": {
+      "title": "2499 元起，AMD RX 6600 显卡发布：1792 流处理器 + 8GB 显存",
+      "url": "https://www.ithome.com/0/580/370.htm",
+      "publishedDate": "2021-10-13",
+      "indexUrl": "https://www.ithome.com/list/2021-10-13.html"
+    },
+    "https://www.ithome.com/0/580/234.htm": {
+      "title": "三星推出索尼 PS5 定制版 980 Pro SSD：1TB 1611 元，29 日发售",
+      "url": "https://www.ithome.com/0/580/234.htm",
+      "publishedDate": "2021-10-13",
+      "indexUrl": "https://www.ithome.com/list/2021-10-13.html"
+    },
+    "https://www.ithome.com/0/580/477.htm": {
+      "title": "华硕新一代甜点显卡 DUAL Radeon RX 6600 发布：3399 元",
+      "url": "https://www.ithome.com/0/580/477.htm",
+      "publishedDate": "2021-10-14",
+      "indexUrl": "https://www.ithome.com/list/2021-10-14.html"
+    },
+    "https://www.ithome.com/0/580/385.htm": {
+      "title": "华擎发布 AMD RX 6600 系列显卡：单/双风扇设计，3358 元",
+      "url": "https://www.ithome.com/0/580/385.htm",
+      "publishedDate": "2021-10-14",
+      "indexUrl": "https://www.ithome.com/list/2021-10-14.html"
     }
   }
 }
