@@ -42,7 +42,8 @@ jobs:
           cache: npm
 
       - name: Install locked dependencies
-        run: npm ci
+        timeout-minutes: 5
+        run: npm ci --prefer-offline --no-audit --no-fund --fetch-timeout=30000 --fetch-retries=2
 
       - name: Collect public source observations
         id: public_collection
