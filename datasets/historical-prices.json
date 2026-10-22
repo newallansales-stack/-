@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T02:16:39.609Z",
+  "updatedAt": "2026-10-22T02:54:11.026Z",
   "description": "免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。",
   "records": [
     {
@@ -15174,16 +15174,296 @@
       "recordCount": 0,
       "date": "2021-05-24",
       "sha256": "40a585bfc0a5b5a1fb3d0ea1d6bd28043b1f6238d3f3deb121ea32c7ae2a7d05"
+    },
+    "https://www.ithome.com/0/553/565.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-25",
+      "sha256": "c9c0700f07289a973e31d06607f2bc9841ba30d437f47eb78ff850e424ff5db2"
+    },
+    "https://www.ithome.com/0/553/561.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-25",
+      "sha256": "eca0e3967636bded8cee056b51134d296966f92080f49d997e54bb79f42baa4b"
+    },
+    "https://www.ithome.com/0/553/556.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-25",
+      "sha256": "ca39feb0491435f6d7cf0034edc793678831f1374597a2cd0a870f9d0edb7498"
+    },
+    "https://www.ithome.com/0/553/547.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-25",
+      "sha256": "ae04e60d53c0f77d78e068b9b60a9365cbd69f82e6a965c574791aee7b07fef9"
+    },
+    "https://www.ithome.com/0/553/707.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-26",
+      "sha256": "7bda7b0e1e496a4ff5b07dcb6f720a537a4ee9febfcaba9a91caf4ac4c573f88"
+    },
+    "https://www.ithome.com/0/553/663.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-26",
+      "sha256": "340d03a6cda33bc03d138c0ff37042267b324d0d74bef742c392abd79f9ece83"
+    },
+    "https://www.ithome.com/0/553/971.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-27",
+      "sha256": "a5de135600a8abf69505903b629e1797f0e8ea4a812a32dcfb320d9e908042d9"
+    },
+    "https://www.ithome.com/0/554/289.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-29",
+      "sha256": "9ae15ad3f6ce5e2b5c0f195b2490107ef88388ac9c2c5327d6ebddd985a2212c"
+    },
+    "https://www.ithome.com/0/554/360.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/554/358.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/554/638.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-31",
+      "sha256": "a8c8e615ac57a1f2a289f52a7f10c73c5b89880935894ebbaf262c6941995526"
+    },
+    "https://www.ithome.com/0/554/542.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-31",
+      "sha256": "d6fb14979961f07c2a50e81b91e7160bf3341c40cba735e950d6db6f74e58c9a"
+    },
+    "https://www.ithome.com/0/554/488.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-31",
+      "sha256": "1606f3783104990bd3519a4e8ccb0a847f54d2282c26f49bcf08d8a25615529a"
+    },
+    "https://www.ithome.com/0/554/482.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-05-31",
+      "sha256": "50f402e8d5507f4ecc6a21e7cd9f80e5a78baa358ba64c00ead4ee53c7909f4e"
+    },
+    "https://www.ithome.com/0/555/664.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-05",
+      "sha256": "9ef8de37160e7df3bb6cadabad51dd15eab67f910725797d6006474b6b800145"
+    },
+    "https://www.ithome.com/0/556/024.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-07",
+      "sha256": "6f1a27b4bbb5ce499a1f95c924cb600b061a97ecee39419bdca1a34eaaca53f9"
+    },
+    "https://www.ithome.com/0/555/939.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-07",
+      "sha256": "ee5bbbc37a8efdb2bbc79d220cdfc79cb016c629e01cd02c0acfefd687b14b51"
+    },
+    "https://www.ithome.com/0/556/697.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-10",
+      "sha256": "882e82912ecaf6c21e1301a532a7e1bddee3ade0ae016cede9dfc369b7c84594"
+    },
+    "https://www.ithome.com/0/556/684.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-10",
+      "sha256": "d52c395bb78434f4b570a5f79029022173ceb6fe5bce36f0290c190640fb816b"
+    },
+    "https://www.ithome.com/0/556/870.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-11",
+      "sha256": "9cef2f94961dbcc8bf057f5b55b3d610154c27bb1c64aac512d73eab9d95ed74"
+    },
+    "https://www.ithome.com/0/556/990.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-12",
+      "sha256": "3e1125a6919d4291954fcc33a7a7705a25bd43e43be2d443451a9c9ec21b785a"
+    },
+    "https://www.ithome.com/0/557/248.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-14",
+      "sha256": "a3ef98c5e6079675370fade83249d30fc939b81aa0bd18ef79f8bbf0a7044b1c"
+    },
+    "https://www.ithome.com/0/557/584.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-16",
+      "sha256": "ccdc39a217b620e06389d17a2a4db0ce7f0c5723218a2fe7caeefe61b62b03a4"
+    },
+    "https://www.ithome.com/0/557/483.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/557/906.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-17",
+      "sha256": "9554bf547d6ba334982962a0bc116d50c9bb7849b99d3262665b8051e9169a99"
+    },
+    "https://www.ithome.com/0/557/726.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/557/821.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-17",
+      "sha256": "1ba8755426c1de72ba72c2c15540a9be214c3d39775eee2b89f423089590005a"
+    },
+    "https://www.ithome.com/0/558/291.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/558/290.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/559/358.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-25",
+      "sha256": "0b4c63b3d3a1d7479ced31f5f699c9257cc489681f69dcf5a3cd8c37aaca3d8e"
+    },
+    "https://www.ithome.com/0/560/164.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-06-30",
+      "sha256": "dc0f59f70479f7fd5aa65094c71ae24fac3d154d059258973451ef41fe35e3a4"
+    },
+    "https://www.ithome.com/0/561/266.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-06",
+      "sha256": "daa6a72abea4b8199a6e96ef8de0f6ca5a5a4c411e507ff70d10967f5dcd4f08"
+    },
+    "https://www.ithome.com/0/561/790.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/562/209.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/562/915.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-14",
+      "sha256": "175fa5cad5620a8088b095c422d816e01d56d4a76c031db7733b3610583f0793"
+    },
+    "https://www.ithome.com/0/562/909.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-14",
+      "sha256": "3aef0f2d0813326b4e2543fbaed6d8a7b165f8e82fca0cc674a03fac3e0f5d31"
+    },
+    "https://www.ithome.com/0/562/882.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-14",
+      "sha256": "1e79fa65f75be951ced318a62345d00b0a21d7229134e649d3a0fbb4dd0ba10a"
+    },
+    "https://www.ithome.com/0/563/179.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/563/690.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-19",
+      "sha256": "206e90d4c5778e48b0d225710936ea31dd1f5a033b3f8e82e2e707520d90cbb7"
+    },
+    "https://www.ithome.com/0/563/894.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-20",
+      "sha256": "b82b03f74909cbcea70da59f03d03b7f8ec361e7236bc07255ff1fc42bc7bc4f"
+    },
+    "https://www.ithome.com/0/563/880.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-20",
+      "sha256": "a5ec32f8e1b15aad67994484cf1aef4fa4000891d34ce46e2a7e82a435b8eacc"
+    },
+    "https://www.ithome.com/0/563/874.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/565/030.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-25",
+      "sha256": "2f79eca4aaf6d96bff5bef2919006bbc0c0815f836a4dea5e3f65c06ebc51f5d"
+    },
+    "https://www.ithome.com/0/566/010.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-29",
+      "sha256": "84a0e210f9011eefdde6789e9b06391dc74915b2c0a2467e35b8b86b57ce970a"
+    },
+    "https://www.ithome.com/0/565/902.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-29",
+      "sha256": "c7fe0763516bc4da459e81a0bd068da1e16f70069d1ca7e9cd008c91f76b74c7"
+    },
+    "https://www.ithome.com/0/566/191.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-30",
+      "sha256": "67cd0597843d6867b023e6dc52fef1f31734eee9d4f019c14d7b0a21fb819cbc"
+    },
+    "https://www.ithome.com/0/566/404.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-07-31",
+      "sha256": "89785ca8276e88ec3ebcc81775195e914ee44cbbc964c242dbb9324f2afc5a78"
+    },
+    "https://www.ithome.com/0/566/345.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/566/930.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-08-03",
+      "sha256": "0055ec8ba49bbde355a49a38bf5c846937bff3148d2b97b42500d002ecbe5758"
+    },
+    "https://www.ithome.com/0/567/174.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-08-04",
+      "sha256": "f0a6be8175dea63f714421171b7eba82d23d8a8b5d6bed3791b9424887ce1616"
     }
   },
   "discovery": {
-    "scannedDays": 907,
+    "scannedDays": 965,
     "firstScannedDate": "2020-01-01",
     "lastScannedDate": "2026-10-22",
-    "candidates": 1486,
-    "checkedArticles": 1136,
+    "candidates": 1560,
+    "checkedArticles": 1186,
     "scannedThisRun": 60,
     "checkedThisRun": 50,
+    "failedRequestsThisRun": 11,
+    "successfulRequestsThisRun": 99,
     "throttled": false
   }
 }

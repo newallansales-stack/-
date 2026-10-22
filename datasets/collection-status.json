@@ -1,20 +1,22 @@
 {
   "version": 1,
-  "recordedAt": "2026-10-22T02:28:55.196Z",
+  "recordedAt": "2026-10-22T02:54:11.138Z",
   "overall": "partial",
-  "runUrl": "https://github.com/newallansales-stack/-/actions/runs/39710314849",
+  "runUrl": "https://github.com/newallansales-stack/-/actions/runs/39713749325",
   "public": {
     "outcome": "success",
-    "lastSuccessfulReadAt": "2026-10-22T02:15:02.450Z",
-    "successfulPages": 12,
-    "failedPages": 1
+    "lastSuccessfulReadAt": "2026-10-22T02:52:43.381Z",
+    "successfulPages": 13,
+    "failedPages": 0
   },
   "history": {
     "outcome": "success",
-    "lastArchiveWriteAt": "2026-10-22T02:16:39.609Z",
+    "lastArchiveWriteAt": "2026-10-22T02:54:11.026Z",
     "records": 297,
-    "scannedDays": 907,
-    "checkedArticles": 1136,
+    "scannedDays": 965,
+    "checkedArticles": 1186,
+    "failedRequestsThisRun": 11,
+    "successfulRequestsThisRun": 99,
     "throttled": false
   },
   "note": "任务成功仅表示本次整理流程完成，不代表逐日历史完整或已核验交易。失败时保留旧价格及日期。"
