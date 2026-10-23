@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T06:08:12.571Z",
+  "updatedAt": "2026-10-23T06:03:01.128Z",
   "description": "免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。",
   "records": [
     {
@@ -3543,6 +3543,238 @@
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
+      "id": "7519eb1749d68cb286f9c5bf",
+      "productKey": "jd-100014916207-ba4a38581f",
+      "name": "七彩虹 iGame GeForce RTX 3060Ti Mini OC LHR 显卡",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100014916207",
+      "merchantUrl": "https://item.jd.com/100014916207.html",
+      "publicationDate": "2021-10-27",
+      "publishedAt": "2021-10-27T19:18:39+08:00",
+      "observedAt": "2026-10-23T06:02:44.686Z",
+      "price": 4899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/583/189.htm",
+      "sourceTitle": "4899 元，七彩虹 iGame RTX 3060 Ti Mini 显卡开启预售",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹 iGame GeForce RTX 3060Ti Mini OC LHR 显卡 4899 元直达链接",
+      "rawPrice": "4899 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": "目前，七彩虹 iGame RTX 3060 Ti Mini 显卡已开启预售，预售价 4899 元。这款显卡沿用了前代的外观设计，在提升性能的同时保持了较小的尺寸。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "dec0661ec782cc8a4fa4f19c4ff1426f679e6d46f245d283b1b5363a3ca85293",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "fc14e362f94b3cba68c1b18a",
+      "productKey": "jd-100010838446-4ac9c21343",
+      "name": "爱国者 1TB 固态硬盘",
+      "reportedSpecification": "M.2 接口 (NVMe 协议)",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100010838446",
+      "merchantUrl": "https://item.jd.com/100010838446.html",
+      "publicationDate": "2021-10-29",
+      "publishedAt": "2021-10-29T20:26:02+08:00",
+      "observedAt": "2026-10-23T06:02:46.187Z",
+      "price": 399,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/583/704.htm",
+      "sourceTitle": "2100MB/s：爱国者 1TB 固态硬盘 399 元（M.2 接口）",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东爱国者 1TB 固态硬盘 M.2 接口 (NVMe 协议) 399 元直达链接",
+      "rawPrice": "399 元",
+      "conditions": "M.2 接口 (NVMe 协议)",
+      "articleContext": "大概率用不了任何优惠券，但应该能叠加京东红包：点此领取。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "b340d4dce2ef1fb6005e9d78f8acf086d4a2b0ba4ccfc1054301d33c5faf353a",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "07e5292d085d36ccb02be951",
+      "productKey": "jd-100010838446-4ac9c21343",
+      "name": "爱国者 1TB 固态硬盘",
+      "reportedSpecification": "M.2 接口 (NVMe 协议)",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100010838446",
+      "merchantUrl": "https://item.jd.com/100010838446.html",
+      "publicationDate": "2021-11-04",
+      "publishedAt": "2021-11-04T21:28:49+08:00",
+      "observedAt": "2026-10-23T06:02:47.689Z",
+      "price": 399,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/584/810.htm",
+      "sourceTitle": "2100MB/s：爱国者 1TB 固态硬盘 399 元 0 点再发车",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东爱国者 1TB 固态硬盘 M.2 接口 (NVMe 协议) 399 元直达链接",
+      "rawPrice": "399 元",
+      "conditions": "M.2 接口 (NVMe 协议)",
+      "articleContext": "大概率用不了任何优惠券，但应该能叠加京东红包：点此领取。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "f3071eb1ce3ed0d5d5f07701e496553dfa261e1de66e7dd176885c4facd224f4",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "99521054985272de4aeb9e0a",
+      "productKey": "jd-100010838446-4ac9c21343",
+      "name": "爱国者 1TB SSD 固态硬盘 M.2 接口 (NVMe 协议) P2000 读速高达 2100MB/s",
+      "reportedSpecification": "20 点限量抢",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100010838446",
+      "merchantUrl": "https://item.jd.com/100010838446.html",
+      "publicationDate": "2021-11-10",
+      "publishedAt": "2021-11-10T17:48:36+08:00",
+      "observedAt": "2026-10-23T06:02:50.821Z",
+      "price": 399,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/585/923.htm",
+      "sourceTitle": "京东电脑数码 20 点开抢：至高 24 期免息，爱国者 1T 固态硬盘 399 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东爱国者 1TB SSD 固态硬盘 M.2 接口 (NVMe 协议) P2000 读速高达 2100MB/s20 点限量抢 399 元直达链接",
+      "rawPrice": "399 元",
+      "conditions": "20 点限量抢",
+      "articleContext": "IT之家 11 月 10 日消息，京东 11.11 全球热爱季巅峰狂欢今日 20 点起开抢，电脑数码品类狂欢，预售 1 元至高抵 1111 元、大牌 24 期免息、万件爆款 5 折抢、无忧价保 30 天，点此前往。 • 京东 11.11 京享红包：点此领取（每天领 3 次）",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "c6e80dff0af9bfde7bcbea836360eb52560af6a1a9ca8489a45bb031f651666c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "b0901e67194fbe445e17e94c",
+      "productKey": "jd-100010508835-67d6d3fdb1",
+      "name": "西部数据 蓝盘 4TB SATA6Gb/s 256MB 台式机械硬盘 (WD40EZAZ)",
+      "reportedSpecification": "闪购特惠价",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100010508835",
+      "merchantUrl": "https://item.jd.com/100010508835.html",
+      "publicationDate": "2021-11-10",
+      "publishedAt": "2021-11-10T17:48:36+08:00",
+      "observedAt": "2026-10-23T06:02:50.821Z",
+      "price": 549,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/585/923.htm",
+      "sourceTitle": "京东电脑数码 20 点开抢：至高 24 期免息，爱国者 1T 固态硬盘 399 元",
+      "quoteType": "promotion",
+      "priceEvidence": "京东西部数据 蓝盘 4TB SATA6Gb/s 256MB 台式机械硬盘 (WD40EZAZ) 闪购特惠价 549 元直达链接",
+      "rawPrice": "549 元",
+      "conditions": "闪购特惠价",
+      "articleContext": "IT之家 11 月 10 日消息，京东 11.11 全球热爱季巅峰狂欢今日 20 点起开抢，电脑数码品类狂欢，预售 1 元至高抵 1111 元、大牌 24 期免息、万件爆款 5 折抢、无忧价保 30 天，点此前往。 • 京东 11.11 京享红包：点此领取（每天领 3 次）",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "c6e80dff0af9bfde7bcbea836360eb52560af6a1a9ca8489a45bb031f651666c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "e16f797667c9cb12db811c4a",
+      "productKey": "jd-100016378401-0da0dbee28",
+      "name": "七彩虹（Colorful）战斧 GeForce RTX 2060 12G",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100016378401",
+      "merchantUrl": "https://item.jd.com/100016378401.html",
+      "publicationDate": "2021-12-07",
+      "publishedAt": "2021-12-07T22:51:33+08:00",
+      "observedAt": "2026-10-23T06:02:54.477Z",
+      "price": 3999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/591/063.htm",
+      "sourceTitle": "3999 元，七彩虹 RTX 2060 12G 战斧上架，无货",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹（Colorful）战斧 GeForce RTX 2060 12G 3999 元直达链接",
+      "rawPrice": "3999 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "8752030db9e0f419ddc09597c77a00d2a01df3b6dbf45f17cc1c6f0b4b52e16c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "e418a2b646c2ce0680432906",
+      "productKey": "jd-100030247230-4e8244f8b6",
+      "name": "映众（Inno3D）GEFORCE RTX2060 黑金海量版",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100030247230",
+      "merchantUrl": "https://item.jd.com/100030247230.html",
+      "publicationDate": "2021-12-07",
+      "publishedAt": "2021-12-07T22:51:33+08:00",
+      "observedAt": "2026-10-23T06:02:54.477Z",
+      "price": 3999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/591/063.htm",
+      "sourceTitle": "3999 元，七彩虹 RTX 2060 12G 战斧上架，无货",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东映众（Inno3D）GEFORCE RTX2060 黑金海量版 3999 元直达链接",
+      "rawPrice": "3999 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "8752030db9e0f419ddc09597c77a00d2a01df3b6dbf45f17cc1c6f0b4b52e16c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "4d8140a1f29c51f0798bc678",
+      "productKey": "jd-100028963548-cb5d077057",
+      "name": "铠侠极至光速 500GB 移动固态硬盘",
+      "reportedSpecification": null,
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100028963548",
+      "merchantUrl": "https://item.jd.com/100028963548.html",
+      "publicationDate": "2021-12-16",
+      "publishedAt": "2021-12-16T14:00:00+08:00",
+      "observedAt": "2026-10-23T06:02:56.687Z",
+      "price": 529,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/592/779.htm",
+      "sourceTitle": "铠侠推出其首款移动固态硬盘 XD10 极至光速：Gen2 接口，500GB 499 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东铠侠极至光速 500GB 移动固态硬盘 529 元直达链接",
+      "rawPrice": "529 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": "IT之家 12 月 16 日消息，KIOXIA 铠侠本周正式推出了该品牌首款移动固态硬盘：EXCERIA PLUS 极至光速，型号为 XD10。这款产品采用卵形铝制外壳，Type-C 接口，小巧便携。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "7c6990c83cd80d395b9db3828c637a2a27dff84115327263e21b28c818c6c134",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
       "id": "cdc8e497cd0a3dd928e3ee32",
       "productKey": "jd-10039661365190-885948715b",
       "name": "雷克沙 ARES 内存条",
@@ -3598,6 +3830,35 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "f378d5056c4cd62f3e6a02a1be4331baf8b74f8c899aa33c15a512ad3209de69",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "58d93bdb4f20d29519891dce",
+      "productKey": "jd-10029016385935-dd17eb3d17",
+      "name": "影驰 RTX 3060 金属大师 MINI (FG)",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "10029016385935",
+      "merchantUrl": "https://item.jd.com/10029016385935.html",
+      "publicationDate": "2021-12-25",
+      "publishedAt": "2021-12-25T17:10:00+08:00",
+      "observedAt": "2026-10-23T06:03:00.219Z",
+      "price": 4249,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/594/770.htm",
+      "sourceTitle": "影驰 RTX 3060 mini 显卡上市：16.8cm 长，售价 4299 元",
+      "quoteType": "promotion",
+      "priceEvidence": "京东影驰 RTX 3060 金属大师 MINI (FG) 券后 4249 元领 50 元券",
+      "rawPrice": "券后 4249 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "452ce8ebddb6b8cbab2f75b79887aff2359836d2b371055826a632f40ffdf3e3",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
@@ -16041,18 +16302,236 @@
     "https://www.ithome.com/0/580/385.htm": {
       "status": "failed",
       "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/1/016/839.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2026-10-23",
+      "sha256": "83789fbbb10b9c53c3a3caa72683d49d767ae4971587a2fbf53c03676e939106"
+    },
+    "https://www.ithome.com/0/582/247.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-10-22",
+      "sha256": "835c779d9358a8d677ee854fd743fb2c4df878d4997b0474d3309701e37d5a1c"
+    },
+    "https://www.ithome.com/1/016/773.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/582/436.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-10-24",
+      "sha256": "a97121076b61d4723f2057a8ed9c6c91f0514da8ca443ad7017f5eaf3470f632"
+    },
+    "https://www.ithome.com/0/582/707.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-10-25",
+      "sha256": "d35d3aad8b79c3815363626e2b0154462e6553c20f9cb784d0f4c482da43eb60"
+    },
+    "https://www.ithome.com/0/583/189.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-10-27",
+      "sha256": "dec0661ec782cc8a4fa4f19c4ff1426f679e6d46f245d283b1b5363a3ca85293"
+    },
+    "https://www.ithome.com/0/583/711.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-10-29",
+      "sha256": "94f4f18e88efe279da3f5e387525945edbeb272dfd3dc02e9875d8be1176f74c"
+    },
+    "https://www.ithome.com/0/583/707.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-10-29",
+      "sha256": "2056d4474972f990bc49ea3ff7a88285ad9d97ed9809fa3f72b55bf367ec22b1"
+    },
+    "https://www.ithome.com/0/583/704.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-10-29",
+      "sha256": "b340d4dce2ef1fb6005e9d78f8acf086d4a2b0ba4ccfc1054301d33c5faf353a"
+    },
+    "https://www.ithome.com/0/584/367.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-02",
+      "sha256": "50b1c4354619504af11e5b96bc6cb8bf499f6c79fe5215cb2e02b85081fe4ee5"
+    },
+    "https://www.ithome.com/0/584/363.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-02",
+      "sha256": "ad1b0e92359fb5945b64c619ca5e48897d9613b7ec4a3e461d0ce775f379b72a"
+    },
+    "https://www.ithome.com/0/584/810.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-11-04",
+      "sha256": "f3071eb1ce3ed0d5d5f07701e496553dfa261e1de66e7dd176885c4facd224f4"
+    },
+    "https://www.ithome.com/0/584/708.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-04",
+      "sha256": "1dfd02e897078f0da854a468e90338bb97bcc526c49851111c69eeb78a384cf6"
+    },
+    "https://www.ithome.com/0/584/688.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-04",
+      "sha256": "a3a553597d0f9b0055d4d36c0ee1564be1e7af81522263ebae7b361b7b538ebd"
+    },
+    "https://www.ithome.com/0/586/691.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-14",
+      "sha256": "8dd8c906e209f65b8167fd6607cf66f86387d607fab5de1a152f0ff39fadaa99"
+    },
+    "https://www.ithome.com/0/585/859.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-10",
+      "sha256": "d84c4450f1b7d837a636c9d37497eb28e0e04ed3425436094b104ae034072cac"
+    },
+    "https://www.ithome.com/0/587/344.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-17",
+      "sha256": "dfd1c301060e65e39f85314d3452f11ba200be3aff543a4f87cda70d4a4b4863"
+    },
+    "https://www.ithome.com/0/585/923.htm": {
+      "status": "ok",
+      "recordCount": 2,
+      "date": "2021-11-10",
+      "sha256": "c6e80dff0af9bfde7bcbea836360eb52560af6a1a9ca8489a45bb031f651666c"
+    },
+    "https://www.ithome.com/0/587/917.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-20",
+      "sha256": "0f775d07addecedc34187323e9c1b473b85f342646da4a313e231ed3ee0ac94f"
+    },
+    "https://www.ithome.com/0/588/855.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-25",
+      "sha256": "f3c561a813bcecb4733b02e311c89c29868cbb157968d726a93d51d374c06ebd"
+    },
+    "https://www.ithome.com/0/589/593.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-30",
+      "sha256": "395581af9e647d352eb1eff8dd7d9e5b6bbb2a8c54d548b4cc09c5cfd9b04243"
+    },
+    "https://www.ithome.com/0/590/847.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-06",
+      "sha256": "e4651c62ae56e00a215d414bdb12c8ef2195c1ad823c0ba721c6fe28f0703b17"
+    },
+    "https://www.ithome.com/0/591/063.htm": {
+      "status": "ok",
+      "recordCount": 2,
+      "date": "2021-12-07",
+      "sha256": "8752030db9e0f419ddc09597c77a00d2a01df3b6dbf45f17cc1c6f0b4b52e16c"
+    },
+    "https://www.ithome.com/0/590/253.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-03",
+      "sha256": "2e2d14afdb45930ffa92e01a7117c9e17db406f83a516d8052f9cf6ee9c4dcf6"
+    },
+    "https://www.ithome.com/0/591/513.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-09",
+      "sha256": "7da45494b1691145922a9cfa9cd8ac7a57c0441267f9327f01ca8558c5aa4b76"
+    },
+    "https://www.ithome.com/0/591/421.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-09",
+      "sha256": "e6a51bb21c9dd911553725271d243d9c36e2d75373c9772839ea89f5410cd42a"
+    },
+    "https://www.ithome.com/0/588/848.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-11-25",
+      "sha256": "d441464841a7587bc00a72f5133fdfe9652e8a02b5b792bbc661ae13f6a27565"
+    },
+    "https://www.ithome.com/0/591/740.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-10",
+      "sha256": "df64df2e9d3d22560de604ced7859c40442ff3b1ba00b91747e2a96fd44bea83"
+    },
+    "https://www.ithome.com/0/591/815.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-11",
+      "sha256": "b655a431865cb315797fdb7ace8b6c9373a42cad264116d151aa6276f8fec9da"
+    },
+    "https://www.ithome.com/0/592/779.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-12-16",
+      "sha256": "7c6990c83cd80d395b9db3828c637a2a27dff84115327263e21b28c818c6c134"
+    },
+    "https://www.ithome.com/0/593/128.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-17",
+      "sha256": "6508642fd9b23cf9aafc77521faf521ef2a5ff7e32ae88104c50e5f968e87ff9"
+    },
+    "https://www.ithome.com/0/592/934.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/594/035.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-22",
+      "sha256": "8cef5f50e40fcae3b8b81a58f655b4fd5c6f08d2b5125e737f1960b34078122d"
+    },
+    "https://www.ithome.com/0/594/393.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-23",
+      "sha256": "de9c9df7a7ab559b39640884cdddac228a3a2a2b1713352961a6f5870a706c92"
+    },
+    "https://www.ithome.com/0/594/677.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-24",
+      "sha256": "e01045667420a9f4dfc8bc70564f32869d27051b7b0afbe00ea55ec9055dd01c"
+    },
+    "https://www.ithome.com/0/594/770.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2021-12-25",
+      "sha256": "452ce8ebddb6b8cbab2f75b79887aff2359836d2b371055826a632f40ffdf3e3"
+    },
+    "https://www.ithome.com/0/594/574.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-24",
+      "sha256": "69ccfac3eca735877c0f6048338063fa3d70249233252b33ac6b4b4381e1e16e"
     }
   },
   "discovery": {
-    "scannedDays": 1023,
+    "scannedDays": 1082,
     "firstScannedDate": "2020-01-01",
-    "lastScannedDate": "2026-10-22",
-    "candidates": 1609,
-    "checkedArticles": 1223,
+    "lastScannedDate": "2026-10-23",
+    "candidates": 1654,
+    "checkedArticles": 1260,
     "scannedThisRun": 60,
     "checkedThisRun": 37,
-    "failedRequestsThisRun": 5,
-    "successfulRequestsThisRun": 92,
+    "failedRequestsThisRun": 2,
+    "successfulRequestsThisRun": 95,
     "throttled": false
   }
 }
