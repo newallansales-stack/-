@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T06:03:01.128Z",
+  "updatedAt": "2026-10-24T05:50:03.152Z",
   "description": "免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。",
   "records": [
     {
@@ -3859,6 +3859,354 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "452ce8ebddb6b8cbab2f75b79887aff2359836d2b371055826a632f40ffdf3e3",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "082192d4b1d2e37dbafb2dd4",
+      "productKey": "jd-100030823026-cc8d0fd717",
+      "name": "七彩虹战斧 GeForce RTX 3080 豪华版 LHR 12G",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100030823026",
+      "merchantUrl": "https://item.jd.com/100030823026.html",
+      "publicationDate": "2022-01-13",
+      "publishedAt": "2022-01-13T10:25:19+08:00",
+      "observedAt": "2026-10-24T05:49:37.885Z",
+      "price": 9299,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/598/235.htm",
+      "sourceTitle": "七彩虹推出三款 RTX 3080 12G 显卡：9299-9999 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹战斧 GeForce RTX 3080 豪华版 LHR 12G9299 元直达链接",
+      "rawPrice": "9299 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "2f2b6f8e2e5cdd2248a028ec56cb9eb89bb95c2bcd69ea24d05871d19472db67",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "6d38783885a5e048a41cd421",
+      "productKey": "jd-100017118789-cc8d0fd717",
+      "name": "七彩虹 iGame GeForce RTX 3080 Advanced OC 12G LHR",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017118789",
+      "merchantUrl": "https://item.jd.com/100017118789.html",
+      "publicationDate": "2022-01-13",
+      "publishedAt": "2022-01-13T10:25:19+08:00",
+      "observedAt": "2026-10-24T05:49:37.885Z",
+      "price": 9999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/598/235.htm",
+      "sourceTitle": "七彩虹推出三款 RTX 3080 12G 显卡：9299-9999 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹 iGame GeForce RTX 3080 Advanced OC 12G LHR9999 元直达链接",
+      "rawPrice": "9999 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "2f2b6f8e2e5cdd2248a028ec56cb9eb89bb95c2bcd69ea24d05871d19472db67",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "a3de6306c036a44f51bd4a2d",
+      "productKey": "jd-100017118777-cc8d0fd717",
+      "name": "七彩虹 iGame GeForce RTX 3080 Ultra W OC 12G LHR",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017118777",
+      "merchantUrl": "https://item.jd.com/100017118777.html",
+      "publicationDate": "2022-01-13",
+      "publishedAt": "2022-01-13T10:25:19+08:00",
+      "observedAt": "2026-10-24T05:49:37.885Z",
+      "price": 9699,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/598/235.htm",
+      "sourceTitle": "七彩虹推出三款 RTX 3080 12G 显卡：9299-9999 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹 iGame GeForce RTX 3080 Ultra W OC 12G LHR9699 元直达链接",
+      "rawPrice": "9699 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "2f2b6f8e2e5cdd2248a028ec56cb9eb89bb95c2bcd69ea24d05871d19472db67",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "a4dd9af7db54c33dbb45132f",
+      "productKey": "jd-100031313582-0da0dbee28",
+      "name": "微星万图师 GeForce RTX 2060 VENTUS 12G OC 超频版",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100031313582",
+      "merchantUrl": "https://item.jd.com/100031313582.html",
+      "publicationDate": "2022-01-14",
+      "publishedAt": "2022-01-14T22:21:25+08:00",
+      "observedAt": "2026-10-24T05:49:38.386Z",
+      "price": 3599,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/598/626.htm",
+      "sourceTitle": "微星上架万图师 RTX 2060 12G 显卡，售价 3599 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东微星万图师 GeForce RTX 2060 VENTUS 12G OC 超频版 3599 元直达链接",
+      "rawPrice": "3599 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "2ea37bab2935d0b2183e230e33734a557f61f34a382ee1947c620b62d033ad52",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "0c5dbb7a5c0ff18f13956fd3",
+      "productKey": "jd-100017905037-900aa4678f",
+      "name": "盈通（yeston）AMD RADEON RX 6500XT 4G D6 大地之神 6nm 游戏显卡",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017905037",
+      "merchantUrl": "https://item.jd.com/100017905037.html",
+      "publicationDate": "2022-01-22",
+      "publishedAt": "2022-01-22T15:17:50+08:00",
+      "observedAt": "2026-10-24T05:49:41.386Z",
+      "price": 1899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/599/980.htm",
+      "sourceTitle": "盈通 RX 6500 XT 显卡现货开售，售价 1899 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东盈通（yeston）AMD RADEON RX 6500XT 4G D6 大地之神 6nm 游戏显卡 1899 元直达链接",
+      "rawPrice": "1899 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "811c810d5d09d5585f2d62bd520470b7b09cd6f0418c6f99f11b6ae63fd91aa7",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "16c680464ed0dfe179e9b31b",
+      "productKey": "jd-100017905037-900aa4678f",
+      "name": "盈通（yeston）AMD RADEON RX 6500XT 4G D6 大地之神",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017905037",
+      "merchantUrl": "https://item.jd.com/100017905037.html",
+      "publicationDate": "2022-01-23",
+      "publishedAt": "2022-01-23T13:46:52+08:00",
+      "observedAt": "2026-10-24T05:49:43.385Z",
+      "price": 1899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/600/077.htm",
+      "sourceTitle": "撼讯 RX 6500 XT 显卡开卖，售价 1899 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东盈通（yeston）AMD RADEON RX 6500XT 4G D6 大地之神 1899 元直达链接",
+      "rawPrice": "1899 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "3eb555d86668bbfc1077b4575aaf902d417076ae957da61faf4465e37fe7c1bf",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "7060cdc002df76d07140a582",
+      "productKey": "jd-10043751597417-db0bd9f231",
+      "name": "撼讯 (PowerColor) RX6500XT",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "10043751597417",
+      "merchantUrl": "https://item.jd.com/10043751597417.html",
+      "publicationDate": "2022-01-23",
+      "publishedAt": "2022-01-23T13:46:52+08:00",
+      "observedAt": "2026-10-24T05:49:43.385Z",
+      "price": 1899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/600/077.htm",
+      "sourceTitle": "撼讯 RX 6500 XT 显卡开卖，售价 1899 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东撼讯 (PowerColor) RX6500XT 1899 元直达链接",
+      "rawPrice": "1899 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "3eb555d86668bbfc1077b4575aaf902d417076ae957da61faf4465e37fe7c1bf",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "876f40ccc320049976db34a8",
+      "productKey": "jd-10043866940632-a8637008e1",
+      "name": "影驰（Galaxy）DDR5 台式机内存条",
+      "reportedSpecification": "Gamer RGB DDR5 5600 8G*2",
+      "category": "memory",
+      "platform": "京东",
+      "sku": "10043866940632",
+      "merchantUrl": "https://item.jd.com/10043866940632.html",
+      "publicationDate": "2022-01-26",
+      "publishedAt": "2022-01-26T15:56:20+08:00",
+      "observedAt": "2026-10-24T05:49:45.384Z",
+      "price": 1899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/600/644.htm",
+      "sourceTitle": "影驰推出 Gamer RGB DDR5-5600 高频内存：8GB*2 1899 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东影驰（Galaxy）DDR5 台式机内存条 Gamer RGB DDR5 5600 8G*21899 元直达链接",
+      "rawPrice": "1899 元",
+      "conditions": "Gamer RGB DDR5 5600 8G*2",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "faf5e744983ccfa234a0cd1a97eb18d8d948cf413965ef80d58362cf3fcf6a2f",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "e18ceab7d360f302eb2b0323",
+      "productKey": "jd-100017573301-ee92ccae4e",
+      "name": "七彩虹（Colorful）战斧 GeForce RTX 3050 DUO 8G",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017573301",
+      "merchantUrl": "https://item.jd.com/100017573301.html",
+      "publicationDate": "2022-02-07",
+      "publishedAt": "2022-02-07T20:36:41+08:00",
+      "observedAt": "2026-10-24T05:49:51.498Z",
+      "price": 1899,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/601/981.htm",
+      "sourceTitle": "1899 元原价，七彩虹战斧 RTX 3050 DUO 显卡开启预约",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹（Colorful）战斧 GeForce RTX 3050 DUO 8G1899 元直达链接",
+      "rawPrice": "1899 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "c8f23116c07f8034a463ea9d8b46e413af5607bc62e2f646387dc4c8dc4f8a84",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "2ec75124886e83aca996e309",
+      "productKey": "jd-100011555179-cfb52297b2",
+      "name": "华硕 ASUS DUAL GeForce RTX3060-12G-V2",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100011555179",
+      "merchantUrl": "https://item.jd.com/100011555179.html",
+      "publicationDate": "2022-02-13",
+      "publishedAt": "2022-02-13T19:38:31+08:00",
+      "observedAt": "2026-10-24T05:49:52.884Z",
+      "price": 2499,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/602/808.htm",
+      "sourceTitle": "华硕上架 RTX 30 系列原价显卡：RTX 3060 2499 元，近 10 万人预约",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东华硕 ASUS DUAL GeForce RTX3060-12G-V22499 元直达链接",
+      "rawPrice": "2499 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "c5220830d4a205582dec03fd74cafeb23678f1712b635c385b42396e9308ddfc",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "0666201cfdda34a3eb410434",
+      "productKey": "jd-100032035260-da0bf5e860",
+      "name": "阿斯加特（Asgard）16GB (8Gx2) 套装 DDR5 4800 台式机内存条 弗雷系列-钛银甲",
+      "reportedSpecification": null,
+      "category": "memory",
+      "platform": "京东",
+      "sku": "100032035260",
+      "merchantUrl": "https://item.jd.com/100032035260.html",
+      "publicationDate": "2022-02-26",
+      "publishedAt": "2022-02-26T16:44:29+08:00",
+      "observedAt": "2026-10-24T05:49:56.886Z",
+      "price": 999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/604/918.htm",
+      "sourceTitle": "阿斯加特推出弗雷系列 DDR5-4800 内存，8GB*2 售价 999 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东阿斯加特（Asgard）16GB (8Gx2) 套装 DDR5 4800 台式机内存条 弗雷系列-钛银甲 999 元直达链接",
+      "rawPrice": "999 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "34e77d34b98a3330c0120f3e5399e25318f6143a2d54068922c0f541bbaf91aa",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "51333159b8960ff0834822dc",
+      "productKey": "jd-100017573299-dfb160a4fc",
+      "name": "七彩虹（Colorful）iGame GeForce RTX 3050 Ultra W DUO OC 8G 1822Mhz 电竞游戏显卡",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017573299",
+      "merchantUrl": "https://item.jd.com/100017573299.html",
+      "publicationDate": "2022-03-10",
+      "publishedAt": "2022-03-10T16:43:01+08:00",
+      "observedAt": "2026-10-24T05:50:02.385Z",
+      "price": 2699,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/607/041.htm",
+      "sourceTitle": "大眼萌物，七彩虹 iGame RTX 3050 Ultra 再添一员：白色双风扇，售价 2699 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东七彩虹（Colorful）iGame GeForce RTX 3050 Ultra W DUO OC 8G 1822Mhz 电竞游戏显卡 2699 元直达链接",
+      "rawPrice": "2699 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "97d8cde7b239a653de774d777a9416dbf4002c64953f12cfe1e4eec4018794f1",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
@@ -16520,18 +16868,370 @@
       "recordCount": 0,
       "date": "2021-12-24",
       "sha256": "69ccfac3eca735877c0f6048338063fa3d70249233252b33ac6b4b4381e1e16e"
+    },
+    "https://www.ithome.com/0/595/773.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-30",
+      "sha256": "51f8768bc65ce7e096d3863a3699ac73a9af1334cc956bcc718d4a74e5505b33"
+    },
+    "https://www.ithome.com/0/596/581.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-04",
+      "sha256": "3e1f5fd10f0077246c89f68f888ccf465cfbf92ed60f069acbc903571c8c34a0"
+    },
+    "https://www.ithome.com/0/596/037.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2021-12-31",
+      "sha256": "1739533652bc06211a0c730011850be8ef671cff75b02aeed8ed4944101336ce"
+    },
+    "https://www.ithome.com/0/596/886.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-05",
+      "sha256": "60f82016605c090bdd27199a38fee43a34a15a63165a0d7d3f359dee59cfede3"
+    },
+    "https://www.ithome.com/0/596/849.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-05",
+      "sha256": "3df6d01cf7e62dd0f51945d0adae76bb310e319ac36859994d291c4718753d15"
+    },
+    "https://www.ithome.com/0/596/766.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-05",
+      "sha256": "e4304f9ca2a025ae174b813a4023f5f6d52693ac35d5f7aafe0bdb17ae9134cb"
+    },
+    "https://www.ithome.com/0/596/651.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/597/328.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-07",
+      "sha256": "e6f798b7970d67f93e45cd829197278888dd5f68a69d02cea2c4ede3769c7626"
+    },
+    "https://www.ithome.com/0/597/958.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-11",
+      "sha256": "a6aab5e550d34ff2b1fcc41c4e11acd312a032dd5a362dd288d6dcf2bab61378"
+    },
+    "https://www.ithome.com/0/598/235.htm": {
+      "status": "ok",
+      "recordCount": 3,
+      "date": "2022-01-13",
+      "sha256": "2f2b6f8e2e5cdd2248a028ec56cb9eb89bb95c2bcd69ea24d05871d19472db67"
+    },
+    "https://www.ithome.com/0/598/626.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-01-14",
+      "sha256": "2ea37bab2935d0b2183e230e33734a557f61f34a382ee1947c620b62d033ad52"
+    },
+    "https://www.ithome.com/0/598/850.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-16",
+      "sha256": "9ca8f73ed4485c51e2a3b84630378aaf94beebf1992c5fe2bd2d9ee1b2e3f41e"
+    },
+    "https://www.ithome.com/0/599/449.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-19",
+      "sha256": "1e0012b2cf35abd7b69aa5b432d6d7b37f162562a35959b4cec3db5910a1c0e9"
+    },
+    "https://www.ithome.com/0/599/345.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-19",
+      "sha256": "7c80f90702f41e73d2d6f4d0beec7379622b164af931e5238bb85206385764a4"
+    },
+    "https://www.ithome.com/0/599/341.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-19",
+      "sha256": "3a15430f487a489fcf548978b889da3e1b326e808ddf30008b75e95e3087dc1a"
+    },
+    "https://www.ithome.com/0/599/587.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-20",
+      "sha256": "dd351e04577c7e7e8ffce28eabfc5251907303c8ae55e79549c058a3d210f789"
+    },
+    "https://www.ithome.com/0/599/980.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-01-22",
+      "sha256": "811c810d5d09d5585f2d62bd520470b7b09cd6f0418c6f99f11b6ae63fd91aa7"
+    },
+    "https://www.ithome.com/0/599/968.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-22",
+      "sha256": "da8705ebe795327174cc2b11a1367266f50ab0842bff1228c04a50828fcc2b7a"
+    },
+    "https://www.ithome.com/0/599/962.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-22",
+      "sha256": "a67e39ced4a06e7d251ba13007e768c0d3aa780a7e2c4979e4a6c84bdfe104b7"
+    },
+    "https://www.ithome.com/0/599/942.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/600/077.htm": {
+      "status": "ok",
+      "recordCount": 2,
+      "date": "2022-01-23",
+      "sha256": "3eb555d86668bbfc1077b4575aaf902d417076ae957da61faf4465e37fe7c1bf"
+    },
+    "https://www.ithome.com/0/600/151.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/600/415.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-25",
+      "sha256": "fad2bc81a08dcb43a45acd2e007ce8eaa44a04da6b60c7622f1fced02ec6c076"
+    },
+    "https://www.ithome.com/0/600/368.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-25",
+      "sha256": "27ca176f63ee2e30083f25184af2587edc35dd8758319d0149b04a2b94823c64"
+    },
+    "https://www.ithome.com/0/600/644.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-01-26",
+      "sha256": "faf5e744983ccfa234a0cd1a97eb18d8d948cf413965ef80d58362cf3fcf6a2f"
+    },
+    "https://www.ithome.com/0/600/900.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-27",
+      "sha256": "eba5709402c78ee07e7375875605165fcfdeedeac386e5aa57d428561676e39e"
+    },
+    "https://www.ithome.com/0/600/893.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-27",
+      "sha256": "17bb4d9d232b9f62880ca2eb3e2b9bbf6ce16247510abc5000c893a0598336f6"
+    },
+    "https://www.ithome.com/0/600/865.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-27",
+      "sha256": "424324fd780f485d55ff0bff61f12303f570f992807c1d47f6eebb18fab51c43"
+    },
+    "https://www.ithome.com/0/600/864.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-27",
+      "sha256": "c9ec6b78be5d0c0606d70954beb4f8c91c39d9f5f371ad289397bab61c99ae97"
+    },
+    "https://www.ithome.com/0/600/827.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-27",
+      "sha256": "e1184cb8b18d2cff0d2d4df4a989affbc9265533afa673593ebd6ebb5f764785"
+    },
+    "https://www.ithome.com/0/601/361.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-01-31",
+      "sha256": "684d41d0b0b7e44d0151de2d682ceb65fdf3d1b3a14a8225c8f49697c72b2071"
+    },
+    "https://www.ithome.com/0/601/521.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-02",
+      "sha256": "09903e4ccdedaa78d1a7360c87ecaa3670b8cf36dd5ecba3a661662e610136d8"
+    },
+    "https://www.ithome.com/0/601/661.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-04",
+      "sha256": "97b21f89f1b344aa1181ef9e09569a4d788709aaa9b4ddfe139951f487d28c59"
+    },
+    "https://www.ithome.com/0/601/656.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-04",
+      "sha256": "5795238269c5596800d20fc195ac316832a2a7158ade407cc6b89d1d60002bf2"
+    },
+    "https://www.ithome.com/0/601/776.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-05",
+      "sha256": "9a711c62ed4f12249c8eecfcabcd49152672f8df7f4f5276b66ec6955000c169"
+    },
+    "https://www.ithome.com/0/602/253.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-09",
+      "sha256": "e563146b02a94aae3b523e93eed89ab6a24583262ca47ae7804ae160a3d08fd5"
+    },
+    "https://www.ithome.com/0/601/981.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-02-07",
+      "sha256": "c8f23116c07f8034a463ea9d8b46e413af5607bc62e2f646387dc4c8dc4f8a84"
+    },
+    "https://www.ithome.com/0/602/637.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-11",
+      "sha256": "fad97906d0e4ba16770d4fd7c4ca0343fc1f7db9a6bb41376b80b5040bae1a4c"
+    },
+    "https://www.ithome.com/0/602/635.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-11",
+      "sha256": "b2a1c98e718c6b1eccf8d20e2ea0569d49df1a1f902666dccca346fbf7808801"
+    },
+    "https://www.ithome.com/0/602/808.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-02-13",
+      "sha256": "c5220830d4a205582dec03fd74cafeb23678f1712b635c385b42396e9308ddfc"
+    },
+    "https://www.ithome.com/0/603/267.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-16",
+      "sha256": "ecf1cbd6776841211bd060a0891d708c5ac4f03ce49c3687dd35e92a1ff97abc"
+    },
+    "https://www.ithome.com/0/603/412.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-17",
+      "sha256": "b06d24c4b82516e1eb7a964ce19ae6218e89d9db497b276d3544afe1b65cea4e"
+    },
+    "https://www.ithome.com/0/603/865.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-19",
+      "sha256": "367de41131066407ebd46ed22c325ee9cebbaf1c3faf91c585d2693d97b463fd"
+    },
+    "https://www.ithome.com/0/603/944.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-20",
+      "sha256": "656f9ddbab935ae7b245cb698e67af76d5abd7576eb6032f6a526925fb0b38d2"
+    },
+    "https://www.ithome.com/0/604/277.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-22",
+      "sha256": "6b2392e1bea0f4003a08ea04e981bbe15e107b5340547f7ef1ea74acccee27b1"
+    },
+    "https://www.ithome.com/0/604/473.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-23",
+      "sha256": "e361015e69b07d9c23525a693bc86840e097e0ba321fa23a762b8661ba985fc7"
+    },
+    "https://www.ithome.com/0/604/843.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-25",
+      "sha256": "eb05e2c606874b945ea93c73f16b5647a048cde3abecea658f36652e53fe53d7"
+    },
+    "https://www.ithome.com/0/604/918.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-02-26",
+      "sha256": "34e77d34b98a3330c0120f3e5399e25318f6143a2d54068922c0f541bbaf91aa"
+    },
+    "https://www.ithome.com/0/604/997.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-27",
+      "sha256": "2cf91117ca9a1a3c07b1aab8f0916436cac80556042180c0ee7f2b5852db5ff0"
+    },
+    "https://www.ithome.com/0/604/969.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-02-27",
+      "sha256": "86fa015606577899211fbd2e8534215b3dc66b8f6e1f532b95e092fe2b91063c"
+    },
+    "https://www.ithome.com/0/605/637.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-02",
+      "sha256": "ba9c345d9f710373dd9b5171333e37b6ee3eeb855a86129170efa8e2d66c3985"
+    },
+    "https://www.ithome.com/0/605/594.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-02",
+      "sha256": "86ef45dec80e40a89abdb19232e14bc5578ee98365aabd205372ff39e7d52d4b"
+    },
+    "https://www.ithome.com/0/605/774.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-03",
+      "sha256": "bc3affbbbad0ff643579891eee77a0f5cf6115db33f55c01ab3f222e759fd63a"
+    },
+    "https://www.ithome.com/0/606/042.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-04",
+      "sha256": "4fd6a47d60e217893f1c6c6c5eebefe289b4ff8129bfb0fdbfc23077eabc4259"
+    },
+    "https://www.ithome.com/0/606/179.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-05",
+      "sha256": "8b9a1ed6f8e4069ae2d4d4150bcc86a67c99d3f54b3835157ac3859bca53ef2c"
+    },
+    "https://www.ithome.com/0/606/510.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-07",
+      "sha256": "6b83f28371c73b89ccf9df3808addb1c45a35301a6d5960ca5b997e69053fad3"
+    },
+    "https://www.ithome.com/0/606/503.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-07",
+      "sha256": "08fe95d37d7575ba982c2703292ece4ef9fa5b6ca0d8f2ff66bdc3958e9ec8ea"
+    },
+    "https://www.ithome.com/0/606/708.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/607/041.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-03-10",
+      "sha256": "97d8cde7b239a653de774d777a9416dbf4002c64953f12cfe1e4eec4018794f1"
+    },
+    "https://www.ithome.com/0/606/976.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-03-10",
+      "sha256": "87b4c2bc7f98063eadc8d925f982439f471f542835c731856ac99b6c3c40abf1"
     }
   },
   "discovery": {
-    "scannedDays": 1082,
+    "scannedDays": 1141,
     "firstScannedDate": "2020-01-01",
-    "lastScannedDate": "2026-10-23",
-    "candidates": 1654,
-    "checkedArticles": 1260,
+    "lastScannedDate": "2026-10-24",
+    "candidates": 1738,
+    "checkedArticles": 1320,
     "scannedThisRun": 60,
-    "checkedThisRun": 37,
-    "failedRequestsThisRun": 2,
-    "successfulRequestsThisRun": 95,
+    "checkedThisRun": 60,
+    "failedRequestsThisRun": 4,
+    "successfulRequestsThisRun": 116,
     "throttled": false
   }
 }
