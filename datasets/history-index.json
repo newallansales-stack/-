@@ -4623,8 +4623,8 @@
     },
     "2026-10-24": {
       "status": "ok",
-      "articles": 63,
-      "sha256": "5a184552157f6c0766b3f49a425c7ab30dd3da5a01619cd1f59cf5dc07ed611c"
+      "articles": 158,
+      "sha256": "e24cb854be3b8075d6cf9b01640a36ed1d3c4ba72a3a8a28e5182c109d58a551"
     },
     "2021-12-29": {
       "status": "ok",
@@ -4915,6 +4915,301 @@
       "status": "ok",
       "articles": 145,
       "sha256": "2f4228c8713d7ed56c1d1972571b03327dc977eb43b985da307bef2f361a51a0"
+    },
+    "2026-10-25": {
+      "status": "ok",
+      "articles": 51,
+      "sha256": "8d9462bcf58930e16c96d568b99845c7322cebd886bc56e7eb97cf76e2e1a2f3"
+    },
+    "2022-03-11": {
+      "status": "ok",
+      "articles": 126,
+      "sha256": "6b9f8ef9561fe8c01ca217dc117fd721510f504dc4ca5c301f8e836bf68fcbbd"
+    },
+    "2022-03-12": {
+      "status": "ok",
+      "articles": 97,
+      "sha256": "83604efdf6408e91994735aaeca6b761210eb88ddaae8dda13a0742e99135a5c"
+    },
+    "2022-03-13": {
+      "status": "ok",
+      "articles": 82,
+      "sha256": "1863df4cfdf5468b0fad3e23337bac8eed799045331e326805bdd994adbd4abf"
+    },
+    "2022-03-14": {
+      "status": "ok",
+      "articles": 137,
+      "sha256": "ec8e1745014b00fa26ca93877ca95017ae715db59d9c097f525ab3580595b0e9"
+    },
+    "2022-03-16": {
+      "status": "ok",
+      "articles": 168,
+      "sha256": "f02c0f7d08cb78ee970f432154233378d6e6324b6c923ddfbd319c3cca5ce16f"
+    },
+    "2022-03-17": {
+      "status": "ok",
+      "articles": 147,
+      "sha256": "3ba1c49767871acc36520bdb682e101a5695d0e8dd275b272769719882f40c12"
+    },
+    "2022-03-19": {
+      "status": "ok",
+      "articles": 96,
+      "sha256": "0b9f2074f98d44e250a92d590d00f5ef217bb4f187ffbdee4e2fc831994c0df8"
+    },
+    "2022-03-20": {
+      "status": "ok",
+      "articles": 79,
+      "sha256": "8efac397a76a8cf46e8fdf2eea9d59731d28c20fc38703647d99ca48adfe9678"
+    },
+    "2022-03-22": {
+      "status": "ok",
+      "articles": 141,
+      "sha256": "fdb54ff97a8663293dd337b56d69d6d96fa2f89cc198ac6440f33dd88e55fcd6"
+    },
+    "2022-03-23": {
+      "status": "ok",
+      "articles": 149,
+      "sha256": "3c77b9c26712392e939a8156c69e8e7efce70448f25110446f5ecc43c40222ca"
+    },
+    "2022-03-24": {
+      "status": "ok",
+      "articles": 135,
+      "sha256": "a5d2f24a5ef9354cf2c124922f20097dea1566227b2cd7880740f48dcba582fc"
+    },
+    "2022-03-25": {
+      "status": "ok",
+      "articles": 118,
+      "sha256": "6c75313fd42745c4f75ce70602c1db3478b3b57e49475590ca4d897445838fa7"
+    },
+    "2022-03-26": {
+      "status": "ok",
+      "articles": 96,
+      "sha256": "ca20ae708ea4d8c534d1b1263f7474d2341445b6a226d7b650cd776024c6a13b"
+    },
+    "2022-03-27": {
+      "status": "ok",
+      "articles": 81,
+      "sha256": "a0e06eea1935f3abe0f6a85643905d77a193d859de1975eac53fe366a5336e87"
+    },
+    "2022-03-29": {
+      "status": "ok",
+      "articles": 139,
+      "sha256": "26db0800e6916509edb1c38dd3f1e83a6a6e92666ae08266d0bf8b970ebdff38"
+    },
+    "2022-03-30": {
+      "status": "ok",
+      "articles": 168,
+      "sha256": "e3428ba3d828299b2ef959ec2a38ff33956168e41b274c549125311031a00df5"
+    },
+    "2022-03-31": {
+      "status": "ok",
+      "articles": 150,
+      "sha256": "9c0bd6ed6c62fd08518b2c5df173c33ae661eb3a4a5620ab8aa38b8f0e6ec54c"
+    },
+    "2022-04-02": {
+      "status": "ok",
+      "articles": 111,
+      "sha256": "4dba3a8a29ab723213bc4eadca39efad4afb2afdf5843570396df362752e67dd"
+    },
+    "2022-04-03": {
+      "status": "ok",
+      "articles": 73,
+      "sha256": "17536f5b478304e784add62ac07c78b88e12fe1747ca3021565faa47b4d7f052"
+    },
+    "2022-04-04": {
+      "status": "ok",
+      "articles": 92,
+      "sha256": "6f427462a47deadd6db8a0c0e86d478d4d285bf08c91955e9dd3d2b2d819751c"
+    },
+    "2022-04-05": {
+      "status": "ok",
+      "articles": 91,
+      "sha256": "f2c472f22e8eb410605919743c29c3da4b80150444162fdaaffb8ae82daf5375"
+    },
+    "2022-04-06": {
+      "status": "ok",
+      "articles": 122,
+      "sha256": "b9dedd123fe95802f66ee537bdea4763df5f56b612a4c1ef704b71dd8cb0a9fa"
+    },
+    "2022-04-07": {
+      "status": "ok",
+      "articles": 134,
+      "sha256": "e7fe85757aac66bf9ef0e27efa28f57875c9bcc73af2971727cf44f1e0b43207"
+    },
+    "2022-04-09": {
+      "status": "ok",
+      "articles": 88,
+      "sha256": "aa6b16b043a406c8821af9de94ba19276695f0e6d915a84674adbf9bfc35e172"
+    },
+    "2022-04-10": {
+      "status": "ok",
+      "articles": 78,
+      "sha256": "6aad34867036404a443ddbd1cc5fe0ab30b3e353e3e85968709886338655ced6"
+    },
+    "2022-04-11": {
+      "status": "ok",
+      "articles": 134,
+      "sha256": "0ef3333c0e2414451c101312634473546a8bae6c7e8aa2e25f42934a8d95359c"
+    },
+    "2022-04-12": {
+      "status": "ok",
+      "articles": 139,
+      "sha256": "4ef8bb0f1caff4b2841008c5f641986d973957a290fcb8064d1300c5c3f6c958"
+    },
+    "2022-04-13": {
+      "status": "ok",
+      "articles": 167,
+      "sha256": "43feffb0c266721c9e5cd9c109532c060a66861f8dcce1f53a43f09ad115dd53"
+    },
+    "2022-04-14": {
+      "status": "ok",
+      "articles": 149,
+      "sha256": "79a4697e590a9f6277add2cb1d5463f1662922e420e5cf0c3e4863d9f1fadec5"
+    },
+    "2022-04-16": {
+      "status": "ok",
+      "articles": 91,
+      "sha256": "cade22f9b689435d107c87988a852b23ad0060480b1904037ed3345be1c83453"
+    },
+    "2022-04-17": {
+      "status": "ok",
+      "articles": 80,
+      "sha256": "541e0f67ad79cfaa1a6e213a565a41737798f79c3b5645223956205737536809"
+    },
+    "2022-04-19": {
+      "status": "ok",
+      "articles": 136,
+      "sha256": "2383efbec95245c013469cb273cc25e8507f99e110c934f35df6a382af6838e0"
+    },
+    "2022-04-20": {
+      "status": "ok",
+      "articles": 123,
+      "sha256": "e806bb8c97def6538932122c571696dc27ff7cf4abba0e6a2c70642816eb7c2e"
+    },
+    "2022-04-22": {
+      "status": "ok",
+      "articles": 142,
+      "sha256": "f124a25ad15996f00d1dd8e761c429cfb41730544a99b5f0777e98493473aad2"
+    },
+    "2022-04-23": {
+      "status": "ok",
+      "articles": 96,
+      "sha256": "c4d21245d589fb1fcf6dd65a4a47215029b70736c0c4e2b8c6c068d8d7e1e0b7"
+    },
+    "2022-04-24": {
+      "status": "ok",
+      "articles": 86,
+      "sha256": "c96a79376b8c95e862faa81173c70d111363a1bda1cdbe93a68b000124fa8475"
+    },
+    "2022-04-25": {
+      "status": "ok",
+      "articles": 147,
+      "sha256": "83852623104881d0879786b11107135cd3a2ca8ef8890c3c394ee3daf6e0cb90"
+    },
+    "2022-04-26": {
+      "status": "ok",
+      "articles": 156,
+      "sha256": "4b5f2878c86cddae28c37f2869bcde6a774c4e720f487399f43b8e0edce9a7c8"
+    },
+    "2022-04-27": {
+      "status": "ok",
+      "articles": 174,
+      "sha256": "6a9039e8198338fec851e8fcfdcabc52187e9d28df6f02806fb6cfa965d99edf"
+    },
+    "2022-04-29": {
+      "status": "ok",
+      "articles": 148,
+      "sha256": "8f0ca86ec887a394aaba1cc985dc3234a6fc4fa2573b1c734ab9ecd6d0fcdb47"
+    },
+    "2022-04-30": {
+      "status": "ok",
+      "articles": 85,
+      "sha256": "948a555070a3f1e46d94fe1106ea07e2bcfae2de5c32430c9283120c96fbc849"
+    },
+    "2022-05-02": {
+      "status": "ok",
+      "articles": 86,
+      "sha256": "fac78adaedeb18248d56675cea8a71df2109cdbfb0c5e8bc1eb62a05fab4ba72"
+    },
+    "2022-05-03": {
+      "status": "ok",
+      "articles": 95,
+      "sha256": "f0afe69aa12fcd480435962da6d5a06b3737aba5df8574847f20c6f42c8e7c59"
+    },
+    "2022-05-04": {
+      "status": "ok",
+      "articles": 88,
+      "sha256": "03ef0f6c847b7ebf1949c9be618fa9c242663cbd7db9a4dcf5736b022f69f37b"
+    },
+    "2022-05-05": {
+      "status": "ok",
+      "articles": 148,
+      "sha256": "95ed9296c109f7b104a8c1cbbfb35ff265f21265eb40f08449558ce06c25223b"
+    },
+    "2022-05-06": {
+      "status": "ok",
+      "articles": 147,
+      "sha256": "591f57d9449127c65c03813319f67935178d9ce4348dd0042832baae91ce0220"
+    },
+    "2022-05-07": {
+      "status": "ok",
+      "articles": 109,
+      "sha256": "8569dcf50b649c3d7a2d26e55a4c4498deac5f33f00b3646a7379954e608ada4"
+    },
+    "2022-05-09": {
+      "status": "ok",
+      "articles": 127,
+      "sha256": "b60d3c9989fea6846c9f3adc11a2e858c91259a1ba8c984be498eb61b2fab5a5"
+    },
+    "2022-05-10": {
+      "status": "ok",
+      "articles": 150,
+      "sha256": "add6bc9cf4906219931a68c515f65d12c1106e1a06d5291b6a48b0cc75d72d6a"
+    },
+    "2022-05-11": {
+      "status": "ok",
+      "articles": 160,
+      "sha256": "0f1b152e5279707889810df1f7345bbbd9b590d814e96d705266c6e05065db08"
+    },
+    "2022-05-12": {
+      "status": "ok",
+      "articles": 121,
+      "sha256": "0f41b26ec20dcf1e40e1f1fa9cca14e5cc55a407d21ed2469063589a5fb30fb5"
+    },
+    "2022-05-13": {
+      "status": "ok",
+      "articles": 135,
+      "sha256": "43ef147dfc5dbcb8ebde756810a0357e811765b2dfc53c1a4f3b63ce46c73f0e"
+    },
+    "2022-05-14": {
+      "status": "ok",
+      "articles": 84,
+      "sha256": "05fafcb0389501fe031559c9f09973e2c78a7c8e5c7956a72a73de26ea2baf58"
+    },
+    "2022-05-16": {
+      "status": "ok",
+      "articles": 118,
+      "sha256": "7cf8409e0578c0808187a666afe5f08693e0d2c904cdcb8f3390755e8550bbb5"
+    },
+    "2022-05-17": {
+      "status": "ok",
+      "articles": 143,
+      "sha256": "faf8773b440f1caf1948d5e08089e38d13f77a0c7a46058dc7393a77a7aa379e"
+    },
+    "2022-05-19": {
+      "status": "ok",
+      "articles": 141,
+      "sha256": "ba28c42ea709223da268154c9eafd002cfdacaf5269a54b42f613e1363271816"
+    },
+    "2022-05-20": {
+      "status": "ok",
+      "articles": 131,
+      "sha256": "2b6a60288de3c296298acdb0ce1d3cddd3bcd5895e32f9c90956711330b3dbf4"
+    },
+    "2022-05-22": {
+      "status": "ok",
+      "articles": 81,
+      "sha256": "ec7ed01eac01741185a70e5e265fff51028c6759055d2cd314b27c2028e3c9ee"
     }
   },
   "candidates": {
@@ -15345,6 +15640,576 @@
       "url": "https://www.ithome.com/0/606/976.htm",
       "publishedDate": "2022-03-10",
       "indexUrl": "https://www.ithome.com/list/2022-03-10.html"
+    },
+    "https://www.ithome.com/1/017/510.htm": {
+      "title": "惠普星 Book Air 14 上架预约：酷睿 5 320、薯条标，国补价 4504.15 元",
+      "url": "https://www.ithome.com/1/017/510.htm",
+      "publishedDate": "2026-10-24",
+      "indexUrl": "https://www.ithome.com/list/2026-10-24.html"
+    },
+    "https://www.ithome.com/0/607/289.htm": {
+      "title": "联想 GeekPro 2022 台式机新配置：i5-12400F + RTX 3060 Ti，7699 元",
+      "url": "https://www.ithome.com/0/607/289.htm",
+      "publishedDate": "2022-03-11",
+      "indexUrl": "https://www.ithome.com/list/2022-03-11.html"
+    },
+    "https://www.ithome.com/0/607/283.htm": {
+      "title": "西部数据新一代 PCIe 4.0 SSD SN770 上市：5150 MB / s，1TB 首发 869 元",
+      "url": "https://www.ithome.com/0/607/283.htm",
+      "publishedDate": "2022-03-11",
+      "indexUrl": "https://www.ithome.com/list/2022-03-11.html"
+    },
+    "https://www.ithome.com/0/607/280.htm": {
+      "title": "神舟推出新款战神 Z7 游戏本：i5-12500H + RTX 3050，5499 元",
+      "url": "https://www.ithome.com/0/607/280.htm",
+      "publishedDate": "2022-03-11",
+      "indexUrl": "https://www.ithome.com/list/2022-03-11.html"
+    },
+    "https://www.ithome.com/0/607/279.htm": {
+      "title": "机械革命推出极光 Air 游戏本：i7-12700H + RTX 3050，首发 6099 元",
+      "url": "https://www.ithome.com/0/607/279.htm",
+      "publishedDate": "2022-03-11",
+      "indexUrl": "https://www.ithome.com/list/2022-03-11.html"
+    },
+    "https://www.ithome.com/0/607/271.htm": {
+      "title": "雷神推出 ZERO 2022 款游戏本：i7-12700H + RTX 3070Ti，11499 元",
+      "url": "https://www.ithome.com/0/607/271.htm",
+      "publishedDate": "2022-03-11",
+      "indexUrl": "https://www.ithome.com/list/2022-03-11.html"
+    },
+    "https://www.ithome.com/0/607/398.htm": {
+      "title": "支持 DDR5 / DDR4 内存，昂达 H610M + 主板价格公布：599 元",
+      "url": "https://www.ithome.com/0/607/398.htm",
+      "publishedDate": "2022-03-12",
+      "indexUrl": "https://www.ithome.com/list/2022-03-12.html"
+    },
+    "https://www.ithome.com/0/607/677.htm": {
+      "title": "5799 元起，华为 Win11 款 MateBook 16 锐龙全能本开售",
+      "url": "https://www.ithome.com/0/607/677.htm",
+      "publishedDate": "2022-03-14",
+      "indexUrl": "https://www.ithome.com/list/2022-03-14.html"
+    },
+    "https://www.ithome.com/0/607/667.htm": {
+      "title": "金士顿推出新款 8GB DDR5 台式机内存：单条 659 元起，套条 1099 元起",
+      "url": "https://www.ithome.com/0/607/667.htm",
+      "publishedDate": "2022-03-14",
+      "indexUrl": "https://www.ithome.com/list/2022-03-14.html"
+    },
+    "https://www.ithome.com/0/607/664.htm": {
+      "title": "西部数据新款 SN770 SSD 今晚开卖：最高 5150 MB / s，500GB 首发 459 元",
+      "url": "https://www.ithome.com/0/607/664.htm",
+      "publishedDate": "2022-03-14",
+      "indexUrl": "https://www.ithome.com/list/2022-03-14.html"
+    },
+    "https://www.ithome.com/0/607/597.htm": {
+      "title": "金士顿推出 FURY Impact DDR5 笔记本内存，8GB 659 元",
+      "url": "https://www.ithome.com/0/607/597.htm",
+      "publishedDate": "2022-03-14",
+      "indexUrl": "https://www.ithome.com/list/2022-03-14.html"
+    },
+    "https://www.ithome.com/0/608/302.htm": {
+      "title": "6499 元起，Redmi Book Pro 15 2022 笔记本发布：12 代酷睿 H 处理器 + RTX 2050",
+      "url": "https://www.ithome.com/0/608/302.htm",
+      "publishedDate": "2022-03-17",
+      "indexUrl": "https://www.ithome.com/list/2022-03-17.html"
+    },
+    "https://www.ithome.com/0/608/628.htm": {
+      "title": "华硕新一代灵耀 X14 笔记本上架：搭载 12 代酷睿 H 处理器，5999 元起",
+      "url": "https://www.ithome.com/0/608/628.htm",
+      "publishedDate": "2022-03-19",
+      "indexUrl": "https://www.ithome.com/list/2022-03-19.html"
+    },
+    "https://www.ithome.com/0/608/621.htm": {
+      "title": "华硕灵耀 X14 太空版上架：11 代酷睿 i7 + 2.8K 90Hz OLED 屏，7699 元",
+      "url": "https://www.ithome.com/0/608/621.htm",
+      "publishedDate": "2022-03-19",
+      "indexUrl": "https://www.ithome.com/list/2022-03-19.html"
+    },
+    "https://www.ithome.com/0/608/717.htm": {
+      "title": "三星 Galaxy Book2 Pro 360 港版开启预定：搭载 12 代酷睿，约 9800 元起",
+      "url": "https://www.ithome.com/0/608/717.htm",
+      "publishedDate": "2022-03-20",
+      "indexUrl": "https://www.ithome.com/list/2022-03-20.html"
+    },
+    "https://www.ithome.com/0/609/360.htm": {
+      "title": "9999 元，微星新款绝影 15M 笔记本开卖：i7-1280P + RTX 3060",
+      "url": "https://www.ithome.com/0/609/360.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/349.htm": {
+      "title": "戴尔推出新款灵越 14 Pro 笔记本：搭载 12 代酷睿，5499 元起",
+      "url": "https://www.ithome.com/0/609/349.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/284.htm": {
+      "title": "1799 元，盈通推出 RX 6500 XT 萌宠 ITX 显卡",
+      "url": "https://www.ithome.com/0/609/284.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/247.htm": {
+      "title": "4299 元，宏碁推出 2022 款非凡 S3 轻薄本：12 代酷睿 CPU、14 英寸 2.5K 屏",
+      "url": "https://www.ithome.com/0/609/247.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/246.htm": {
+      "title": "希捷发布 20TB 酷鹰人工智能硬盘，约 3400 元",
+      "url": "https://www.ithome.com/0/609/246.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/204.htm": {
+      "title": "7299 元，七彩虹将星 X15 AT 系列游戏本发售：搭载 RTX 3060，支持独显直连",
+      "url": "https://www.ithome.com/0/609/204.htm",
+      "publishedDate": "2022-03-23",
+      "indexUrl": "https://www.ithome.com/list/2022-03-23.html"
+    },
+    "https://www.ithome.com/0/609/468.htm": {
+      "title": "5699 元，戴尔推出新款成就 5320：12 代酷睿 + LPDDR5、13.3 英寸 2.5K 屏、双雷电 4",
+      "url": "https://www.ithome.com/0/609/468.htm",
+      "publishedDate": "2022-03-24",
+      "indexUrl": "https://www.ithome.com/list/2022-03-24.html"
+    },
+    "https://www.ithome.com/0/609/446.htm": {
+      "title": "4599 元，惠普推出 2022 款星 15 笔记本：搭载 12 代酷睿 i5-1240P",
+      "url": "https://www.ithome.com/0/609/446.htm",
+      "publishedDate": "2022-03-24",
+      "indexUrl": "https://www.ithome.com/list/2022-03-24.html"
+    },
+    "https://www.ithome.com/0/609/396.htm": {
+      "title": "首发 5499 元，戴尔推出新款灵越 16 Pro：搭载 12 代酷睿，可选 3K 全面屏",
+      "url": "https://www.ithome.com/0/609/396.htm",
+      "publishedDate": "2022-03-24",
+      "indexUrl": "https://www.ithome.com/list/2022-03-24.html"
+    },
+    "https://www.ithome.com/0/609/374.htm": {
+      "title": "5299 元起，Redmi Book Pro 15 2022 笔记本开卖：最高搭载 12 代 i7 + RTX 2050",
+      "url": "https://www.ithome.com/0/609/374.htm",
+      "publishedDate": "2022-03-24",
+      "indexUrl": "https://www.ithome.com/list/2022-03-24.html"
+    },
+    "https://www.ithome.com/0/609/746.htm": {
+      "title": "七彩虹发布 iGame Sigma M380 赤刃 2 台式机：i5-12400 + RTX 3060 Ti，7499 元",
+      "url": "https://www.ithome.com/0/609/746.htm",
+      "publishedDate": "2022-03-25",
+      "indexUrl": "https://www.ithome.com/list/2022-03-25.html"
+    },
+    "https://www.ithome.com/0/609/970.htm": {
+      "title": "联想新款 ThinkBook 14+/16+ 开卖：12 代酷睿 + RTX 2050，6299 元起",
+      "url": "https://www.ithome.com/0/609/970.htm",
+      "publishedDate": "2022-03-27",
+      "indexUrl": "https://www.ithome.com/list/2022-03-27.html"
+    },
+    "https://www.ithome.com/0/609/945.htm": {
+      "title": "4799 元起，小米 RedmiBook Pro 14 2022 款笔记本上架预售：搭载 12 代酷睿，2.5K 120Hz 屏",
+      "url": "https://www.ithome.com/0/609/945.htm",
+      "publishedDate": "2022-03-27",
+      "indexUrl": "https://www.ithome.com/list/2022-03-27.html"
+    },
+    "https://www.ithome.com/0/610/315.htm": {
+      "title": "微星发布 RTX 3090 Ti 魔龙 / 超龙显卡，15999/16499 元",
+      "url": "https://www.ithome.com/0/610/315.htm",
+      "publishedDate": "2022-03-29",
+      "indexUrl": "https://www.ithome.com/list/2022-03-29.html"
+    },
+    "https://www.ithome.com/0/610/313.htm": {
+      "title": "影驰发布 RTX 3090 Ti 星曜 OC，售价 15499 元",
+      "url": "https://www.ithome.com/0/610/313.htm",
+      "publishedDate": "2022-03-29",
+      "indexUrl": "https://www.ithome.com/list/2022-03-29.html"
+    },
+    "https://www.ithome.com/0/610/308.htm": {
+      "title": "七彩虹连发三款 RTX 3090 Ti 显卡：售价 14999 - 16499 元",
+      "url": "https://www.ithome.com/0/610/308.htm",
+      "publishedDate": "2022-03-29",
+      "indexUrl": "https://www.ithome.com/list/2022-03-29.html"
+    },
+    "https://www.ithome.com/0/610/233.htm": {
+      "title": "壹号本推出 OneXPlayer mini 锐龙版：搭载 R7 5800U，5699 元起",
+      "url": "https://www.ithome.com/0/610/233.htm",
+      "publishedDate": "2022-03-29",
+      "indexUrl": "https://www.ithome.com/list/2022-03-29.html"
+    },
+    "https://www.ithome.com/0/610/202.htm": {
+      "title": "7499 元，华硕推出新款天选 3：搭载 AMD R7-6800H + RTX3060 + 144Hz 屏",
+      "url": "https://www.ithome.com/0/610/202.htm",
+      "publishedDate": "2022-03-29",
+      "indexUrl": "https://www.ithome.com/list/2022-03-29.html"
+    },
+    "https://www.ithome.com/0/610/597.htm": {
+      "title": "2999 元起，惠普发布 2022 款锐 14 / 锐 15 笔记本：锐龙处理器 + 双通道 DDR4 内存",
+      "url": "https://www.ithome.com/0/610/597.htm",
+      "publishedDate": "2022-03-31",
+      "indexUrl": "https://www.ithome.com/list/2022-03-31.html"
+    },
+    "https://www.ithome.com/0/611/229.htm": {
+      "title": "AMD RX 6400 半高刀卡上架：接近 GTX 1650 水平，1499 元",
+      "url": "https://www.ithome.com/0/611/229.htm",
+      "publishedDate": "2022-04-03",
+      "indexUrl": "https://www.ithome.com/list/2022-04-03.html"
+    },
+    "https://www.ithome.com/0/611/197.htm": {
+      "title": "雷神推出黑武士 4 代 + 旗舰台式机：i9-12900KS + RTX 3090 Ti，35999 元",
+      "url": "https://www.ithome.com/0/611/197.htm",
+      "publishedDate": "2022-04-03",
+      "indexUrl": "https://www.ithome.com/list/2022-04-03.html"
+    },
+    "https://www.ithome.com/0/611/325.htm": {
+      "title": "AMD 上架新款 65W 锐龙处理器：6 核 5600 售价 1359 元，8 核 5700X 1999 元",
+      "url": "https://www.ithome.com/0/611/325.htm",
+      "publishedDate": "2022-04-04",
+      "indexUrl": "https://www.ithome.com/list/2022-04-04.html"
+    },
+    "https://www.ithome.com/0/611/422.htm": {
+      "title": "戴尔新款 XPS 15/17 笔记本上架官网：搭载 12 代酷睿，17999 元起",
+      "url": "https://www.ithome.com/0/611/422.htm",
+      "publishedDate": "2022-04-05",
+      "indexUrl": "https://www.ithome.com/list/2022-04-05.html"
+    },
+    "https://www.ithome.com/0/611/470.htm": {
+      "title": "4799 元起，Redmi Book Pro 14 2022 今日开售：12 代酷睿 + 2.5K 120Hz 屏",
+      "url": "https://www.ithome.com/0/611/470.htm",
+      "publishedDate": "2022-04-06",
+      "indexUrl": "https://www.ithome.com/list/2022-04-06.html"
+    },
+    "https://www.ithome.com/0/611/767.htm": {
+      "title": "AMD 新款 65W 锐龙处理器今晚开卖：R5 4500 - R7 5700X，939 元起",
+      "url": "https://www.ithome.com/0/611/767.htm",
+      "publishedDate": "2022-04-07",
+      "indexUrl": "https://www.ithome.com/list/2022-04-07.html"
+    },
+    "https://www.ithome.com/0/611/697.htm": {
+      "title": "机械革命无界 16 笔记本 32GB 大内存版上架：i7-12700H / 2.5K 120Hz 屏，6299 元",
+      "url": "https://www.ithome.com/0/611/697.htm",
+      "publishedDate": "2022-04-07",
+      "indexUrl": "https://www.ithome.com/list/2022-04-07.html"
+    },
+    "https://www.ithome.com/0/612/240.htm": {
+      "title": "酷比魔方推出新款 iWork GT 二合一平板：i5-1135G7 + 16GB 内存，4799 元",
+      "url": "https://www.ithome.com/0/612/240.htm",
+      "publishedDate": "2022-04-10",
+      "indexUrl": "https://www.ithome.com/list/2022-04-10.html"
+    },
+    "https://www.ithome.com/0/612/195.htm": {
+      "title": "联想新款 Yoga 9i 翻转本海外开卖：12 代酷睿 / 全新设计，约 7800 元起",
+      "url": "https://www.ithome.com/0/612/195.htm",
+      "publishedDate": "2022-04-10",
+      "indexUrl": "https://www.ithome.com/list/2022-04-10.html"
+    },
+    "https://www.ithome.com/0/612/438.htm": {
+      "title": "致态新款 TiPlus 5000 国产 SSD 开卖：最高 3500MB/s，1TB 首发价 699 元",
+      "url": "https://www.ithome.com/0/612/438.htm",
+      "publishedDate": "2022-04-11",
+      "indexUrl": "https://www.ithome.com/list/2022-04-11.html"
+    },
+    "https://www.ithome.com/0/612/388.htm": {
+      "title": "高端显卡大降价，英伟达旗舰 RTX 3080 Ti 跌破首发价",
+      "url": "https://www.ithome.com/0/612/388.htm",
+      "publishedDate": "2022-04-11",
+      "indexUrl": "https://www.ithome.com/list/2022-04-11.html"
+    },
+    "https://www.ithome.com/0/613/480.htm": {
+      "title": "雷克沙新款 NM760 PCIe 4.0 SSD 今晚开卖，1TB 首发 849 元",
+      "url": "https://www.ithome.com/0/613/480.htm",
+      "publishedDate": "2022-04-17",
+      "indexUrl": "https://www.ithome.com/list/2022-04-17.html"
+    },
+    "https://www.ithome.com/0/613/468.htm": {
+      "title": "惠普星 14 青春版 12 代酷睿轻薄本上架，首发 4099 元起",
+      "url": "https://www.ithome.com/0/613/468.htm",
+      "publishedDate": "2022-04-17",
+      "indexUrl": "https://www.ithome.com/list/2022-04-17.html"
+    },
+    "https://www.ithome.com/0/613/799.htm": {
+      "title": "ROG 冰刃 6 双屏开售：165W RTX 3080 Ti + 星云原画屏，售价 55999 元",
+      "url": "https://www.ithome.com/0/613/799.htm",
+      "publishedDate": "2022-04-19",
+      "indexUrl": "https://www.ithome.com/list/2022-04-19.html"
+    },
+    "https://www.ithome.com/0/614/125.htm": {
+      "title": "技嘉推出两款 RX 6400 显卡，售价最高 1399 元",
+      "url": "https://www.ithome.com/0/614/125.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/124.htm": {
+      "title": "盈通发布 RX6400-4GD6 LP 半高刀卡，售价 1349 元",
+      "url": "https://www.ithome.com/0/614/124.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/123.htm": {
+      "title": "华擎发布 RX 6400 Challenger ITX 4GB 显卡，售价 1299 元",
+      "url": "https://www.ithome.com/0/614/123.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/106.htm": {
+      "title": "荣耀 2022 款 MagicBook X 系列笔记本发布：搭载 11 代酷睿，3499 元起",
+      "url": "https://www.ithome.com/0/614/106.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/101.htm": {
+      "title": "宏碁推出 14 英寸非凡 X 笔记本：i5-1240P + RTX 3050，6299 元",
+      "url": "https://www.ithome.com/0/614/101.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/080.htm": {
+      "title": "联想发布 ThinkCentre neo 系列台式机：搭载 12 代酷睿与光追显卡，售价 5299 元起",
+      "url": "https://www.ithome.com/0/614/080.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/055.htm": {
+      "title": "联想发布 ThinkPad neo 14 笔记本：搭载 12 代酷睿 H 处理器，首发 6799 元起",
+      "url": "https://www.ithome.com/0/614/055.htm",
+      "publishedDate": "2022-04-20",
+      "indexUrl": "https://www.ithome.com/list/2022-04-20.html"
+    },
+    "https://www.ithome.com/0/614/568.htm": {
+      "title": "利民推出 12 代酷睿弯曲矫正型固定扣具，售价 39 元",
+      "url": "https://www.ithome.com/0/614/568.htm",
+      "publishedDate": "2022-04-22",
+      "indexUrl": "https://www.ithome.com/list/2022-04-22.html"
+    },
+    "https://www.ithome.com/0/614/543.htm": {
+      "title": "ThinkCentre neo 台式机上架：搭载 12 代酷睿 + 英伟达独显，5299 元起",
+      "url": "https://www.ithome.com/0/614/543.htm",
+      "publishedDate": "2022-04-22",
+      "indexUrl": "https://www.ithome.com/list/2022-04-22.html"
+    },
+    "https://www.ithome.com/0/614/495.htm": {
+      "title": "台电发布稳影 M.2 SSD：最高 2000MB/s，512GB 299 元",
+      "url": "https://www.ithome.com/0/614/495.htm",
+      "publishedDate": "2022-04-22",
+      "indexUrl": "https://www.ithome.com/list/2022-04-22.html"
+    },
+    "https://www.ithome.com/0/615/005.htm": {
+      "title": "再降价：华硕 TUF 3060 系列显卡京东自营 3484 元",
+      "url": "https://www.ithome.com/0/615/005.htm",
+      "publishedDate": "2022-04-25",
+      "indexUrl": "https://www.ithome.com/list/2022-04-25.html"
+    },
+    "https://www.ithome.com/0/614/960.htm": {
+      "title": "英伟达促销 RTX 30 显卡，买整机送暴雪游戏点",
+      "url": "https://www.ithome.com/0/614/960.htm",
+      "publishedDate": "2022-04-25",
+      "indexUrl": "https://www.ithome.com/list/2022-04-25.html"
+    },
+    "https://www.ithome.com/0/615/290.htm": {
+      "title": "联想推出 IdeaPad 14/15 锐龙版入门级笔记本，首发 2999 元",
+      "url": "https://www.ithome.com/0/615/290.htm",
+      "publishedDate": "2022-04-26",
+      "indexUrl": "https://www.ithome.com/list/2022-04-26.html"
+    },
+    "https://www.ithome.com/0/615/193.htm": {
+      "title": "联想官网现支持 2022 款拯救者游戏本配置定制，加 899 元升级至 32GB 内存",
+      "url": "https://www.ithome.com/0/615/193.htm",
+      "publishedDate": "2022-04-26",
+      "indexUrl": "https://www.ithome.com/list/2022-04-26.html"
+    },
+    "https://www.ithome.com/0/615/072.htm": {
+      "title": "到手价 2499 元，小米平板 5 （8GB + 256GB ）大内存版今天上午 10 点开售：搭载骁龙 860 芯片，11 英寸 2.5K 120Hz 屏幕",
+      "url": "https://www.ithome.com/0/615/072.htm",
+      "publishedDate": "2022-04-26",
+      "indexUrl": "https://www.ithome.com/list/2022-04-26.html"
+    },
+    "https://www.ithome.com/0/615/304.htm": {
+      "title": "宏碁 14 英寸非凡 X 笔记本开卖：i5-1240P + RTX 3050，首发 6299 元",
+      "url": "https://www.ithome.com/0/615/304.htm",
+      "publishedDate": "2022-04-27",
+      "indexUrl": "https://www.ithome.com/list/2022-04-27.html"
+    },
+    "https://www.ithome.com/0/616/477.htm": {
+      "title": "雷蛇灵刃 14 新配置上架：R9 6900HX + RTX 3060，16999 元",
+      "url": "https://www.ithome.com/0/616/477.htm",
+      "publishedDate": "2022-05-03",
+      "indexUrl": "https://www.ithome.com/list/2022-05-03.html"
+    },
+    "https://www.ithome.com/0/616/466.htm": {
+      "title": "联想 ThinkBook 14+/16+ 笔记本 32GB 大内存版上架，售价 7229 元",
+      "url": "https://www.ithome.com/0/616/466.htm",
+      "publishedDate": "2022-05-03",
+      "indexUrl": "https://www.ithome.com/list/2022-05-03.html"
+    },
+    "https://www.ithome.com/0/616/793.htm": {
+      "title": "三星新款移动固态硬盘 T7 Shield 国行上架，1TB 首发 899 元",
+      "url": "https://www.ithome.com/0/616/793.htm",
+      "publishedDate": "2022-05-05",
+      "indexUrl": "https://www.ithome.com/list/2022-05-05.html"
+    },
+    "https://www.ithome.com/0/616/692.htm": {
+      "title": "更新款即将发布，AMD 老款 RX 6900 XT 旗舰显卡海外售价大降",
+      "url": "https://www.ithome.com/0/616/692.htm",
+      "publishedDate": "2022-05-05",
+      "indexUrl": "https://www.ithome.com/list/2022-05-05.html"
+    },
+    "https://www.ithome.com/0/616/977.htm": {
+      "title": "AMD 锐龙 5000 系列处理器再降价：16 核 5950X 3799 元，8 核 5700X 1749 元",
+      "url": "https://www.ithome.com/0/616/977.htm",
+      "publishedDate": "2022-05-06",
+      "indexUrl": "https://www.ithome.com/list/2022-05-06.html"
+    },
+    "https://www.ithome.com/0/617/058.htm": {
+      "title": "4599 元起，华硕无畏 16 2022 开启预约：搭载 12 代酷睿标压处理器，接口齐全",
+      "url": "https://www.ithome.com/0/617/058.htm",
+      "publishedDate": "2022-05-07",
+      "indexUrl": "https://www.ithome.com/list/2022-05-07.html"
+    },
+    "https://www.ithome.com/0/617/441.htm": {
+      "title": "宏碁推出新款非凡 S5 Pro 轻薄本：12 代酷睿 / 2.5K 触控屏，6499 元起",
+      "url": "https://www.ithome.com/0/617/441.htm",
+      "publishedDate": "2022-05-09",
+      "indexUrl": "https://www.ithome.com/list/2022-05-09.html"
+    },
+    "https://www.ithome.com/0/617/689.htm": {
+      "title": "蓝宝石发布 RX 6950 XT 毒药限量版：风水混合散热，售价 9999 元",
+      "url": "https://www.ithome.com/0/617/689.htm",
+      "publishedDate": "2022-05-10",
+      "indexUrl": "https://www.ithome.com/list/2022-05-10.html"
+    },
+    "https://www.ithome.com/0/617/682.htm": {
+      "title": "盈通发布樱瞳花嫁纪念版 RX 6750 XT 显卡，售价 4199 元",
+      "url": "https://www.ithome.com/0/617/682.htm",
+      "publishedDate": "2022-05-10",
+      "indexUrl": "https://www.ithome.com/list/2022-05-10.html"
+    },
+    "https://www.ithome.com/0/617/680.htm": {
+      "title": "低于 AMD 建议零售价，讯景上架 RX 6650 XT 显卡",
+      "url": "https://www.ithome.com/0/617/680.htm",
+      "publishedDate": "2022-05-10",
+      "indexUrl": "https://www.ithome.com/list/2022-05-10.html"
+    },
+    "https://www.ithome.com/0/617/546.htm": {
+      "title": "AMD 今晚发布新款 RX 6X50 系列显卡，售价曝光：3099-8399 元",
+      "url": "https://www.ithome.com/0/617/546.htm",
+      "publishedDate": "2022-05-10",
+      "indexUrl": "https://www.ithome.com/list/2022-05-10.html"
+    },
+    "https://www.ithome.com/0/617/900.htm": {
+      "title": "联想小新 Pro 16 2022 发布：12 代酷睿 H 处理器核显配置，首发 4999 元起",
+      "url": "https://www.ithome.com/0/617/900.htm",
+      "publishedDate": "2022-05-11",
+      "indexUrl": "https://www.ithome.com/list/2022-05-11.html"
+    },
+    "https://www.ithome.com/0/617/786.htm": {
+      "title": "又一国产固态硬盘：京东京造麒麟系列上架，1T 到手价不超过 599 元",
+      "url": "https://www.ithome.com/0/617/786.htm",
+      "publishedDate": "2022-05-11",
+      "indexUrl": "https://www.ithome.com/list/2022-05-11.html"
+    },
+    "https://www.ithome.com/0/618/092.htm": {
+      "title": "联想 ThinkCentre neo P780 台式机今晚开卖：12 代酷睿 / RTX 30 显卡，6599 元起",
+      "url": "https://www.ithome.com/0/618/092.htm",
+      "publishedDate": "2022-05-12",
+      "indexUrl": "https://www.ithome.com/list/2022-05-12.html"
+    },
+    "https://www.ithome.com/0/618/083.htm": {
+      "title": "微星推出海皇戟 S 迷你主机：搭载 AMD 锐龙 5000G 系列处理器，4599 元起",
+      "url": "https://www.ithome.com/0/618/083.htm",
+      "publishedDate": "2022-05-12",
+      "indexUrl": "https://www.ithome.com/list/2022-05-12.html"
+    },
+    "https://www.ithome.com/0/618/039.htm": {
+      "title": "100% 采用全新出厂显卡，机械革命推出旷世 G7 游戏台式机，首发 5699 元起",
+      "url": "https://www.ithome.com/0/618/039.htm",
+      "publishedDate": "2022-05-12",
+      "indexUrl": "https://www.ithome.com/list/2022-05-12.html"
+    },
+    "https://www.ithome.com/0/617/989.htm": {
+      "title": "3099/4399 元，迪兰推出 AMD RX 6650/6750 XT 显卡",
+      "url": "https://www.ithome.com/0/617/989.htm",
+      "publishedDate": "2022-05-12",
+      "indexUrl": "https://www.ithome.com/list/2022-05-12.html"
+    },
+    "https://www.ithome.com/0/618/298.htm": {
+      "title": "9599 元起，LG gram 2022 款 16/17 英寸笔记本上架：搭载 12 代酷睿，续航 20 小时，重 1.19kg 起",
+      "url": "https://www.ithome.com/0/618/298.htm",
+      "publishedDate": "2022-05-13",
+      "indexUrl": "https://www.ithome.com/list/2022-05-13.html"
+    },
+    "https://www.ithome.com/0/618/234.htm": {
+      "title": "9999 元，七彩虹将星 X17 Pro 首发：12 代 i9+RTX 3070Ti",
+      "url": "https://www.ithome.com/0/618/234.htm",
+      "publishedDate": "2022-05-13",
+      "indexUrl": "https://www.ithome.com/list/2022-05-13.html"
+    },
+    "https://www.ithome.com/0/618/651.htm": {
+      "title": "英伟达 AMD 显卡最新场批价曝光：RTX 3060 / RX 6600 XT 降至 2600 元",
+      "url": "https://www.ithome.com/0/618/651.htm",
+      "publishedDate": "2022-05-16",
+      "indexUrl": "https://www.ithome.com/list/2022-05-16.html"
+    },
+    "https://www.ithome.com/0/618/625.htm": {
+      "title": "4999 元起，荣耀 MagicBook 14 2022 版发布：12 代酷睿 + RTX2050，运行 Magic OS for Windows",
+      "url": "https://www.ithome.com/0/618/625.htm",
+      "publishedDate": "2022-05-16",
+      "indexUrl": "https://www.ithome.com/list/2022-05-16.html"
+    },
+    "https://www.ithome.com/0/618/547.htm": {
+      "title": "SK 海力士推出旗下首款 PCIe 4.0 消费级 SSD P41，约 700 元起",
+      "url": "https://www.ithome.com/0/618/547.htm",
+      "publishedDate": "2022-05-16",
+      "indexUrl": "https://www.ithome.com/list/2022-05-16.html"
+    },
+    "https://www.ithome.com/0/618/959.htm": {
+      "title": "机械师发布星辰 17 水冷游戏本：i9-12900H + RTX 3070 Ti，14599 元",
+      "url": "https://www.ithome.com/0/618/959.htm",
+      "publishedDate": "2022-05-17",
+      "indexUrl": "https://www.ithome.com/list/2022-05-17.html"
+    },
+    "https://www.ithome.com/0/618/948.htm": {
+      "title": "ROG 枪神 6 Plus 超竞版发布：i9-12950HX + RTX 3070 Ti，首发 17999 元",
+      "url": "https://www.ithome.com/0/618/948.htm",
+      "publishedDate": "2022-05-17",
+      "indexUrl": "https://www.ithome.com/list/2022-05-17.html"
+    },
+    "https://www.ithome.com/0/618/914.htm": {
+      "title": "联想小新 Pro 16 2022 酷睿版今晚开售，首发 4999 元",
+      "url": "https://www.ithome.com/0/618/914.htm",
+      "publishedDate": "2022-05-17",
+      "indexUrl": "https://www.ithome.com/list/2022-05-17.html"
+    },
+    "https://www.ithome.com/0/619/384.htm": {
+      "title": "3499 元起，联想小新 24/27 一体机锐龙版发布：搭载锐龙 5000U 系列处理器",
+      "url": "https://www.ithome.com/0/619/384.htm",
+      "publishedDate": "2022-05-19",
+      "indexUrl": "https://www.ithome.com/list/2022-05-19.html"
+    },
+    "https://www.ithome.com/0/619/239.htm": {
+      "title": "6499 元起，惠普推出战 99 锐龙版移动工作站：搭载 AMD R7-6800H 处理器",
+      "url": "https://www.ithome.com/0/619/239.htm",
+      "publishedDate": "2022-05-19",
+      "indexUrl": "https://www.ithome.com/list/2022-05-19.html"
+    },
+    "https://www.ithome.com/0/619/570.htm": {
+      "title": "惠普推出新款光影精灵 8 15 英寸笔记本：i5-12450H + RTX 3050，首发 5999 元",
+      "url": "https://www.ithome.com/0/619/570.htm",
+      "publishedDate": "2022-05-20",
+      "indexUrl": "https://www.ithome.com/list/2022-05-20.html"
+    },
+    "https://www.ithome.com/0/619/431.htm": {
+      "title": "惠普推出暗影精灵 8 Pro 笔记本：i7-12700H + RTX3060，首发 7999 元",
+      "url": "https://www.ithome.com/0/619/431.htm",
+      "publishedDate": "2022-05-20",
+      "indexUrl": "https://www.ithome.com/list/2022-05-20.html"
+    },
+    "https://www.ithome.com/0/619/823.htm": {
+      "title": "联想发布 ThinkPad C14 Chromebook：搭载 12 代酷睿，约 3400 元起",
+      "url": "https://www.ithome.com/0/619/823.htm",
+      "publishedDate": "2022-05-22",
+      "indexUrl": "https://www.ithome.com/list/2022-05-22.html"
+    },
+    "https://www.ithome.com/0/619/813.htm": {
+      "title": "消息称惠普将推战 X 2022 14 英寸锐龙版：搭载 R7 6800HS，5999 元",
+      "url": "https://www.ithome.com/0/619/813.htm",
+      "publishedDate": "2022-05-22",
+      "indexUrl": "https://www.ithome.com/list/2022-05-22.html"
     }
   }
 }
