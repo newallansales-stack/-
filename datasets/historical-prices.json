@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T06:06:13.998Z",
+  "updatedAt": "2026-10-26T06:10:47.641Z",
   "description": "免费公开文章中的历史商品卡片报价；不是完整逐日市场价，不是成交记录。日期为原文标示的发布时间，真实生效日期未知。",
   "records": [
     {
@@ -4964,6 +4964,93 @@
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
+      "id": "a2dba6434acfe9edf60ff8dc",
+      "productKey": "jd-100039496886-4808ff03fa",
+      "name": "金士顿 (Kingston) FURY 16GB DDR5 6000 台式机内存条",
+      "reportedSpecification": null,
+      "category": "memory",
+      "platform": "京东",
+      "sku": "100039496886",
+      "merchantUrl": "https://item.jd.com/100039496886.html",
+      "publicationDate": "2022-05-26",
+      "publishedAt": "2022-05-26T20:17:11+08:00",
+      "observedAt": "2026-10-26T06:10:05.357Z",
+      "price": 1299,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/620/762.htm",
+      "sourceTitle": "金士顿上架野兽系列 DDR5 RGB 内存：DDR5-6000 16GB 1399 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东金士顿 (Kingston) FURY 16GB DDR5 6000 台式机内存条 1299 元直达链接",
+      "rawPrice": "1299 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "01312af6a50f4c54b8816603cac5e6c01554b2c7c9155693e1d3062b9cddb94b",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "73b2aee6d9599d5a37dd80fc",
+      "productKey": "jd-100003181110-cb5d077057",
+      "name": "三星 970 EVO Plus SSD 固态硬盘",
+      "reportedSpecification": "500GB M.2 接口 (NVMe 协议) （MZ-V7S500B）",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100003181110",
+      "merchantUrl": "https://item.jd.com/100003181110.html",
+      "publicationDate": "2022-05-31",
+      "publishedAt": "2022-05-31T16:08:49+08:00",
+      "observedAt": "2026-10-26T06:10:13.355Z",
+      "price": 369,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/621/533.htm",
+      "sourceTitle": "369 元探底：三星 970 EVO Plus 500G 固态硬盘大促",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东三星 970 EVO Plus SSD 固态硬盘 500GB M.2 接口 (NVMe 协议) （MZ-V7S500B）369 元直达链接",
+      "rawPrice": "369 元",
+      "conditions": "500GB M.2 接口 (NVMe 协议) （MZ-V7S500B）",
+      "articleContext": "京东 618 大促期间，今晚 8 点，到手价为 369 元：点击查看。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "a88aa646aa1a7b460800d1ec14aa743984d71bacb1e0bc25b5efa98cdda09077",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "77229cdb95a7c53d3bf9a16f",
+      "productKey": "article-161e825eb2b3-0",
+      "name": "WD 西部数据固态硬盘 SA510",
+      "reportedSpecification": "250GB",
+      "category": "storage",
+      "platform": "天猫",
+      "sku": null,
+      "merchantUrl": "https://s.click.taobao.com/t?e=m%3D2%26s%3DaR6tF%2FYQStMcQipKwQzePOeEDrYVVa64r4ll3HtqqoxyINtkUhsv0NPw2AvsNH3m2SCxvq6lSUjiqhX5tuz%2FIJsuwvPkYeZnHfRXOVevHoZOzlsLACtZOV9EeTtntI44k%2BAXm78wM%2Bm8u2rGIkhn7xIjP5Uhv22UFJ9%2FJ0vTX59U357ih8whTwtdTYDVUifUxgxdTc00KD8%3D&scm=null&pvid=100_11.250.14.238_8665_1781654004238101863&app_pvid=59590_33.44.21.68_805_1654004238096&ptl=floorId:2836;originalFloorId:2836;pvid:100_11.250.14.238_8665_1781654004238101863;app_pvid:59590_33.44.21.68_805_1654004238096&xId=5jZ4zqhvkojDG1wLIO4ZG5sK6t2vmnN4I3MmqmOJKfMWuWJNkFFbcFFOGXenojuSpOfHnwJEdXFVrn9EYrmyq7NTr0dhJOhXnKQ32AWo0QmL&union_lens=lensId%3AMAPI%401654004238%40212c1544_094d_1811a55c725_17a0%4001",
+      "publicationDate": "2022-05-31",
+      "publishedAt": "2022-05-31T21:39:55+08:00",
+      "observedAt": "2026-10-26T06:10:10.355Z",
+      "price": 399,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/621/593.htm",
+      "sourceTitle": "西部数据推出新款 SA510 SATA SSD：560MB/s，1TB 899 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "天猫 WD 西部数据固态硬盘 SA510 250GB399 元直达链接",
+      "rawPrice": "399 元",
+      "conditions": "250GB",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "08db416e16d9ba742b5de884b4837db73fe43a0bc3c349a4153ffb29c1238681",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
       "id": "d7a850e140e0f789f97f69b8",
       "productKey": "jd-100031035610-7125d90591",
       "name": "英特尔 i5-12400F CPU 处理器",
@@ -5019,6 +5106,122 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "e25d84eb703e8301206187d75b3d7ab4e0695d6429e46855ddda9a87d114db10",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "79dff4a099021e331670bfc1",
+      "productKey": "jd-10029681355797-92b069af09",
+      "name": "铨兴 C101 固态硬盘 240G",
+      "reportedSpecification": null,
+      "category": "storage",
+      "platform": "京东",
+      "sku": "10029681355797",
+      "merchantUrl": "https://item.jd.com/10029681355797.html",
+      "publicationDate": "2022-06-04",
+      "publishedAt": "2022-06-04T19:38:49+08:00",
+      "observedAt": "2026-10-26T06:10:18.856Z",
+      "price": 114,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/622/336.htm",
+      "sourceTitle": "便宜便宜真便宜：铨兴 240G 固态硬盘低至 114 元",
+      "quoteType": "promotion",
+      "priceEvidence": "京东铨兴 C101 固态硬盘 240G 券后 114 元领 5 元券",
+      "rawPrice": "券后 114 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": "本次大促可叠加京东 PLUS 全品券：点此领券。 * 以下单品由京东发货，铨兴官方旗舰店提供售后服务。 叠加 PLUS 200-10 元全品券后，仅需 224 元： 240G 版日常售价 229 元，今日券后 114 元；480G 版叠加 PLUS 全品券，实付仅需 204 元：",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "6f60d2c03b3f6ac86db96b0ffe077ea0ca549e3f4c5ee0ac07e006951ff8ed8c",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "4130d8dd93de183800ea90ab",
+      "productKey": "jd-100020455565-a6c009c6d9",
+      "name": "AMD R5 5500 处理器 盒装",
+      "reportedSpecification": "7nm 6 核 12 线程 3.6GHz 65W AM4 接口",
+      "category": "cpu",
+      "platform": "京东",
+      "sku": "100020455565",
+      "merchantUrl": "https://item.jd.com/100020455565.html",
+      "publicationDate": "2022-06-06",
+      "publishedAt": "2022-06-06T16:40:01+08:00",
+      "observedAt": "2026-10-26T06:10:20.864Z",
+      "price": 737.2,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/622/579.htm",
+      "sourceTitle": "R5-5500：AMD 盒装 CPU 处理器 733 元 12 期免息",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东 AMD R5 5500 处理器 盒装 7nm 6 核 12 线程 3.6GHz 65W AM4 接口 737.2 元直达链接",
+      "rawPrice": "737.2 元",
+      "conditions": "7nm 6 核 12 线程 3.6GHz 65W AM4 接口",
+      "articleContext": "京东 618 大促期间，现售价 799 元，6.18 元购买 61.8 元优惠券，加入店铺会员首单可返价值 10 元京豆，到手价为 733.38 元：点击查看。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "f03d0f6d159dc9011faab0d199a84379f40d084afc44c63e3c37fa733a708556",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "3322b8b44863768324125888",
+      "productKey": "jd-100002183461-4ac9c21343",
+      "name": "三星 970 EVO Plus SSD 固态硬盘",
+      "reportedSpecification": "1TB M.2 接口 (NVMe 协议)",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100002183461",
+      "merchantUrl": "https://item.jd.com/100002183461.html",
+      "publicationDate": "2022-06-11",
+      "publishedAt": "2022-06-11T10:51:17+08:00",
+      "observedAt": "2026-10-26T06:10:25.354Z",
+      "price": 787.2,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/623/599.htm",
+      "sourceTitle": "3500MB/s+1TB 仅 793 元：三星 970 EVO Plus 固态硬盘 3.7 折大促",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东三星 970 EVO Plus SSD 固态硬盘 1TB M.2 接口 (NVMe 协议)787.2 元直达链接",
+      "rawPrice": "787.2 元",
+      "conditions": "1TB M.2 接口 (NVMe 协议)",
+      "articleContext": "京东 618 大促期间，现售价 849 元，6.18 元购买 61.8 元优惠券，到手价为 793.38 元：点击查看。 6.18 元购买 61.8 元优惠券：点此购买。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "63b40c51fc2f59d015b893bd4e320542b353c4b1b1f5ae0ddb5eae5385d57a21",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "d1c9dd3f44c06d55779b6633",
+      "productKey": "jd-7652347-4ac9c21343",
+      "name": "闪迪 1TB SSD 固态硬盘 至尊超极速系列",
+      "reportedSpecification": "M.2 接口 (NVMe 协议)",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "7652347",
+      "merchantUrl": "https://item.jd.com/7652347.html",
+      "publicationDate": "2022-06-12",
+      "publishedAt": "2022-06-12T16:25:15+08:00",
+      "observedAt": "2026-10-26T06:10:26.166Z",
+      "price": 697.2,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/623/744.htm",
+      "sourceTitle": "3400MB/s+1TB 仅 703 元：闪迪至尊超极速固态硬盘 618 大促",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东闪迪 1TB SSD 固态硬盘 至尊超极速系列 M.2 接口 (NVMe 协议)697.2 元直达链接",
+      "rawPrice": "697.2 元",
+      "conditions": "M.2 接口 (NVMe 协议)",
+      "articleContext": "京东 618 大促期间，6 月 13 日活动价 779 元，6.18 元购买 61.8 元优惠券，晒单返 20 元 E 卡，到手价为 703.38 元：点击查看。 6.18 元购买 61.8 元优惠券：点此购买。 6.18 元购买 61.8 元优惠券：点此购买。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "ba9b7b91126126c1946c8a27a5fe4c85720aac12d7173793906fe1016c9ed447",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
@@ -5080,6 +5283,151 @@
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
+      "id": "ad340dafe91944db240565e0",
+      "productKey": "jd-100011216263-eccb4dac36",
+      "name": "京东京造 512GB SSD 固态硬盘 5 系列",
+      "reportedSpecification": "M.2 接口（NVMe 协议）PCIe3.0 四通道",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100011216263",
+      "merchantUrl": "https://item.jd.com/100011216263.html",
+      "publicationDate": "2022-06-16",
+      "publishedAt": "2022-06-16T10:48:59+08:00",
+      "observedAt": "2026-10-26T06:10:27.854Z",
+      "price": 289,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/624/493.htm",
+      "sourceTitle": "3200MB/s+512G 不到 300 元：京东京造固态硬盘 618 大促",
+      "quoteType": "promotion",
+      "priceEvidence": "京东京东京造 512GB SSD 固态硬盘 5 系列 M.2 接口（NVMe 协议）PCIe3.0 四通道券后 289 元领 30 元券",
+      "rawPrice": "券后 289 元",
+      "conditions": "M.2 接口（NVMe 协议）PCIe3.0 四通道",
+      "articleContext": "京东 618 大促期间，活动价 329 元，下单立减 10 元，领取 30 元优惠券，到手价为 289 元：点击查看。 30 元优惠券：点此领取。 30 元优惠券：点此领取。",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "7fe349978a7968789d6e9a4dbfe57161d39a3ea0eed91b5f13ac45a7397eb86d",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "0e0413b056ecb974a4884573",
+      "productKey": "jd-100002183461-4ac9c21343",
+      "name": "三星 970 EVO Plus 固态硬盘 1TB",
+      "reportedSpecification": "M.2 接口 (NVMe 协议)",
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100002183461",
+      "merchantUrl": "https://item.jd.com/100002183461.html",
+      "publicationDate": "2022-06-17",
+      "publishedAt": "2022-06-17T15:34:19+08:00",
+      "observedAt": "2026-10-26T06:10:28.856Z",
+      "price": 769,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/624/870.htm",
+      "sourceTitle": "3500MB/s+1TB 仅 769 元：三星 970 EVO Plus 固态硬盘再探新底",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东三星 970 EVO Plus 固态硬盘 1TBM.2 接口 (NVMe 协议)769 元直达链接",
+      "rawPrice": "769 元",
+      "conditions": "M.2 接口 (NVMe 协议)",
+      "articleContext": "京东 618 大促期间，17 日晚 20 点，大促价 799 元，领券中心领取 30 元全品券，到手价为 769 元：点击查看。 30 元全品券领取地址：【京东 App 首页-中部“券后 9.9”-下部“领券”-中部右滑领取满 700 减 30 全品券】 30 元全品券领取地址：",
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "f14e9a1466a70ebd5373a95e545ac515d87d2210fba7fedb8869b1f64ae292b1",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "d943e2ad4f659f68a293772b",
+      "productKey": "jd-100023834207-0791b0fbe5",
+      "name": "华硕 ASUS GeForce RTX3080-O10G-NOCTUA",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100023834207",
+      "merchantUrl": "https://item.jd.com/100023834207.html",
+      "publicationDate": "2022-06-19",
+      "publishedAt": "2022-06-19T16:01:19+08:00",
+      "observedAt": "2026-10-26T06:10:32.131Z",
+      "price": 6599,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/625/156.htm",
+      "sourceTitle": "6599 元，华硕 x 猫头鹰联名版 RTX 3080 显卡发售",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东华硕 ASUS GeForce RTX3080-O10G-NOCTUA 6599 元直达链接",
+      "rawPrice": "6599 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "a45245fc3fd07f39f10052eb906749e5985e21a8c7c21217902e6e3ce02f0011",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "c04af412af5277be20a2f82a",
+      "productKey": "jd-10054699855828-4ac9c21343",
+      "name": "金泰克 SSD 固态硬盘 M.2 接口 (NVMe 协议) 2280 1TB 固态",
+      "reportedSpecification": null,
+      "category": "storage",
+      "platform": "京东",
+      "sku": "10054699855828",
+      "merchantUrl": "https://item.jd.com/10054699855828.html",
+      "publicationDate": "2022-06-20",
+      "publishedAt": "2022-06-20T18:14:27+08:00",
+      "observedAt": "2026-10-26T06:10:32.355Z",
+      "price": 699,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/625/344.htm",
+      "sourceTitle": "金泰克推出 TP3500 SE SSD：长江存储 TLC 闪存，1TB 699 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东金泰克 SSD 固态硬盘 M.2 接口 (NVMe 协议) 2280 1TB 固态 699 元直达链接",
+      "rawPrice": "699 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "34b7db7c8c812084fb8bbafa92412e250caea2660727a93163df3ed0bfbb44ae",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "e130e0c5a0a12698a20bc88d",
+      "productKey": "jd-100017905031-4b6b21775e",
+      "name": "七彩虹火神 iGame GeForce RTX 3090 Ti",
+      "reportedSpecification": null,
+      "category": "gpu",
+      "platform": "京东",
+      "sku": "100017905031",
+      "merchantUrl": "https://item.jd.com/100017905031.html",
+      "publicationDate": "2022-06-24",
+      "publishedAt": "2022-06-24T15:04:54+08:00",
+      "observedAt": "2026-10-26T06:10:34.853Z",
+      "price": 12999,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/626/147.htm",
+      "sourceTitle": "为设计师及硬核玩家打造，七彩虹 iGame RTX 3090Ti 显卡特惠开启",
+      "quoteType": "promotion",
+      "priceEvidence": "京东七彩虹火神 iGame GeForce RTX 3090 Ti 12999 元直达链接",
+      "rawPrice": "12999 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "c290263a91bf318a2f0e6e1c883e2afb836a6a9b6351b756ad7c85137cfbeeb0",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
       "id": "43d3946bbcd73eb53ecfb21c",
       "productKey": "jd-10055291156245-50e510f254",
       "name": "七彩虹（Colorful） GTX 1630 战斧",
@@ -5106,6 +5454,35 @@
       "verification": "published_article_only",
       "availability": "historical_unknown",
       "sha256": "343c2b61d80abca60cb7da2cc20bfc64dd638995029f02174eecfc8ce1a4d648",
+      "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
+    },
+    {
+      "id": "fe1ca41cd121b0fe69090331",
+      "productKey": "jd-100027952225-0dd46f5562",
+      "name": "致态（ZhiTai）长江存储 2TB SSD 固态硬盘 NVMe M.2 接口",
+      "reportedSpecification": null,
+      "category": "storage",
+      "platform": "京东",
+      "sku": "100027952225",
+      "merchantUrl": "https://item.jd.com/100027952225.html",
+      "publicationDate": "2022-07-19",
+      "publishedAt": "2022-07-19T19:26:39+08:00",
+      "observedAt": "2026-10-26T06:10:46.362Z",
+      "price": 2099,
+      "currency": "CNY",
+      "source": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/630/421.htm",
+      "sourceTitle": "致态 TiPro 7000 国产 PCIe 4.0 SSD 2TB 版上架，售价 2099 元",
+      "quoteType": "reported_listing",
+      "priceEvidence": "京东致态（ZhiTai）长江存储 2TB SSD 固态硬盘 NVMe M.2 接口 2099 元直达链接",
+      "rawPrice": "2099 元",
+      "conditions": "商品卡片未完整说明优惠条件，需查看原文。",
+      "articleContext": null,
+      "effectiveDate": null,
+      "dateBasis": "article_publication",
+      "verification": "published_article_only",
+      "availability": "historical_unknown",
+      "sha256": "2d307975fe24cae358ec4f75d51a0e033af75eda97b21b5a546ecdce53be1abf",
       "note": "文章记载的历史报价；日期为原文标示发布时间，不证明当天成交、持续在售或当前可购买。商品卡片规格与优惠条件需结合原文核对。"
     },
     {
@@ -18324,18 +18701,600 @@
       "recordCount": 0,
       "date": "2022-05-22",
       "sha256": "1d61e2f0bfcd9c09bc524387b770ce86e10652c5fa61aff0eb3d409bd283604b"
+    },
+    "https://www.ithome.com/1/017/623.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2026-10-25",
+      "sha256": "423d47dc0b731bd386b06f093fe75f67b3508c4aad573bcbbc3e0f5bfdaf67af"
+    },
+    "https://www.ithome.com/0/620/089.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "a2452e553812b35f721301b1179eac8345cb71727e4150b9ca43acc787b8162a"
+    },
+    "https://www.ithome.com/0/620/086.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "49d3dd66a39fb312c18bb2ae3d0764fa8d98f5712ad168cb38264c0195fa93ae"
+    },
+    "https://www.ithome.com/0/620/076.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "9bc3a9719940a577a1a6bf6bb7539546b6e10157821255431b684dbfe477fae3"
+    },
+    "https://www.ithome.com/0/620/064.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "663429343e39cc2165d0a07b65915bc4b0fd825d79d95500b798f670cb49de33"
+    },
+    "https://www.ithome.com/0/620/045.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "d422a7bae0091a9c3c98b7805fd2ce11d6046bc1776a483554818e36aff5a3b1"
+    },
+    "https://www.ithome.com/0/619/979.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-23",
+      "sha256": "f59c80a9be24da19b228b1670de848684f76e393cd733ff05a48f57bcd0c9b0a"
+    },
+    "https://www.ithome.com/0/620/298.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-24",
+      "sha256": "5a7a876ab62efcf525b7ccb93440e8ebd8fe1f2d8afd7325c93844f1edc87fea"
+    },
+    "https://www.ithome.com/0/620/288.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-24",
+      "sha256": "a02e72e4c6f9d231991f7678e1ff0c176a24e7f4bb73ebc6d72381d38c839dc3"
+    },
+    "https://www.ithome.com/0/620/221.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-24",
+      "sha256": "847c2a58b9a84ba842646f3af3583a468aba554e0834a4d383aaab53e2ab4919"
+    },
+    "https://www.ithome.com/0/620/165.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-24",
+      "sha256": "cd21206a59815eb4ec7f56ca6f6e6a725cb6013015f3b19f4d745471db096bf3"
+    },
+    "https://www.ithome.com/0/620/529.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-25",
+      "sha256": "e3fc71ca20c017538b60ea35fa0e9e0250675ce9b7546eb99116c54796527b15"
+    },
+    "https://www.ithome.com/0/620/522.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-25",
+      "sha256": "a7fe4cbfacc29c0a31d946d95e8e207d4469228fc213ffc3036dd85e1b033464"
+    },
+    "https://www.ithome.com/0/620/418.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-25",
+      "sha256": "bf7427363b474cac4ee3e3e89e665d2914f771e1078ea1ad263198c0ca39b8f7"
+    },
+    "https://www.ithome.com/0/620/394.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-25",
+      "sha256": "c44fd3df625c1570b900624d4efcbc2d9bb35befe859f8916a30a432c147b9db"
+    },
+    "https://www.ithome.com/0/620/762.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-05-26",
+      "sha256": "01312af6a50f4c54b8816603cac5e6c01554b2c7c9155693e1d3062b9cddb94b"
+    },
+    "https://www.ithome.com/0/620/709.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-26",
+      "sha256": "66289f75d9e9092c02ee766087762921302ff61ef0bd95ea42d0c607dd0a58c5"
+    },
+    "https://www.ithome.com/0/620/678.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-26",
+      "sha256": "f2d74e80ba5b7249bddc9ca1767fce4442a6337c9ec9217594eda5a0120328ea"
+    },
+    "https://www.ithome.com/0/620/677.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-26",
+      "sha256": "caf30ec0c2a223954c3f25c3413422daa5608ba8691de9b3cc4b9a99d3e158ff"
+    },
+    "https://www.ithome.com/0/620/967.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-27",
+      "sha256": "2e5096814e7d2e96e14efdb8b1d6dd78f6a6d568c54d295e70e77bb48c0f1a40"
+    },
+    "https://www.ithome.com/0/620/849.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-27",
+      "sha256": "e0d3df6b322edd3848944d773f815c9950536809885e009c9587eeabefe62d71"
+    },
+    "https://www.ithome.com/0/620/835.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-27",
+      "sha256": "a63f51f7a1d6ed3680b69ec3c9f97542178b43c3c962930dcf1a9a29c88d780a"
+    },
+    "https://www.ithome.com/0/621/142.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-29",
+      "sha256": "1ef39a2d37a0dda53f9d8c617408f8633cd1c28bfc6fabe81aa6f2e1fc126e29"
+    },
+    "https://www.ithome.com/0/621/134.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-29",
+      "sha256": "b473a871f684a746adc621973762e0254ab9955b44d05ae7ad57b6a3aa3fdccc"
+    },
+    "https://www.ithome.com/0/621/601.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "098efdffc49d899c00ff59986e2fe7e02bd4bbd11811a2966f1d5e1d0642b654"
+    },
+    "https://www.ithome.com/0/621/593.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-05-31",
+      "sha256": "08db416e16d9ba742b5de884b4837db73fe43a0bc3c349a4153ffb29c1238681"
+    },
+    "https://www.ithome.com/0/621/578.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "b8ac1b3419bf3d181bf7e4559755ccc2d897430e823cb7b4256c4914d37bc37a"
+    },
+    "https://www.ithome.com/0/621/556.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "59c01aaf37e8ee8c3312bd9d14c1a106a5ae03ee6ebceed20b42e29051f1a884"
+    },
+    "https://www.ithome.com/0/621/548.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "d3fdf58961ebc9d5c4e2f5e91a14e9680773c275c51de273f8e00f336aae24fa"
+    },
+    "https://www.ithome.com/0/621/544.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "41c9f773598e8b7c1ad01ef364b64d20eeb0c3e4e5363432e9058dcf0bfc365c"
+    },
+    "https://www.ithome.com/0/621/535.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "b06b26c0937b3f5e7ac433eac11db1d923b349a724b4cf7abe08015e356f780e"
+    },
+    "https://www.ithome.com/0/621/533.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-05-31",
+      "sha256": "a88aa646aa1a7b460800d1ec14aa743984d71bacb1e0bc25b5efa98cdda09077"
+    },
+    "https://www.ithome.com/0/621/526.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "cb18b8a46f4c4ef7cbd36e982ca2065312cf530701dc6bb108def04a5571544b"
+    },
+    "https://www.ithome.com/0/621/500.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "7c42cac34473f324b18c4a65ee98ee4b660eb0f49260e79cdeed811222317897"
+    },
+    "https://www.ithome.com/0/621/452.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-05-31",
+      "sha256": "ce0ac6e3682996ca5875859348ba1f7a49fae2add7f10d504fc45571966e4cf4"
+    },
+    "https://www.ithome.com/0/621/397.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/622/051.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-02",
+      "sha256": "d9a2565b3e1bf4e930f32d550cd36fb6b258ed4a13699d08858863c12c61f256"
+    },
+    "https://www.ithome.com/0/621/982.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-02",
+      "sha256": "7c2a6fb467935a76eb9303f60af7e8657e2adce12c1348ecbce375137a541d43"
+    },
+    "https://www.ithome.com/0/621/967.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-02",
+      "sha256": "1e9b28d707767c335644b962748f87ffb11a37d0a32b7c49820dae3fdf399d73"
+    },
+    "https://www.ithome.com/0/622/243.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-03",
+      "sha256": "f4933cb73ab59ed65328a2bc853d62807aff8fec39894c1a683365e05a470db3"
+    },
+    "https://www.ithome.com/0/622/195.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-03",
+      "sha256": "e3f2289ef38355368970946a7110a38a08a00de1a4359142ddb38a51e512ddb2"
+    },
+    "https://www.ithome.com/0/622/167.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-03",
+      "sha256": "ba9cf67ad0e80954e70de94f81ad26ca40fab1a4da705e91dc8c5d6b798cf3fe"
+    },
+    "https://www.ithome.com/0/622/336.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-04",
+      "sha256": "6f60d2c03b3f6ac86db96b0ffe077ea0ca549e3f4c5ee0ac07e006951ff8ed8c"
+    },
+    "https://www.ithome.com/0/622/304.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-04",
+      "sha256": "b3b934fdfc461c4de2aa8d1c7d99dac8dbc88a7a917d8ea2ba500f37505aba61"
+    },
+    "https://www.ithome.com/0/622/268.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/622/414.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-05",
+      "sha256": "a92e3bca68b977d95af68aafd8f47d601df1a3db8c8510d9b4bcb1187a8705b3"
+    },
+    "https://www.ithome.com/0/622/579.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-06",
+      "sha256": "f03d0f6d159dc9011faab0d199a84379f40d084afc44c63e3c37fa733a708556"
+    },
+    "https://www.ithome.com/0/622/477.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/622/856.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-07",
+      "sha256": "a4b17f377b0703ff884a5b9a3c9753236c0416aa2543c6598bc887af86cda440"
+    },
+    "https://www.ithome.com/0/622/833.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-07",
+      "sha256": "40c882b422ce1e723e6fe8165c366284543a433c34615473800e1bb75360d632"
+    },
+    "https://www.ithome.com/0/622/823.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-07",
+      "sha256": "f23c14d9f881d8945dd25eec449685a98ea2346bb83e1ddba84921ae56ebcfb5"
+    },
+    "https://www.ithome.com/0/622/794.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-07",
+      "sha256": "c4422bd697ac906e960d1adf771798d5e51a11a0a73841d6c9d63782907b40f5"
+    },
+    "https://www.ithome.com/0/622/757.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-07",
+      "sha256": "fdb78e4176f1a37fc97df493c111cfd686dece8d8e2d662f0106dfe328604527"
+    },
+    "https://www.ithome.com/0/623/329.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-09",
+      "sha256": "0897b8f1c08ce31f66e630031e48bc62e01af1fc680a2703597dca1d2fdbed26"
+    },
+    "https://www.ithome.com/0/623/154.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/623/599.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-11",
+      "sha256": "63b40c51fc2f59d015b893bd4e320542b353c4b1b1f5ae0ddb5eae5385d57a21"
+    },
+    "https://www.ithome.com/0/623/744.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-12",
+      "sha256": "ba9b7b91126126c1946c8a27a5fe4c85720aac12d7173793906fe1016c9ed447"
+    },
+    "https://www.ithome.com/0/624/179.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-14",
+      "sha256": "86e25fbcd90b19ecbfd7adf5595e3ede6dfc05c3e6c2c01a120bf0556d098dbf"
+    },
+    "https://www.ithome.com/0/624/628.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-16",
+      "sha256": "e81ded972ed39e680cefccdbd79ae9b89e57799b093c8db9fb1bf994d8b73e79"
+    },
+    "https://www.ithome.com/0/624/585.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-16",
+      "sha256": "cba3f7ce60292dfc058f2f86aad0f38e197c33382aedc6416df28fd9641435ff"
+    },
+    "https://www.ithome.com/0/624/493.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-16",
+      "sha256": "7fe349978a7968789d6e9a4dbfe57161d39a3ea0eed91b5f13ac45a7397eb86d"
+    },
+    "https://www.ithome.com/0/624/936.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-17",
+      "sha256": "cc79410950f28766470fe593daaf9ce7b7c651a03ef4ccb5252179bef039790a"
+    },
+    "https://www.ithome.com/0/624/870.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-17",
+      "sha256": "f14e9a1466a70ebd5373a95e545ac515d87d2210fba7fedb8869b1f64ae292b1"
+    },
+    "https://www.ithome.com/0/624/819.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-17",
+      "sha256": "d3eb679aaaa64dede5336219a42d387e55a6098ba68c1acbf5338f098e5b542c"
+    },
+    "https://www.ithome.com/0/624/745.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/624/744.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/624/736.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/625/161.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-19",
+      "sha256": "7dc9fd0a5b4d866444954fdcd9d4daee2dd544b51210c022f8c8418c8f3e58a0"
+    },
+    "https://www.ithome.com/0/625/156.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-19",
+      "sha256": "a45245fc3fd07f39f10052eb906749e5985e21a8c7c21217902e6e3ce02f0011"
+    },
+    "https://www.ithome.com/0/625/344.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-20",
+      "sha256": "34b7db7c8c812084fb8bbafa92412e250caea2660727a93163df3ed0bfbb44ae"
+    },
+    "https://www.ithome.com/0/625/334.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-20",
+      "sha256": "4deda94e74000809c8a18314953ac6b961508333db1b9d86c5da00ba35e10fe0"
+    },
+    "https://www.ithome.com/0/625/205.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/625/915.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-23",
+      "sha256": "b20f1f8a00cd228988426af2bdbdced61789c5842d2652120384772d9d9a0a16"
+    },
+    "https://www.ithome.com/0/626/216.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-24",
+      "sha256": "ddf436f3fdb48b216c729ac51a256118eab741c6591671489913c4e9267f5339"
+    },
+    "https://www.ithome.com/0/626/147.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-06-24",
+      "sha256": "c290263a91bf318a2f0e6e1c883e2afb836a6a9b6351b756ad7c85137cfbeeb0"
+    },
+    "https://www.ithome.com/0/626/620.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-27",
+      "sha256": "ec50bc925ff77308fd54aac2d53e8b1291f3d2968571536198b40973696b450b"
+    },
+    "https://www.ithome.com/0/626/591.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-27",
+      "sha256": "f4454ab93c70d4de858c8dfba774cd9a83bdf5af00a2c628f340831f0a223504"
+    },
+    "https://www.ithome.com/0/626/580.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-27",
+      "sha256": "d1958b676e486fc833779a6189adee5210e659ba51662afea1cc6fd647340151"
+    },
+    "https://www.ithome.com/0/626/976.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-29",
+      "sha256": "add51dc9fbf997d657f1f3e45a5aa50aedc33993a8494d24181480a9cf0548cf"
+    },
+    "https://www.ithome.com/0/627/263.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-30",
+      "sha256": "9e7bbf489ccd56120e01cb3fe4aab02fbc18d38ed7f85fd86546eff853de4191"
+    },
+    "https://www.ithome.com/0/627/216.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-30",
+      "sha256": "4440806b8310cd51104b1463f10a9b9c3534767bb6dd95382ad107fdc153c9e5"
+    },
+    "https://www.ithome.com/0/627/205.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-30",
+      "sha256": "7f74858f314440307d2a35c44b23653129edc18c72af38df5a43fdbe31dc25fc"
+    },
+    "https://www.ithome.com/0/627/193.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-06-30",
+      "sha256": "58595e9a61adff48e22e6902f5c097fbc816295f9dc0f565924961451cf148e5"
+    },
+    "https://www.ithome.com/0/627/648.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-03",
+      "sha256": "b71bebc6d3994f543269e43927c933434029682aab785fb9ce9cd191383d1adc"
+    },
+    "https://www.ithome.com/0/628/007.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-05",
+      "sha256": "681ccb24b36a41873a789c0908132434a46b8f9659bae82ef6e7a3e9af1ec0c5"
+    },
+    "https://www.ithome.com/0/628/212.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-06",
+      "sha256": "ee9e3e557cd8317f811cf554804c96d7f9fbabae1ab00b4f53a7666758405c56"
+    },
+    "https://www.ithome.com/0/628/175.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-06",
+      "sha256": "42171a764c7693a6f26e2ebd9b9d788ad290806ea5d75590b7d8324745fdfb70"
+    },
+    "https://www.ithome.com/0/628/448.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-07",
+      "sha256": "dc35a093ed53de7424b20e7f0cd3544d728b4440eee172780788ca05dbfb4063"
+    },
+    "https://www.ithome.com/0/628/856.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-10",
+      "sha256": "c29aada69794d586139f2523d1cc0d91a0ec459cc3d1a62f2da5cc2cd29c186e"
+    },
+    "https://www.ithome.com/0/628/853.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-10",
+      "sha256": "657708a32207d006a80c54f0dd05e6e090419d359f075f1f339706779ce68547"
+    },
+    "https://www.ithome.com/0/629/035.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-11",
+      "sha256": "d84770aed6425fabf5290f1bd2420b7c82e1f21485790ceb3965c8fd5a9e16cd"
+    },
+    "https://www.ithome.com/0/629/139.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-12",
+      "sha256": "4f205492bbeacff389249b99434e477cbe446755b4acf8d56d43fc67a5f8c40c"
+    },
+    "https://www.ithome.com/0/629/137.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-12",
+      "sha256": "3f15ddb71cf803aab5d98f9bf7a6022f78f98308a6d79c3d7165f2d39c09ad3a"
+    },
+    "https://www.ithome.com/0/629/654.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-14",
+      "sha256": "73647fb884b5131b4d7dcce063bfcffdec2ddabb7caa0239c066c4e65662eb56"
+    },
+    "https://www.ithome.com/0/629/486.htm": {
+      "status": "failed",
+      "error": "未取得正文或明确的文章发布时间"
+    },
+    "https://www.ithome.com/0/629/912.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-16",
+      "sha256": "70a758c2cca5436e0085e9410994335e24604cf32fc556c86dddbf4763bfa777"
+    },
+    "https://www.ithome.com/0/630/428.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-19",
+      "sha256": "9ae26da1f116044c1d1cf8b6ed227977626bd9321748ae6928ee3f22dac49290"
+    },
+    "https://www.ithome.com/0/630/421.htm": {
+      "status": "ok",
+      "recordCount": 1,
+      "date": "2022-07-19",
+      "sha256": "2d307975fe24cae358ec4f75d51a0e033af75eda97b21b5a546ecdce53be1abf"
+    },
+    "https://www.ithome.com/0/630/334.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-19",
+      "sha256": "f36333769806d46089fcf3e5b27e67626a981c6d77a9290da878b1f44fb17952"
+    },
+    "https://www.ithome.com/0/630/330.htm": {
+      "status": "ok",
+      "recordCount": 0,
+      "date": "2022-07-19",
+      "sha256": "383a6119ee71d590d1e0ae2e52b3011d207ef6ab6106b82cd6235f2efb48a894"
     }
   },
   "discovery": {
-    "scannedDays": 1200,
+    "scannedDays": 1259,
     "firstScannedDate": "2020-01-01",
-    "lastScannedDate": "2026-10-25",
-    "candidates": 1833,
-    "checkedArticles": 1400,
+    "lastScannedDate": "2026-10-26",
+    "candidates": 1983,
+    "checkedArticles": 1500,
     "scannedThisRun": 60,
-    "checkedThisRun": 80,
-    "failedRequestsThisRun": 7,
-    "successfulRequestsThisRun": 133,
+    "checkedThisRun": 100,
+    "failedRequestsThisRun": 9,
+    "successfulRequestsThisRun": 151,
     "throttled": false
   }
 }
